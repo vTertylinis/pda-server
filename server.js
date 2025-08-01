@@ -169,99 +169,6 @@ function sendToPrinter(ip, text, title = "") {
   });
 }
 
-// function routeAndPrintOrder(order) {
-//   const grouped = {}; // { printerKey: [items] }
-
-//   for (const item of order.items) {
-//     let printerKey = item.printer;
-
-//     // Redirect crepe prints to bar
-//     if (printerKey === "crepe") {
-//       printerKey = "bar";
-//     }
-
-//     if (!printerKey || !PRINTERS[printerKey]) continue;
-
-//     if (!grouped[printerKey]) {
-//       grouped[printerKey] = [];
-//     }
-//     grouped[printerKey].push(item);
-//   }
-
-//   for (const printerKey of Object.keys(grouped)) {
-//     const items = grouped[printerKey];
-
-//     const lines = [
-//       `Τραπέζι: ${order.table}`,
-//       "---------------------",
-//       ...items.map((item) => {
-//         const itemLines = [
-//           "\x1B\x45\x01" +
-//             "\x1D\x21\x10" +
-//             `- ${item.name}` +
-//             "\x1D\x21\x00" +
-//             "\x1B\x45\x00",
-//         ];
-
-//         if (item.coffeePreference)
-//           itemLines.push(`  Ρόφημα: ${item.coffeePreference}`);
-//         if (item.coffeeSize) itemLines.push(`  Size: ${item.coffeeSize}`);
-//         if (item.extras?.length) {
-//           itemLines.push("  Υλικά:");
-//           for (const extra of item.extras) {
-//             itemLines.push(`    - ${extra.name} `);
-//           }
-//         }
-//         if (item.comments) itemLines.push(`  Σχόλια: ${item.comments}`);
-//         if (item.price) itemLines.push(`  Τιμή: ${item.price}`);
-
-//         return itemLines.join("\n");
-//       }),
-//       "---------------------",
-//       new Date().toLocaleString(),
-//     ];
-
-//     sendToPrinter(PRINTERS[printerKey], lines.join("\n"), "ORDER");
-//   }
-
-//   // Additional full-table print for 'crepe' redirected to 'bar'
-//   if (PRINTERS.bar) {
-//     let total = 0;
-
-//     const fullOrderLines = [
-//       `Τραπέζι: ${order.table}`,
-//       "----- ΠΛΗΡΗΣ ΠΑΡΑΓΓΕΛΙΑ -----",
-//       ...order.items.map((item) => {
-//         const itemLines = [
-//           `- [${item.printer?.toUpperCase() || "N/A"}] ${item.name}`,
-//         ];
-
-//         if (item.coffeePreference)
-//           itemLines.push(`  Ρόφημα: ${item.coffeePreference}`);
-//         if (item.coffeeSize) itemLines.push(`  Μέγεθος: ${item.coffeeSize}`);
-//         if (item.extras?.length) {
-//           itemLines.push("  Υλικά:");
-//           for (const extra of item.extras) {
-//             itemLines.push(`    - ${extra.name}`);
-//           }
-//         }
-//         if (item.comments) itemLines.push(`  Σχόλια: ${item.comments}`);
-//         if (item.price) {
-//           total += Number(item.price);
-//           itemLines.push(`  Τιμή: ${Number(item.price).toFixed(2)}`);
-//         }
-
-//         return itemLines.join("\n");
-//       }),
-//       "---------------------",
-//       `ΣΥΝΟΛΟ: ${total.toFixed(2)}`,
-//       new Date().toLocaleString(),
-//     ];
-
-//     sendToPrinter(PRINTERS.bar, fullOrderLines.join("\n"), "FULL ORDER");
-//   }
-// }
-
 
 function routeAndPrintOrder(order) {
   const grouped = {}; // { printerKey: [items] }
@@ -350,16 +257,6 @@ function routeAndPrintOrder(order) {
 }
 
 // === Order Print Endpoint ===
-app.post("/print-order", (req, res) => {
-  const order = req.body;
-  if (!order || !order.items || !order.table) {
-    return res.status(400).send({ error: "Invalid order format" });
-  }
-
-  routeAndPrintOrder(order);
-  res.send({ status: "Order sent to printers" });
-});
-
 app.post("/print-unprinted/:tableId", (req, res) => {
   const tableId = req.params.tableId;
   const cart = carts[tableId];
