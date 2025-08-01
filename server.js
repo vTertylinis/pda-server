@@ -123,6 +123,46 @@ app.delete("/cart/:tableId/item/:index", (req, res) => {
   res.json({ success: true, cart: carts[tableId] || [] });
 });
 
+// Move all items from one table's cart to another table's cart
+app.post("/move-table-items", (req, res) => {
+  const { fromTable, toTable } = req.body;
+
+  if (!fromTable || !toTable) {
+    return res
+      .status(400)
+      .json({
+        success: false,
+        message: "Both fromTable and toTable are required",
+      });
+  }
+
+  if (!carts[fromTable] || carts[fromTable].length === 0) {
+    return res
+      .status(404)
+      .json({
+        success: false,
+        message: `No items found in fromTable ${fromTable}`,
+      });
+  }
+
+  if (!carts[toTable]) {
+    carts[toTable] = [];
+  }
+
+  carts[toTable] = carts[toTable].concat(carts[fromTable]);
+  delete carts[fromTable];
+
+  saveCarts();
+
+  res.json({
+    success: true,
+    fromTable,
+    toTable,
+    movedItemsCount: carts[toTable].length,
+    cart: carts[toTable],
+  });
+});
+
 // === Printing Functions ===
 
 function sendToPrinter(ip, text, title = "") {
