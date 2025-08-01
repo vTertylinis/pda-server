@@ -154,7 +154,7 @@ function sendToPrinter(ip, text, title = "") {
     // Apply center alignment to entire body text
     const centeredText = CENTER_ALIGN + paddedText;
 
-    const footer = "\n\n\n\x1D\x56\x41"; // Feed and cut
+    const footer = "\n\n\n\x1D\x56\x01";
 
     const content = iconv.encode(header + centeredText + footer, "cp737");
     const bufferToSend = Buffer.concat([reset, setCodePage, content]);
