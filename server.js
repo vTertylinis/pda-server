@@ -197,12 +197,12 @@ app.post("/move-table-items", (req, res) => {
 
 // === Printing Functions ===
 
-function sendToPrinter(ip, text, title = "") {
+function sendToPrinter(ip, text, title = "", retryCount = 3, attempt = 1) {
   const socket = new net.Socket();
-  socket.connect(9100, ip, () => {
-    const reset = Buffer.from([0x1b, 0x40]); // Initialize printer
-    const setCodePage = Buffer.from([0x1b, 0x74, 0x09]); // Set code page 737 (Greek)
 
+  socket.connect(9100, ip, () => {
+    const reset = Buffer.from([0x1b, 0x40]);
+    const setCodePage = Buffer.from([0x1b, 0x74, 0x09]);
     const CENTER_ALIGN = "\x1B\x61\x01";
     const LEFT_ALIGN = "\x1B\x61\x00";
 
@@ -217,15 +217,10 @@ function sendToPrinter(ip, text, title = "") {
       header += "\n";
     }
 
-    // Pad short receipts
-    const MIN_LINES = 30;
     const lines = text.split("\n");
     const padLines = Math.max(0, MIN_LINES - lines.length);
     const paddedText = text + "\n".repeat(padLines);
-
-    // Apply center alignment to entire body text
     const centeredText = CENTER_ALIGN + paddedText;
-
     const footer = "\n\n\n\x1D\x56\x01";
 
     const content = iconv.encode(header + centeredText + footer, "cp737");
@@ -237,9 +232,18 @@ function sendToPrinter(ip, text, title = "") {
   });
 
   socket.on("error", (err) => {
-    console.error(`Error printing to ${ip}:`, err.message);
+    console.error(`Error printing to ${ip} (attempt ${attempt}):`, err.message);
+
+    if (attempt < retryCount) {
+      setTimeout(() => {
+        sendToPrinter(ip, text, title, retryCount, attempt + 1);
+      }, 1000); // Retry after 1 second
+    } else {
+      console.error(`Failed to print to ${ip} after ${retryCount} attempts.`);
+    }
   });
 }
+
 
 function routeAndPrintOrder(order) {
   const grouped = {}; // { printerKey: [items] }
