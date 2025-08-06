@@ -260,46 +260,48 @@ function routeAndPrintOrder(order) {
     const lines = [
       "\x1B\x45\x01" + `Τραπέζι: ${order.table}` + "\x1B\x45\x00",
       "---------------------",
-      ...items.map((item) => {
+      ...items.flatMap((item, index) => {
         const itemLines = [
           "\x1B\x45\x01" +
-            "\x1D\x21\x10" +
-            `- ${item.name}` +
+            "\x1D\x21\x11" +
+            `${item.name}` +
             "\x1D\x21\x00" +
             "\x1B\x45\x00",
         ];
 
         if (item.coffeePreference)
           itemLines.push(
-            "\x1B\x45\x01" +
-              `  Ρόφημα: ${item.coffeePreference}` +
-              "\x1B\x45\x00"
+            "\x1D\x21\x11" + `Ρόφημα: ${item.coffeePreference}` + "\x1D\x21\x00"
           );
 
         if (item.coffeeSize)
           itemLines.push(
-            "\x1B\x45\x01" + `Size: ${item.coffeeSize}` + "\x1B\x45\x00"
+            "\x1D\x21\x11" + `Size: ${item.coffeeSize}` + "\x1D\x21\x00"
           );
 
         if (item.extras?.length) {
           for (const extra of item.extras) {
-            itemLines.push(
-              "\x1B\x45\x01" + `- ${extra.name}` + "\x1B\x45\x00"
-            );
+            itemLines.push("\x1D\x21\x11" + `${extra.name}` + "\x1D\x21\x00");
           }
         }
 
         if (item.comments)
           itemLines.push(
-            "\x1B\x45\x01" + `Σχόλια: ${item.comments}` + "\x1B\x45\x00"
+            "\x1D\x21\x11" + `Σχόλια: ${item.comments}` + "\x1D\x21\x00"
           );
 
-        if (item.price)
-          itemLines.push(
-            "\x1B\x45\x01" + `Τιμή: ${item.price}` + "\x1B\x45\x00"
-          );
+        if (item.price) itemLines.push(`Τιμή: ${item.price}`);
 
-        return itemLines.join("\n");
+        const joinedItemLines = itemLines.join("\n");
+
+        if (index < items.length - 1) {
+          return [
+            joinedItemLines,
+            "----------------------------------------------",
+          ];
+        } else {
+          return [joinedItemLines];
+        }
       }),
       "---------------------",
       new Date().toLocaleString(),
@@ -313,37 +315,54 @@ function routeAndPrintOrder(order) {
 
     const fullOrderLines = [
       "\x1B\x45\x01" + `Τραπέζι: ${order.table}` + "\x1B\x45\x00",
-      "\x1B\x45\x01" + "----- ΠΛΗΡΗΣ ΠΑΡΑΓΓΕΛΙΑ -----" + "\x1B\x45\x00",
-      ...order.items.map((item) => {
+      "---------------------",
+      ...order.items.flatMap((item, index) => {
         const itemLines = [
           "\x1B\x45\x01" +
-            `- [${item.printer?.toUpperCase() || "N/A"}] ${item.name}` +
+            "\x1D\x21\x11" +
+            `${item.name}` +
+            "\x1D\x21\x00" +
             "\x1B\x45\x00",
         ];
 
         if (item.coffeePreference)
-          itemLines.push(`Ρόφημα: ${item.coffeePreference}`);
+          itemLines.push(
+            "\x1D\x21\x11" + `Ρόφημα: ${item.coffeePreference}` + "\x1D\x21\x00"
+          );
 
-        if (item.coffeeSize) itemLines.push(`Μέγεθος: ${item.coffeeSize}`);
+        if (item.coffeeSize)
+          itemLines.push(
+            "\x1D\x21\x11" + `Μέγεθος: ${item.coffeeSize}` + "\x1D\x21\x00"
+          );
 
         if (item.extras?.length) {
           for (const extra of item.extras) {
-            itemLines.push(`- ${extra.name}`);
+            itemLines.push("\x1D\x21\x11" + `${extra.name}` + "\x1D\x21\x00");
           }
         }
 
-        if (item.comments) itemLines.push(`Σχόλια: ${item.comments}`);
+        if (item.comments)
+          itemLines.push(
+            "\x1D\x21\x11" + `Σχόλια: ${item.comments}` + "\x1D\x21\x00"
+          );
 
         if (item.price) {
           total += Number(item.price);
           itemLines.push(`Τιμή: ${item.price.toFixed(2)}`);
         }
 
-        return itemLines.join("\n");
+        const joinedItem = itemLines.join("\n");
+
+        if (index < order.items.length - 1) {
+          // Add divider after each item except last
+          return [joinedItem, "----------------------------------------------"];
+        } else {
+          return [joinedItem];
+        }
       }),
-      "---------------------",
-      "\x1B\x45\x01" + `ΣΥΝΟΛΟ: ${total.toFixed(2)}` + "\x1B\x45\x00",
-      new Date().toLocaleString(),
+      "\x1D\x21\x11" + "---------------------" + "\x1D\x21\x00",
+      "\x1D\x21\x11" + `ΣΥΝΟΛΟ: ${total.toFixed(2)}` + "\x1D\x21\x00",
+      "\x1D\x21\x11" + new Date().toLocaleString() + "\x1D\x21\x00",
     ];
 
     sendToPrinter(PRINTERS.crepe, fullOrderLines.join("\n"), "FULL ORDER");
