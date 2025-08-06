@@ -74,7 +74,24 @@ function saveCarts() {
     console.error("Failed to save carts:", error);
   }
 }
+function wrapTextByWords(text, maxChars) {
+  const words = text.split(' ');
+  const lines = [];
+  let currentLine = '';
 
+  for (const word of words) {
+    if ((currentLine + ' ' + word).trim().length <= maxChars) {
+      currentLine += (currentLine ? ' ' : '') + word;
+    } else {
+      lines.push(currentLine);
+      currentLine = word;
+    }
+  }
+  if (currentLine) {
+    lines.push(currentLine);
+  }
+  return lines;
+}
 loadCarts();
 // Auto-save carts every minute
 setInterval(saveCarts, 60000);
@@ -285,8 +302,11 @@ function routeAndPrintOrder(order) {
 
         if (item.extras?.length) {
           const extrasLine = item.extras.map((extra) => extra.name).join(", ");
-          itemLines.push("\x1D\x21\x11" + `+ ${extrasLine}` + "\x1D\x21\x00");
-        }
+const wrappedLines = wrapTextByWords(extrasLine, 16); // Adjust maxChars for your printer
+
+  for (const line of wrappedLines) {
+    itemLines.push("\x1D\x21\x11" + line + "\x1D\x21\x00");
+  }        }
 
         if (item.comments)
           itemLines.push(
@@ -340,8 +360,11 @@ function routeAndPrintOrder(order) {
 
         if (item.extras?.length) {
           const extrasLine = item.extras.map((extra) => extra.name).join(", ");
-          itemLines.push("\x1D\x21\x11" + `+ ${extrasLine}` + "\x1D\x21\x00");
-        }
+  const wrappedLines = wrapTextByWords(extrasLine, 32); // Adjust maxChars for your printer
+
+  for (const line of wrappedLines) {
+    itemLines.push("\x1D\x21\x11" + line + "\x1D\x21\x00");
+  }        }
 
         if (item.comments)
           itemLines.push(
