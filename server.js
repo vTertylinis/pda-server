@@ -32,6 +32,41 @@ function loadCarts() {
     }
   }
 }
+
+function savePrintedOrderToHistory(order) {
+  const now = new Date();
+  const yearMonth = now.toISOString().slice(0, 7); // "2025-08"
+  const historyDir = path.join(__dirname, "orders");
+  const filePath = path.join(historyDir, `${yearMonth}.json`);
+
+  if (!fs.existsSync(historyDir)) {
+    fs.mkdirSync(historyDir);
+  }
+
+  let history = [];
+  if (fs.existsSync(filePath)) {
+    try {
+      const data = fs.readFileSync(filePath, "utf8");
+      history = JSON.parse(data);
+    } catch (err) {
+      console.error("Failed to read history file:", err);
+    }
+  }
+
+  const record = {
+    ...order,
+    timestamp: now.toISOString(),
+  };
+
+  history.push(record);
+
+  try {
+    fs.writeFileSync(filePath, JSON.stringify(history, null, 2));
+  } catch (err) {
+    console.error("Failed to write order history:", err);
+  }
+}
+
 function saveCarts() {
   try {
     fs.writeFileSync(DATA_FILE, JSON.stringify(carts, null, 2));
@@ -81,6 +116,7 @@ app.post("/cart/:tableId", (req, res) => {
   // Assign unique ID and mark unprinted
   item.id = uuidv4();
   item.printed = false;
+  item.timestamp = new Date().toISOString();
 
   if (!carts[tableId]) {
     carts[tableId] = [];
@@ -128,21 +164,17 @@ app.post("/move-table-items", (req, res) => {
   const { fromTable, toTable } = req.body;
 
   if (!fromTable || !toTable) {
-    return res
-      .status(400)
-      .json({
-        success: false,
-        message: "Both fromTable and toTable are required",
-      });
+    return res.status(400).json({
+      success: false,
+      message: "Both fromTable and toTable are required",
+    });
   }
 
   if (!carts[fromTable] || carts[fromTable].length === 0) {
-    return res
-      .status(404)
-      .json({
-        success: false,
-        message: `No items found in fromTable ${fromTable}`,
-      });
+    return res.status(404).json({
+      success: false,
+      message: `No items found in fromTable ${fromTable}`,
+    });
   }
 
   if (!carts[toTable]) {
@@ -209,7 +241,6 @@ function sendToPrinter(ip, text, title = "") {
   });
 }
 
-
 function routeAndPrintOrder(order) {
   const grouped = {}; // { printerKey: [items] }
 
@@ -227,7 +258,7 @@ function routeAndPrintOrder(order) {
     const items = grouped[printerKey];
 
     const lines = [
-      `Τραπέζι: ${order.table}`,
+      "\x1B\x45\x01" + `Τραπέζι: ${order.table}` + "\x1B\x45\x00",
       "---------------------",
       ...items.map((item) => {
         const itemLines = [
@@ -239,16 +270,34 @@ function routeAndPrintOrder(order) {
         ];
 
         if (item.coffeePreference)
-          itemLines.push(`  Ρόφημα: ${item.coffeePreference}`);
-        if (item.coffeeSize) itemLines.push(`  Size: ${item.coffeeSize}`);
+          itemLines.push(
+            "\x1B\x45\x01" +
+              `  Ρόφημα: ${item.coffeePreference}` +
+              "\x1B\x45\x00"
+          );
+
+        if (item.coffeeSize)
+          itemLines.push(
+            "\x1B\x45\x01" + `Size: ${item.coffeeSize}` + "\x1B\x45\x00"
+          );
+
         if (item.extras?.length) {
-          itemLines.push("  Υλικά:");
           for (const extra of item.extras) {
-            itemLines.push(`    - ${extra.name} `);
+            itemLines.push(
+              "\x1B\x45\x01" + `- ${extra.name}` + "\x1B\x45\x00"
+            );
           }
         }
-        if (item.comments) itemLines.push(`  Σχόλια: ${item.comments}`);
-        if (item.price) itemLines.push(`  Τιμή: ${item.price}`);
+
+        if (item.comments)
+          itemLines.push(
+            "\x1B\x45\x01" + `Σχόλια: ${item.comments}` + "\x1B\x45\x00"
+          );
+
+        if (item.price)
+          itemLines.push(
+            "\x1B\x45\x01" + `Τιμή: ${item.price}` + "\x1B\x45\x00"
+          );
 
         return itemLines.join("\n");
       }),
@@ -258,37 +307,42 @@ function routeAndPrintOrder(order) {
 
     sendToPrinter(PRINTERS[printerKey], lines.join("\n"), "ORDER");
   }
-//  Additional full-table print for 'crepe' printer
+  //  Additional full-table print for 'crepe' printer
   if (PRINTERS.crepe) {
     let total = 0;
 
     const fullOrderLines = [
-      `Τραπέζι: ${order.table}`,
-      "----- ΠΛΗΡΗΣ ΠΑΡΑΓΓΕΛΙΑ -----",
+      "\x1B\x45\x01" + `Τραπέζι: ${order.table}` + "\x1B\x45\x00",
+      "\x1B\x45\x01" + "----- ΠΛΗΡΗΣ ΠΑΡΑΓΓΕΛΙΑ -----" + "\x1B\x45\x00",
       ...order.items.map((item) => {
         const itemLines = [
-          `- [${item.printer?.toUpperCase() || "N/A"}] ${item.name}`,
+          "\x1B\x45\x01" +
+            `- [${item.printer?.toUpperCase() || "N/A"}] ${item.name}` +
+            "\x1B\x45\x00",
         ];
 
         if (item.coffeePreference)
-          itemLines.push(`  Ρόφημα: ${item.coffeePreference}`);
-        if (item.coffeeSize) itemLines.push(`  Μέγεθος: ${item.coffeeSize}`);
+          itemLines.push(`Ρόφημα: ${item.coffeePreference}`);
+
+        if (item.coffeeSize) itemLines.push(`Μέγεθος: ${item.coffeeSize}`);
+
         if (item.extras?.length) {
-          itemLines.push("  Υλικά:");
           for (const extra of item.extras) {
-            itemLines.push(`    - ${extra.name}`);
+            itemLines.push(`- ${extra.name}`);
           }
         }
-        if (item.comments) itemLines.push(`  Σχόλια: ${item.comments}`);
+
+        if (item.comments) itemLines.push(`Σχόλια: ${item.comments}`);
+
         if (item.price) {
           total += Number(item.price);
-          itemLines.push(`  Τιμή: ${item.price.toFixed(2)}`);
+          itemLines.push(`Τιμή: ${item.price.toFixed(2)}`);
         }
 
         return itemLines.join("\n");
       }),
       "---------------------",
-      `ΣΥΝΟΛΟ: ${total.toFixed(2)}`,
+      "\x1B\x45\x01" + `ΣΥΝΟΛΟ: ${total.toFixed(2)}` + "\x1B\x45\x00",
       new Date().toLocaleString(),
     ];
 
@@ -320,6 +374,8 @@ app.post("/print-unprinted/:tableId", (req, res) => {
 
   // Print them
   routeAndPrintOrder(order);
+  //  Save printed order to history
+  savePrintedOrderToHistory(order);
 
   // Mark printed items
   unprintedItems.forEach((item) => (item.printed = true));
