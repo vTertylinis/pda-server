@@ -280,9 +280,8 @@ function routeAndPrintOrder(order) {
           );
 
         if (item.extras?.length) {
-          for (const extra of item.extras) {
-            itemLines.push("\x1D\x21\x11" + `${extra.name}` + "\x1D\x21\x00");
-          }
+          const extrasLine = item.extras.map((extra) => extra.name).join(", ");
+          itemLines.push("\x1D\x21\x11" + `+ ${extrasLine}` + "\x1D\x21\x00");
         }
 
         if (item.comments)
@@ -336,9 +335,8 @@ function routeAndPrintOrder(order) {
           );
 
         if (item.extras?.length) {
-          for (const extra of item.extras) {
-            itemLines.push("\x1D\x21\x11" + `${extra.name}` + "\x1D\x21\x00");
-          }
+          const extrasLine = item.extras.map((extra) => extra.name).join(", ");
+          itemLines.push("\x1D\x21\x11" + `+ ${extrasLine}` + "\x1D\x21\x00");
         }
 
         if (item.comments)
