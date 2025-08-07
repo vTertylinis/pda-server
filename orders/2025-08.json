@@ -2974,5 +2974,66 @@
       }
     ],
     "timestamp": "2025-08-07T09:12:36.525Z"
+  },
+  {
+    "table": "27",
+    "items": [
+      {
+        "name": "Coca Cola Zero",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "6a425933-bd88-4d13-b4d9-338257975cf8",
+        "printed": false,
+        "timestamp": "2025-08-07T10:14:42.845Z"
+      }
+    ],
+    "timestamp": "2025-08-07T10:14:46.228Z"
+  },
+  {
+    "table": "22",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "58a2a55e-1dbf-4252-adad-1408e9bbbbf5",
+        "printed": false,
+        "timestamp": "2025-08-07T10:25:45.296Z"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Ολίγη",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "c7fee47c-cca3-4fd6-a33a-78630131800b",
+        "printed": false,
+        "timestamp": "2025-08-07T10:25:51.201Z"
+      },
+      {
+        "name": "Latte",
+        "price": 4.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "",
+        "id": "6c9867bd-9cb4-4395-94a8-375c91575381",
+        "printed": false,
+        "timestamp": "2025-08-07T10:26:05.599Z"
+      }
+    ],
+    "timestamp": "2025-08-07T10:26:07.681Z"
   }
 ]

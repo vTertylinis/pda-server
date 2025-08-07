@@ -1,33 +1,7 @@
 {
   "1": [],
-  "3": [
-    {
-      "name": "Φυσικός Χυμός",
-      "price": 5,
-      "category": "Χυμοί",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "0372dd28-21b7-4e68-bf89-08028eff13b1",
-      "printed": true,
-      "timestamp": "2025-08-07T09:12:26.148Z"
-    },
-    {
-      "name": "Cappuccino",
-      "price": 4,
-      "category": "Καφέδες",
-      "coffeePreference": "Σκέτο",
-      "coffeeSize": "double",
-      "extras": null,
-      "printer": "bar",
-      "id": "bbf103fb-7590-4c69-b1dc-f9106fd7b92c",
-      "printed": true,
-      "timestamp": "2025-08-07T09:12:34.583Z"
-    }
-  ],
   "11": [],
-  "27": [
+  "22": [
     {
       "name": "Νερό Μεγάλο",
       "price": 1.5,
@@ -36,46 +10,34 @@
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "0d5d4174-6bc7-445d-9349-b8637ec1171a",
+      "id": "58a2a55e-1dbf-4252-adad-1408e9bbbbf5",
       "printed": true,
-      "timestamp": "2025-08-07T09:06:09.042Z"
+      "timestamp": "2025-08-07T10:25:45.296Z"
     },
     {
-      "name": "Pan cake Πραλίνα Μπανάνα Φουντούκια",
-      "price": 9,
-      "category": "Πρωινό",
-      "coffeePreference": null,
+      "name": "Freddo cappuccino",
+      "price": 4,
+      "category": "Καφέδες",
+      "coffeePreference": "Ολίγη",
       "coffeeSize": null,
       "extras": null,
-      "printer": "kitchen",
-      "id": "aea5a038-2075-4c6f-91d5-3ae6f76e7810",
+      "printer": "bar",
+      "id": "c7fee47c-cca3-4fd6-a33a-78630131800b",
       "printed": true,
-      "timestamp": "2025-08-07T09:09:13.849Z"
+      "timestamp": "2025-08-07T10:25:51.201Z"
     },
     {
-      "name": "2 αυγά τηγανητά με μπέικον και φρυγανιασμένο ψωμί",
-      "price": 6,
-      "category": "Πρωινό",
-      "coffeePreference": null,
+      "name": "Latte",
+      "price": 4.5,
+      "category": "Καφέδες",
+      "coffeePreference": "Σκέτο",
       "coffeeSize": null,
       "extras": null,
-      "printer": "kitchen",
-      "comments": "3 αυγα ",
-      "id": "a8d2010f-3129-48c3-9cc9-e007b993fe0b",
+      "printer": "bar",
+      "comments": "",
+      "id": "6c9867bd-9cb4-4395-94a8-375c91575381",
       "printed": true,
-      "timestamp": "2025-08-07T09:09:34.157Z"
-    },
-    {
-      "name": "Αυγά σκραμπλ",
-      "price": 6,
-      "category": "Πρωινό",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "fbf9f04c-cb66-4470-9a3b-b8548678fb3e",
-      "printed": true,
-      "timestamp": "2025-08-07T09:09:43.821Z"
+      "timestamp": "2025-08-07T10:26:05.599Z"
     }
   ]
 }
