@@ -1,7 +1,45 @@
 {
   "1": [],
   "11": [],
-  "22": [
+  "20": [
+    {
+      "name": "Κοτοπουλάκια Nuggets",
+      "price": 11,
+      "category": "Κυρίως πιάτα",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "comments": "χωρισ σοσ ",
+      "id": "01b0cdbe-dc97-415e-9e5c-ee4c7a98725a",
+      "printed": true,
+      "timestamp": "2025-08-07T12:30:38.638Z"
+    },
+    {
+      "name": "Carbonara",
+      "price": 9,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "comments": "χωρισ μπέικον ",
+      "printed": true
+    },
+    {
+      "name": "Pinsa Μαργαρίτα",
+      "price": 11,
+      "category": "Pinsa",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "0272877b-e2eb-425f-8f8e-4c200eb537bf",
+      "printed": true,
+      "timestamp": "2025-08-07T12:32:25.041Z"
+    }
+  ],
+  "21": [
     {
       "name": "Νερό Μεγάλο",
       "price": 1.5,
@@ -10,34 +48,93 @@
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "58a2a55e-1dbf-4252-adad-1408e9bbbbf5",
+      "id": "aed0b235-bb91-4c48-8063-070d62af1b41",
       "printed": true,
-      "timestamp": "2025-08-07T10:25:45.296Z"
+      "timestamp": "2025-08-07T12:41:37.887Z"
     },
     {
-      "name": "Freddo cappuccino",
-      "price": 4,
+      "name": "Γύρος χοιρινός",
+      "price": 11,
+      "category": "Κυρίως πιάτα",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "96cc9560-67e3-4f8d-8b93-60e389e798fd",
+      "printed": true,
+      "timestamp": "2025-08-07T12:47:29.142Z"
+    },
+    {
+      "name": "Γύρος χοιρινός",
+      "price": 11,
+      "category": "Κυρίως πιάτα",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "9f992beb-ed11-4ea9-9c6a-f1b7f015810f",
+      "printed": true,
+      "timestamp": "2025-08-07T12:47:29.143Z"
+    },
+    {
+      "name": "Γαριδομακαρονάδα",
+      "price": 18,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "dbb6857e-e20d-49f9-9f13-6f9393fbd90f",
+      "printed": true,
+      "timestamp": "2025-08-07T12:47:44.122Z"
+    },
+    {
+      "name": "Freddo espresso",
+      "price": 3.5,
       "category": "Καφέδες",
       "coffeePreference": "Ολίγη",
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "c7fee47c-cca3-4fd6-a33a-78630131800b",
+      "id": "0ef9b600-07b1-4e08-b883-c796ede35bb4",
       "printed": true,
-      "timestamp": "2025-08-07T10:25:51.201Z"
+      "timestamp": "2025-08-07T13:20:56.383Z"
     },
     {
-      "name": "Latte",
-      "price": 4.5,
+      "name": "Espresso",
+      "price": 3,
       "category": "Καφέδες",
       "coffeePreference": "Σκέτο",
+      "coffeeSize": "single",
+      "extras": null,
+      "printer": "bar",
+      "id": "48d4ed8e-0df6-4191-ad7d-c04a6855159e",
+      "printed": true,
+      "timestamp": "2025-08-07T13:21:04.319Z"
+    },
+    {
+      "name": "Amstel",
+      "price": 4,
+      "category": "Μπύρες",
+      "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "comments": "",
-      "id": "6c9867bd-9cb4-4395-94a8-375c91575381",
+      "id": "4631d299-8cae-4efd-9073-ec572c937ae0",
       "printed": true,
-      "timestamp": "2025-08-07T10:26:05.599Z"
+      "timestamp": "2025-08-07T13:21:14.615Z"
+    },
+    {
+      "name": "Coca Cola",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "45fa4a8e-42fc-45c4-b1df-8c8d3692323a",
+      "printed": true,
+      "timestamp": "2025-08-07T13:21:22.640Z"
     }
   ]
 }
