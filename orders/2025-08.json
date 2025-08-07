@@ -2375,5 +2375,332 @@
       }
     ],
     "timestamp": "2025-08-06T17:01:09.550Z"
+  },
+  {
+    "table": "40",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Γλυκό",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "26e1ca94-db5e-42a7-9842-1edb2e94a054",
+        "printed": false,
+        "timestamp": "2025-08-07T06:41:26.167Z"
+      },
+      {
+        "name": "Ομελέτα",
+        "price": 8,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "φέτα",
+            "price": 0.5
+          },
+          {
+            "name": "καπνιστή μπριζόλα",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "kitchen",
+        "id": "0f82cc0e-bfbc-43d2-8c39-5b1cb049441d",
+        "printed": false,
+        "timestamp": "2025-08-07T06:41:50.095Z"
+      },
+      {
+        "name": "French toast Απλό",
+        "price": 5,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "7416f09e-4aae-431f-bc7b-a51a0eaf13f0",
+        "printed": false,
+        "timestamp": "2025-08-07T06:41:54.667Z"
+      }
+    ],
+    "timestamp": "2025-08-07T06:42:01.238Z"
+  },
+  {
+    "table": "27",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "865b1132-b1b1-4768-b727-1db07fbd8654",
+        "printed": false,
+        "timestamp": "2025-08-07T06:44:49.986Z"
+      },
+      {
+        "name": "Fanta Πορτοκαλάδα",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "0b88ee8a-47c7-4b04-bcde-6960f3f3fa12",
+        "printed": false,
+        "timestamp": "2025-08-07T06:48:01.642Z"
+      },
+      {
+        "name": "Fanta Πορτοκαλάδα",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ddae4f14-5fa8-4824-854f-10e221f339c0",
+        "printed": false,
+        "timestamp": "2025-08-07T06:48:01.645Z"
+      },
+      {
+        "name": "Ομελέτα",
+        "price": 7,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "materials": true,
+        "printer": "kitchen",
+        "id": "9a364484-ead9-4da4-8cef-ae31fcdbc778",
+        "printed": false,
+        "timestamp": "2025-08-07T06:48:15.833Z"
+      },
+      {
+        "name": "2 αυγά τηγανητά με μπέικον και φρυγανιασμένο ψωμί",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "0ebcf1db-89dd-4b2c-9249-096310930acc",
+        "printed": false,
+        "timestamp": "2025-08-07T06:48:35.554Z"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "321c262a-f099-410c-bdb4-28eeb7b5c13d",
+        "printed": false,
+        "timestamp": "2025-08-07T06:48:56.445Z"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Γλυκό",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "68cddb63-2686-44e9-8d80-bafbee2f498e",
+        "printed": false,
+        "timestamp": "2025-08-07T06:48:58.771Z"
+      },
+      {
+        "name": "Αυγά σκραμπλ",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "c6289b86-9bfc-49b3-aeec-6a2ce5aab642",
+        "printed": false,
+        "timestamp": "2025-08-07T06:49:17.811Z"
+      }
+    ],
+    "timestamp": "2025-08-07T06:49:38.181Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "2 αυγά τηγανητά με μπέικον και φρυγανιασμένο ψωμί",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "f5f83928-b903-4a8e-814d-bf142b94086a",
+        "printed": false,
+        "timestamp": "2025-08-07T07:00:49.754Z"
+      },
+      {
+        "name": "2 αυγά τηγανητά με μπέικον και φρυγανιασμένο ψωμί",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "01c36547-1be4-4c4d-a53b-f9eb47e07b51",
+        "printed": false,
+        "timestamp": "2025-08-07T07:00:49.758Z"
+      }
+    ],
+    "timestamp": "2025-08-07T07:00:51.876Z"
+  },
+  {
+    "table": "9",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "a5fbb387-684c-42b7-b3f7-3ca54eb407ce",
+        "printed": false,
+        "timestamp": "2025-08-07T07:19:44.547Z"
+      },
+      {
+        "name": "Ομελέτα",
+        "price": 7,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "materials": true,
+        "printer": "kitchen",
+        "id": "e43c47e5-4a60-4f77-99f2-a4f1aeb516f1",
+        "printed": false,
+        "timestamp": "2025-08-07T07:20:05.069Z"
+      },
+      {
+        "name": "Junior 2",
+        "price": 7.5,
+        "category": "Junior menu",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "69f2849b-48cd-4f00-a3b5-744bd7823049",
+        "printed": false,
+        "timestamp": "2025-08-07T07:20:10.338Z"
+      },
+      {
+        "name": "Club sandwich",
+        "price": 9,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "ce135faa-e27c-4eba-8ad9-c148ad5d8082",
+        "printed": false,
+        "timestamp": "2025-08-07T07:20:15.696Z"
+      }
+    ],
+    "timestamp": "2025-08-07T07:20:29.900Z"
+  },
+  {
+    "table": "14",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "a432a84c-6008-45a1-b519-1b159d637b83",
+        "printed": false,
+        "timestamp": "2025-08-07T07:19:36.937Z"
+      },
+      {
+        "name": "Τοστ",
+        "price": 3.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "ζαμπόν",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe",
+        "id": "95f49566-9e7e-4eef-bdac-5e49c89c7c78",
+        "printed": false,
+        "timestamp": "2025-08-07T07:21:16.018Z"
+      },
+      {
+        "name": "Pan cake Πραλίνα",
+        "price": 8.5,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μπανάνα",
+            "price": 0.5
+          },
+          {
+            "name": "Caprice",
+            "price": 1
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "kitchen",
+        "id": "ff83b89a-8b06-42f8-a645-bd18b82ea2b3",
+        "printed": false,
+        "timestamp": "2025-08-07T07:21:43.328Z"
+      },
+      {
+        "name": "Fanta Πορτοκαλάδα",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "b549131c-37ae-4bc2-878e-0137af90cddb",
+        "printed": false,
+        "timestamp": "2025-08-07T07:21:50.583Z"
+      },
+      {
+        "name": "Latte",
+        "price": 4.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Γλυκό",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "κρύο ",
+        "id": "bf0d3671-6f28-41b5-ab06-cb9027ec8720",
+        "printed": false,
+        "timestamp": "2025-08-07T07:22:03.609Z"
+      }
+    ],
+    "timestamp": "2025-08-07T07:22:29.845Z"
   }
 ]
