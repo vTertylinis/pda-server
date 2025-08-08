@@ -3311,5 +3311,156 @@
       }
     ],
     "timestamp": "2025-08-07T13:21:46.884Z"
+  },
+  {
+    "table": "3",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "65aa07ef-2feb-4c54-9e7b-cf9b8bc53665",
+        "printed": false,
+        "timestamp": "2025-08-08T07:49:11.403Z"
+      },
+      {
+        "name": "Pan cake Πραλίνα",
+        "price": 7,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "materialsSweet": true,
+        "printer": "kitchen",
+        "id": "8e75654c-2240-4c1d-92dd-9e09fba875a7",
+        "printed": false,
+        "timestamp": "2025-08-08T07:54:05.485Z"
+      },
+      {
+        "name": "Pan cake Πραλίνα",
+        "price": 7,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "materialsSweet": true,
+        "printer": "kitchen",
+        "id": "acc5bc7b-9707-422b-b248-b3e249ae168f",
+        "printed": false,
+        "timestamp": "2025-08-08T07:54:05.492Z"
+      },
+      {
+        "name": "2 αυγά τηγανητά με μπέικον και φρυγανιασμένο ψωμί",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "08295af4-0710-4837-a1d3-a75f8409f0d1",
+        "printed": false,
+        "timestamp": "2025-08-08T07:54:11.610Z"
+      },
+      {
+        "name": "Αυγά σκραμπλ",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "37ab0d43-5c1b-4e67-a9d5-64deb7ad0dcd",
+        "printed": false,
+        "timestamp": "2025-08-08T07:54:21.092Z"
+      },
+      {
+        "name": "Ομελέτα",
+        "price": 8.5,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "πιπεριά",
+            "price": 0.5
+          },
+          {
+            "name": "καλαμπόκι",
+            "price": 0.5
+          },
+          {
+            "name": "μανούρι",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "kitchen",
+        "id": "e3884a59-4b61-4a57-a50b-2ceb0e94857e",
+        "printed": false,
+        "timestamp": "2025-08-08T07:55:42.236Z"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ceae9587-275a-46ac-bb84-b9194ca4d9d5",
+        "printed": false,
+        "timestamp": "2025-08-08T07:55:46.657Z"
+      },
+      {
+        "name": "Φυσικός Χυμός",
+        "price": 5,
+        "category": "Χυμοί",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ee2149f8-7ac4-4c6e-b775-f1b2e2f4c97c",
+        "printed": false,
+        "timestamp": "2025-08-08T07:55:52.183Z"
+      }
+    ],
+    "timestamp": "2025-08-08T07:55:55.083Z"
+  },
+  {
+    "table": "3",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar"
+      }
+    ],
+    "timestamp": "2025-08-08T07:56:14.379Z"
+  },
+  {
+    "table": "3",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ea8607f8-3be0-4192-9cbe-237f56bfd6b5",
+        "printed": false,
+        "timestamp": "2025-08-08T07:56:48.310Z"
+      }
+    ],
+    "timestamp": "2025-08-08T07:57:03.463Z"
   }
 ]
