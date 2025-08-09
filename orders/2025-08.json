@@ -6377,5 +6377,137 @@
       }
     ],
     "timestamp": "2025-08-09T18:15:44.612Z"
+  },
+  {
+    "table": "7",
+    "items": [
+      {
+        "name": "Pinsa 21",
+        "price": 12,
+        "category": "Pinsa",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "53cc3542-0f85-4bc0-a457-8f7e0e7f04c7",
+        "printed": false,
+        "timestamp": "2025-08-09T18:26:23.955Z"
+      },
+      {
+        "name": "Pinsa 21",
+        "price": 12,
+        "category": "Pinsa",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "63e78b17-f875-4520-a664-be54aeb5920f",
+        "printed": false,
+        "timestamp": "2025-08-09T18:26:23.957Z"
+      },
+      {
+        "name": "Σαλάτα χωριάτικη",
+        "price": 8,
+        "category": "Σαλάτες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "ecb320ec-8990-4b5b-ad28-f13b69bbdaad",
+        "printed": false,
+        "timestamp": "2025-08-09T18:26:29.621Z"
+      },
+      {
+        "name": "Σαλάτα χωριάτικη",
+        "price": 8,
+        "category": "Σαλάτες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "81d3c1cf-98f9-4585-8c62-eb30e702e37a",
+        "printed": false,
+        "timestamp": "2025-08-09T18:26:29.622Z"
+      },
+      {
+        "name": "Βαρέλι Μικρό",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "6330ba9d-8d2d-4323-9df2-a4226060f374",
+        "printed": false,
+        "timestamp": "2025-08-09T18:26:52.843Z"
+      },
+      {
+        "name": "Βαρέλι Μικρό",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "130e8a82-4478-454e-981b-d2fce22add79",
+        "printed": false,
+        "timestamp": "2025-08-09T18:26:52.844Z"
+      },
+      {
+        "name": "Χυμός Μήλο",
+        "price": 3.5,
+        "category": "Χυμοί",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "b1cddb42-4440-4bd2-9d28-e29364dc01aa",
+        "printed": false,
+        "timestamp": "2025-08-09T18:27:03.739Z"
+      },
+      {
+        "name": "Βαρέλι Μεγάλο",
+        "price": 5,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f53ef0a1-dbce-49a8-8519-fa7bd61c1d4d",
+        "printed": false,
+        "timestamp": "2025-08-09T18:27:24.232Z"
+      }
+    ],
+    "timestamp": "2025-08-09T18:27:52.398Z"
+  },
+  {
+    "table": "6",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ad9c8b04-643b-4402-b5da-cb461bfffa43",
+        "printed": false,
+        "timestamp": "2025-08-09T18:29:21.855Z"
+      },
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ffea823b-1b6a-456f-bc23-8a746f3289cd",
+        "printed": false,
+        "timestamp": "2025-08-09T18:29:21.856Z"
+      }
+    ],
+    "timestamp": "2025-08-09T18:29:25.808Z"
   }
 ]
