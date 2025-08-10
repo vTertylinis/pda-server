@@ -1,6 +1,155 @@
 {
+  "5": [
+    {
+      "name": "Chicken crispy burger",
+      "price": 9,
+      "category": "Hot dogs - Burgers",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "2ab3c157-3e0a-4e3e-a523-ac84cfb4bd19",
+      "printed": true,
+      "timestamp": "2025-08-10T10:52:17.431Z"
+    },
+    {
+      "name": "Coca Cola",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "80dd08b1-6801-4728-b7c7-f57e7504bde8",
+      "printed": true,
+      "timestamp": "2025-08-10T10:52:21.926Z"
+    },
+    {
+      "name": "Burger BBQ",
+      "price": 9,
+      "category": "Hot dogs - Burgers",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "0fa03904-472a-4a67-bca6-37b17b0f1968",
+      "printed": true,
+      "timestamp": "2025-08-10T10:52:27.619Z"
+    },
+    {
+      "name": "Άλφα",
+      "price": 4,
+      "category": "Μπύρες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "af386b2f-b80d-40c4-9d45-127bc45af0e0",
+      "printed": true,
+      "timestamp": "2025-08-10T10:52:31.474Z"
+    },
+    {
+      "name": "Κοτοπουλάκια Nuggets",
+      "price": 11,
+      "category": "Κυρίως πιάτα",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "ddc64457-0383-4023-a421-d613c0d1bf76",
+      "printed": true,
+      "timestamp": "2025-08-10T10:52:39.701Z"
+    }
+  ],
   "8": [],
   "11": [],
+  "23": [
+    {
+      "name": "Νερό Μεγάλο",
+      "price": 1.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "3a76f5cb-8c37-4be8-b35c-19a1132f27d0",
+      "printed": false,
+      "timestamp": "2025-08-10T10:17:47.334Z"
+    },
+    {
+      "name": "Napolitana",
+      "price": 8,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "b2a80347-2c5c-4bc2-8481-1dd56274dfc3",
+      "printed": false,
+      "timestamp": "2025-08-10T10:17:53.551Z"
+    },
+    {
+      "name": "Carbonara",
+      "price": 9,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "7af2cd5f-8490-468d-a4d9-37ba4e750c44",
+      "printed": false,
+      "timestamp": "2025-08-10T10:17:57.571Z"
+    },
+    {
+      "name": "Hot dog",
+      "price": 6,
+      "category": "Hot dogs - Burgers",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "materials": true,
+      "printer": "kitchen",
+      "id": "e74ed078-38e8-44f7-9c05-32a6c110f327",
+      "printed": false,
+      "timestamp": "2025-08-10T10:18:21.456Z"
+    },
+    {
+      "name": "Coca Cola Zero",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "8109454e-ed26-4b92-a9a9-99e2c6dada94",
+      "printed": false,
+      "timestamp": "2025-08-10T10:18:29.627Z"
+    },
+    {
+      "name": "Coca Cola Zero",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "9f1ec16a-6f84-49c4-ae4f-d13227861e97",
+      "printed": false,
+      "timestamp": "2025-08-10T10:18:29.635Z"
+    },
+    {
+      "name": "Coca Cola Zero",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "74c80879-a28b-475d-b3d5-8fa52d1c7b89",
+      "printed": false,
+      "timestamp": "2025-08-10T10:18:29.641Z"
+    }
+  ],
   "24": [
     {
       "name": "Junior 1",

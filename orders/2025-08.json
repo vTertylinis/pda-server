@@ -8830,5 +8830,71 @@
       }
     ],
     "timestamp": "2025-08-10T08:27:19.505Z"
+  },
+  {
+    "table": "5",
+    "items": [
+      {
+        "name": "Chicken crispy burger",
+        "price": 9,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "2ab3c157-3e0a-4e3e-a523-ac84cfb4bd19",
+        "printed": false,
+        "timestamp": "2025-08-10T10:52:17.431Z"
+      },
+      {
+        "name": "Coca Cola",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "80dd08b1-6801-4728-b7c7-f57e7504bde8",
+        "printed": false,
+        "timestamp": "2025-08-10T10:52:21.926Z"
+      },
+      {
+        "name": "Burger BBQ",
+        "price": 9,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "0fa03904-472a-4a67-bca6-37b17b0f1968",
+        "printed": false,
+        "timestamp": "2025-08-10T10:52:27.619Z"
+      },
+      {
+        "name": "Άλφα",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "af386b2f-b80d-40c4-9d45-127bc45af0e0",
+        "printed": false,
+        "timestamp": "2025-08-10T10:52:31.474Z"
+      },
+      {
+        "name": "Κοτοπουλάκια Nuggets",
+        "price": 11,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "ddc64457-0383-4023-a421-d613c0d1bf76",
+        "printed": false,
+        "timestamp": "2025-08-10T10:52:39.701Z"
+      }
+    ],
+    "timestamp": "2025-08-10T10:52:47.404Z"
   }
 ]
