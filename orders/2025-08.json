@@ -9016,5 +9016,59 @@
       }
     ],
     "timestamp": "2025-08-10T12:24:06.864Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Mix grill",
+        "price": 17,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "94309d0b-255d-4acc-940f-d4e5f7894f51",
+        "printed": false,
+        "timestamp": "2025-08-10T14:47:45.458Z"
+      },
+      {
+        "name": "Burger BBQ",
+        "price": 9,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "d3af47b8-daa9-42bb-bd8a-be5cdad5649a",
+        "printed": false,
+        "timestamp": "2025-08-10T14:48:20.077Z"
+      },
+      {
+        "name": "Σαλάτα Caesar",
+        "price": 8.5,
+        "category": "Σαλάτες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "46ac8951-ffc9-45db-9168-4a461eccfb1c",
+        "printed": false,
+        "timestamp": "2025-08-10T14:48:28.493Z"
+      },
+      {
+        "name": "Club Sandwich με Γύρο",
+        "price": 11,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "f359b725-9d53-4a58-b9dd-cbfef16627b5",
+        "printed": false,
+        "timestamp": "2025-08-10T14:49:07.886Z"
+      }
+    ],
+    "timestamp": "2025-08-10T14:49:20.325Z"
   }
 ]
