@@ -9070,5 +9070,117 @@
       }
     ],
     "timestamp": "2025-08-10T14:49:20.325Z"
+  },
+  {
+    "table": "20",
+    "items": [
+      {
+        "name": "Junior 2",
+        "price": 7.5,
+        "category": "Junior menu",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "63412834-ed2a-4967-93af-616cf4899145",
+        "printed": false,
+        "timestamp": "2025-08-10T16:45:26.596Z"
+      },
+      {
+        "name": "Κρέπα αλμυρή",
+        "price": 5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κοτομπουκιές",
+            "price": 1
+          },
+          {
+            "name": "πατάτες τηγανητές",
+            "price": 1
+          }
+        ],
+        "materials": true,
+        "printer": "crepe",
+        "id": "36661dbf-f5ce-4648-8758-f0af5c1935de",
+        "printed": false,
+        "timestamp": "2025-08-10T16:45:45.073Z"
+      },
+      {
+        "name": "Pinsa Special",
+        "price": 12,
+        "category": "Pinsa",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "d8c19bff-9e89-4dbd-a275-02a4c6d05a2d",
+        "printed": false,
+        "timestamp": "2025-08-10T16:45:49.436Z"
+      },
+      {
+        "name": "Τσάι Ροδάκινο",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f8d322d1-e27e-4f0c-8ee0-d3180d0287ec",
+        "printed": false,
+        "timestamp": "2025-08-10T16:45:57.450Z"
+      },
+      {
+        "name": "Chicken nuggets a la crème",
+        "price": 12,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "988a6ac3-e8ad-4fd8-a227-2f0b56933048",
+        "printed": false,
+        "timestamp": "2025-08-10T16:46:01.425Z"
+      },
+      {
+        "name": "Φυσικός Χυμός",
+        "price": 5,
+        "category": "Χυμοί",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "94b35c77-d6b2-4257-81af-04f2f9b764a8",
+        "printed": false,
+        "timestamp": "2025-08-10T16:46:11.777Z"
+      },
+      {
+        "name": "Heineken",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "dbd390d2-ac93-43c2-ad8d-ffa6f9fc6655",
+        "printed": false,
+        "timestamp": "2025-08-10T16:46:32.860Z"
+      },
+      {
+        "name": "Pulled pork bao",
+        "price": 7,
+        "category": "Bao buns",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "6115fbf4-1655-4b10-83b6-fc3eeaf03150",
+        "printed": false,
+        "timestamp": "2025-08-10T16:47:17.224Z"
+      }
+    ],
+    "timestamp": "2025-08-10T16:47:28.000Z"
   }
 ]
