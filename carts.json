@@ -62,7 +62,119 @@
     }
   ],
   "8": [],
+  "9": [
+    {
+      "name": "Σαλάτα Caesar",
+      "price": 8.5,
+      "category": "Σαλάτες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "7bb311dc-68b9-4fc2-aaac-df5e574e1cac",
+      "printed": true,
+      "timestamp": "2025-08-10T11:10:39.829Z"
+    },
+    {
+      "name": "Pasta 21",
+      "price": 9,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "cf281756-8d28-4945-8080-15990f15e499",
+      "printed": true,
+      "timestamp": "2025-08-10T11:10:50.430Z"
+    },
+    {
+      "name": "Napolitana",
+      "price": 8,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "85ada965-f7bf-44f6-97bc-2bb32b13bd84",
+      "printed": true,
+      "timestamp": "2025-08-10T11:10:52.068Z"
+    },
+    {
+      "name": "Coca Cola",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "5d763035-5f86-4116-94d7-f164e2dec8d7",
+      "printed": true,
+      "timestamp": "2025-08-10T11:10:55.901Z"
+    },
+    {
+      "name": "Corona",
+      "price": 6,
+      "category": "Μπύρες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "59210bf6-92f3-40e7-9d51-add39c6ab8d1",
+      "printed": true,
+      "timestamp": "2025-08-10T11:11:07.404Z"
+    }
+  ],
   "11": [],
+  "20": [
+    {
+      "name": "Burger 21",
+      "price": 10,
+      "category": "Hot dogs - Burgers",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "6d8bca5a-ba9c-4b06-aeb0-1dad4d5c6203",
+      "printed": true,
+      "timestamp": "2025-08-10T12:23:39.800Z"
+    },
+    {
+      "name": "Σαλάτα Caesar",
+      "price": 8.5,
+      "category": "Σαλάτες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "e1191913-1ce1-429a-81ca-2a73c67e8984",
+      "printed": true,
+      "timestamp": "2025-08-10T12:23:44.538Z"
+    },
+    {
+      "name": "Coca Cola Zero",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "b49b27d9-3b67-492f-baad-2e2c76d22806",
+      "printed": true,
+      "timestamp": "2025-08-10T12:23:50.609Z"
+    },
+    {
+      "name": "Βαρέλι Μεγάλο",
+      "price": 5,
+      "category": "Μπύρες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "fc6b4edd-ac51-4860-8555-9631ea2db31e",
+      "printed": true,
+      "timestamp": "2025-08-10T12:24:00.735Z"
+    }
+  ],
   "23": [
     {
       "name": "Νερό Μεγάλο",
