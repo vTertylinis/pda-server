@@ -8662,5 +8662,173 @@
       }
     ],
     "timestamp": "2025-08-09T21:33:19.158Z"
+  },
+  {
+    "table": "27",
+    "items": [
+      {
+        "name": "Cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "id": "af1e5185-51c9-4ef5-a746-f7af98a06e55",
+        "printed": false,
+        "timestamp": "2025-08-10T08:12:08.781Z"
+      },
+      {
+        "name": "Cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "id": "b937d54a-af71-466c-8bef-801c25424d96",
+        "printed": false,
+        "timestamp": "2025-08-10T08:12:08.782Z"
+      },
+      {
+        "name": "Τσάι Ροδάκινο",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "7c6b3175-31a6-46bd-85f4-823ba8ed031d",
+        "printed": false,
+        "timestamp": "2025-08-10T08:12:40.522Z"
+      },
+      {
+        "name": "Αυγά σκραμπλ",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "1b72510b-c725-4b32-a10b-a570bb90bc4d",
+        "printed": false,
+        "timestamp": "2025-08-10T08:13:02.793Z"
+      },
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "feb7fc3c-f858-46f8-9581-cd7abb51b957",
+        "printed": false,
+        "timestamp": "2025-08-10T08:13:13.197Z"
+      }
+    ],
+    "timestamp": "2025-08-10T08:13:34.352Z"
+  },
+  {
+    "table": "32",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "955cbff0-1d38-46ff-aba2-f35816a17145",
+        "printed": false,
+        "timestamp": "2025-08-10T08:14:49.466Z"
+      },
+      {
+        "name": "Νερό Μικρό",
+        "price": 0.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "7f0889d6-10f3-4e28-a14f-c7714d4cff6e",
+        "printed": false,
+        "timestamp": "2025-08-10T08:14:59.549Z"
+      }
+    ],
+    "timestamp": "2025-08-10T08:15:09.802Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Χυμός Βύσσινο",
+        "price": 3.5,
+        "category": "Χυμοί",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "1bb8d5db-b0ec-47bc-b494-60924c570a1f",
+        "printed": false,
+        "timestamp": "2025-08-10T08:21:24.776Z"
+      }
+    ],
+    "timestamp": "2025-08-10T08:21:27.857Z"
+  },
+  {
+    "table": "24",
+    "items": [
+      {
+        "name": "Junior 1",
+        "price": 7.5,
+        "category": "Junior menu",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "78f8e4c2-6bd6-4659-950f-b549a2a4541f",
+        "printed": false,
+        "timestamp": "2025-08-10T08:26:25.462Z"
+      },
+      {
+        "name": "Γύρος χοιρινός",
+        "price": 11,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "c83b5407-d259-459d-a24a-0f1f4899ee69",
+        "printed": false,
+        "timestamp": "2025-08-10T08:26:52.982Z"
+      },
+      {
+        "name": "Γύρος χοιρινός",
+        "price": 11,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "d1a8767b-b04b-4952-a58d-18472cefa0ad",
+        "printed": false,
+        "timestamp": "2025-08-10T08:26:52.995Z"
+      },
+      {
+        "name": "Coca Cola",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "20821dd7-e48f-459e-a005-5ea4bb2fc001",
+        "printed": false,
+        "timestamp": "2025-08-10T08:27:05.508Z"
+      }
+    ],
+    "timestamp": "2025-08-10T08:27:19.505Z"
   }
 ]
