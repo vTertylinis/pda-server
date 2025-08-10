@@ -75,13 +75,13 @@ function saveCarts() {
   }
 }
 function wrapTextByWords(text, maxChars) {
-  const words = text.split(' ');
+  const words = text.split(" ");
   const lines = [];
-  let currentLine = '';
+  let currentLine = "";
 
   for (const word of words) {
-    if ((currentLine + ' ' + word).trim().length <= maxChars) {
-      currentLine += (currentLine ? ' ' : '') + word;
+    if ((currentLine + " " + word).trim().length <= maxChars) {
+      currentLine += (currentLine ? " " : "") + word;
     } else {
       lines.push(currentLine);
       currentLine = word;
@@ -261,7 +261,6 @@ function sendToPrinter(ip, text, title = "", retryCount = 3, attempt = 1) {
   });
 }
 
-
 function routeAndPrintOrder(order) {
   const grouped = {}; // { printerKey: [items] }
 
@@ -302,11 +301,12 @@ function routeAndPrintOrder(order) {
 
         if (item.extras?.length) {
           const extrasLine = item.extras.map((extra) => extra.name).join(", ");
-const wrappedLines = wrapTextByWords(extrasLine, 16); // Adjust maxChars for your printer
+          const wrappedLines = wrapTextByWords(extrasLine, 16); // Adjust maxChars for your printer
 
-  for (const line of wrappedLines) {
-    itemLines.push("\x1D\x21\x11" + line + "\x1D\x21\x00");
-  }        }
+          for (const line of wrappedLines) {
+            itemLines.push("\x1D\x21\x11" + line + "\x1D\x21\x00");
+          }
+        }
 
         if (item.comments)
           itemLines.push(
@@ -360,11 +360,12 @@ const wrappedLines = wrapTextByWords(extrasLine, 16); // Adjust maxChars for you
 
         if (item.extras?.length) {
           const extrasLine = item.extras.map((extra) => extra.name).join(", ");
-  const wrappedLines = wrapTextByWords(extrasLine, 32); // Adjust maxChars for your printer
+          const wrappedLines = wrapTextByWords(extrasLine, 32); // Adjust maxChars for your printer
 
-  for (const line of wrappedLines) {
-    itemLines.push("\x1D\x21\x11" + line + "\x1D\x21\x00");
-  }        }
+          for (const line of wrappedLines) {
+            itemLines.push("\x1D\x21\x11" + line + "\x1D\x21\x00");
+          }
+        }
 
         if (item.comments)
           itemLines.push(
@@ -428,6 +429,76 @@ app.post("/print-unprinted/:tableId", (req, res) => {
     status: "Printed new items",
     printedCount: unprintedItems.length,
   });
+});
+
+//sum function
+function getOrderStats(yearMonth) {
+  const filePath = path.join(__dirname, "orders", `${yearMonth}.json`);
+
+  if (!fs.existsSync(filePath)) {
+    return { error: "No data for this month" };
+  }
+
+  let history;
+  try {
+    history = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (err) {
+    return { error: "Failed to read order history" };
+  }
+
+  let totalRevenue = 0;
+  let totalOrders = history.length;
+  let itemCounts = {};
+  let dailyRevenue = {};
+
+  for (const order of history) {
+    let orderTotal = 0;
+
+    for (const item of order.items || []) {
+      const price = Number(item.price) || 0;
+      orderTotal += price;
+
+      if (!itemCounts[item.name]) {
+        itemCounts[item.name] = { count: 0, revenue: 0 };
+      }
+      itemCounts[item.name].count += 1;
+      itemCounts[item.name].revenue += price;
+    }
+
+    totalRevenue += orderTotal;
+
+    const day = order.timestamp?.slice(0, 10); // YYYY-MM-DD
+    if (!dailyRevenue[day]) dailyRevenue[day] = 0;
+    dailyRevenue[day] += orderTotal;
+  }
+
+  // Sort items by popularity
+  const mostPopularItems = Object.entries(itemCounts)
+    .sort((a, b) => b[1].count - a[1].count)
+    .map(([name, stats]) => ({
+      name,
+      count: stats.count,
+      revenue: stats.revenue.toFixed(2),
+    }));
+
+  return {
+    yearMonth,
+    totalOrders,
+    totalRevenue: totalRevenue.toFixed(2),
+    averageOrderValue:
+      totalOrders > 0 ? (totalRevenue / totalOrders).toFixed(2) : "0.00",
+    mostPopularItems,
+    dailyRevenue: Object.entries(dailyRevenue).sort(([a], [b]) =>
+      a.localeCompare(b)
+    ),
+  };
+}
+
+// === Endpoint to get monthly stats ===
+app.get("/order-stats/:yearMonth", (req, res) => {
+  const { yearMonth } = req.params; // format "YYYY-MM"
+  const stats = getOrderStats(yearMonth);
+  res.json(stats);
 });
 
 // Start server
