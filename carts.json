@@ -1,224 +1,213 @@
 {
-  "1": [
+  "1": [],
+  "7": [
     {
-      "name": "Pulled pork bao",
+      "name": "Ποτό Απλό",
       "price": 7,
+      "category": "Ποτά - Κρασιά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "comments": "βιτκα φυσικο",
+      "id": "92631343-0443-4010-901b-a36929f2ec0c",
+      "printed": true,
+      "timestamp": "2025-08-09T19:49:04.004Z"
+    },
+    {
+      "name": "Κρέπα γλυκιά",
+      "price": 5.5,
+      "category": "Τοστ - Κρέπες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": [
+        {
+          "name": "Μερέντα",
+          "price": 0.5
+        },
+        {
+          "name": "Μπισκότο",
+          "price": 0.5
+        },
+        {
+          "name": "Caprice",
+          "price": 1
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "crepe",
+      "id": "8178603b-db32-4e8d-b72f-3ea361519142",
+      "printed": true,
+      "timestamp": "2025-08-09T19:49:31.357Z"
+    },
+    {
+      "name": "Club sandwich",
+      "price": 9,
+      "category": "Club sandwich",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "67d4e13d-5e91-4566-a5b0-3b643738ab1d",
+      "printed": true,
+      "timestamp": "2025-08-09T19:49:38.403Z"
+    },
+    {
+      "name": "Κρέπα αλμυρή",
+      "price": 4.5,
+      "category": "Τοστ - Κρέπες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": [
+        {
+          "name": "κασέρι",
+          "price": 0.5
+        },
+        {
+          "name": "γαλοπούλα",
+          "price": 0.5
+        },
+        {
+          "name": "πατατάκια",
+          "price": 0.5
+        }
+      ],
+      "materials": true,
+      "printer": "crepe",
+      "id": "5a5d5d48-1005-4174-8a97-411750761b60",
+      "printed": true,
+      "timestamp": "2025-08-09T20:03:25.978Z"
+    },
+    {
+      "name": "Σόδα",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "d8dc8f5f-7be1-4004-b401-d01b631b1c2c",
+      "printed": true,
+      "timestamp": "2025-08-09T20:03:33.115Z"
+    },
+    {
+      "name": "Κρέπα γλυκιά",
+      "price": 4.5,
+      "category": "Τοστ - Κρέπες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": [
+        {
+          "name": "μερέντα",
+          "price": 0.5
+        },
+        {
+          "name": "μπισκότο",
+          "price": 0.5
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "crepe",
+      "comments": "τετράγωνη ",
+      "id": "e3b93133-5b31-482f-87e1-5a7c6665bf1a",
+      "printed": true,
+      "timestamp": "2025-08-09T20:06:01.372Z"
+    },
+    {
+      "name": "Κρασί ποτήρι",
+      "price": 6,
+      "category": "Ποτά - Κρασιά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "comments": "λευκό ",
+      "id": "58cbbd2c-284b-4059-9c7e-e39c68412c18",
+      "printed": true,
+      "timestamp": "2025-08-09T20:17:33.924Z"
+    },
+    {
+      "name": "Shrimp chili bao",
+      "price": 8,
       "category": "Bao buns",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "kitchen",
-      "id": "f39fc71a-511c-4f5b-b984-27040347e16f",
+      "id": "a2f602e4-0797-4b76-b3b0-f0cd315b0e04",
       "printed": true,
-      "timestamp": "2025-08-09T18:14:58.319Z"
-    }
-  ],
-  "3": [
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "db1c0a83-4ede-427d-a806-8762a4da4ded",
-      "printed": true,
-      "timestamp": "2025-08-09T18:06:47.536Z"
+      "timestamp": "2025-08-09T20:17:52.938Z"
     },
     {
-      "name": "Ρετσίνα Βασιλική",
-      "price": 6,
+      "name": "Ποτό Σπέσιαλ",
+      "price": 8,
       "category": "Ποτά - Κρασιά",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "f4d2cf34-27e7-4ade-b7f9-76dffd6451ac",
+      "comments": "σιροκ λάιμ φέτα ",
+      "id": "9277214d-d973-4866-bb5c-6c23ec3a2cde",
       "printed": true,
-      "timestamp": "2025-08-09T18:06:57.327Z"
+      "timestamp": "2025-08-09T20:18:14.425Z"
     },
     {
-      "name": "Bianco Nero αφρώδες",
-      "price": 6,
-      "category": "Ποτά - Κρασιά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "35644f5f-63d5-4a3f-bee6-e2de9a5c25c3",
-      "printed": true,
-      "timestamp": "2025-08-09T18:07:17.381Z"
-    },
-    {
-      "name": "Margarita",
-      "price": 10,
-      "category": "Cocktails",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "2983ac01-0022-4fed-a127-39323aeb8296",
-      "printed": true,
-      "timestamp": "2025-08-09T18:07:31.892Z"
-    },
-    {
-      "name": "Yuzi gun",
-      "price": 11,
-      "category": "Cocktails",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "0638bdae-3bf8-430d-a924-3068af74f4c5",
-      "printed": true,
-      "timestamp": "2025-08-09T18:07:37.222Z"
-    },
-    {
-      "name": "Pasta 21",
-      "price": 9,
-      "category": "Ζυμαρικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "d515dee3-e7e3-4b99-ab81-3f21e9b9c812",
-      "printed": true,
-      "timestamp": "2025-08-09T18:07:46.776Z"
-    },
-    {
-      "name": "Γύρος χοιρινός",
-      "price": 11,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "36d7e90b-7615-4051-a98d-81f9e0f10ee6",
-      "printed": true,
-      "timestamp": "2025-08-09T18:07:57.940Z"
-    },
-    {
-      "name": "Γύρος χοιρινός",
-      "price": 11,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "ef0ee306-2398-4f26-922c-667d42fa23d2",
-      "printed": true,
-      "timestamp": "2025-08-09T18:07:57.941Z"
-    },
-    {
-      "name": "Καλαμαράκια τηγανητά",
-      "price": 12,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "66b7bfec-acca-48a2-9f4b-64c2a4ad6bd6",
-      "printed": true,
-      "timestamp": "2025-08-09T18:08:08.741Z"
-    }
-  ],
-  "6": [
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
+      "name": "Νερό Μικρό",
+      "price": 0.5,
       "category": "Αναψυκτικά",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "ad9c8b04-643b-4402-b5da-cb461bfffa43",
+      "id": "46a4eb2b-166f-459c-abee-145a8427bdc7",
       "printed": true,
-      "timestamp": "2025-08-09T18:29:21.855Z"
+      "timestamp": "2025-08-09T20:18:26.049Z"
     },
     {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
+      "name": "Νερό Μικρό",
+      "price": 0.5,
       "category": "Αναψυκτικά",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "ffea823b-1b6a-456f-bc23-8a746f3289cd",
+      "id": "e1178146-03ab-4059-8dfb-604a1a3de204",
       "printed": true,
-      "timestamp": "2025-08-09T18:29:21.856Z"
+      "timestamp": "2025-08-09T20:18:26.069Z"
     },
     {
-      "name": "Pinsa special",
-      "price": 12,
-      "category": "Pinsa",
+      "name": "Νερό Μικρό",
+      "price": 0.5,
+      "category": "Αναψυκτικά",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
-      "printer": "kitchen",
-      "id": "d4f13fbe-884a-46d9-8d84-686972acddce",
-      "printed": false,
-      "timestamp": "2025-08-09T18:37:39.398Z"
+      "printer": "bar",
+      "id": "74a982c4-29f3-4bc0-ad7f-6f8a80400d67",
+      "printed": true,
+      "timestamp": "2025-08-09T20:18:26.071Z"
     },
     {
-      "name": "Carbonara",
-      "price": 9,
-      "category": "Ζυμαρικά",
+      "name": "Κρέπα γλυκιά",
+      "price": 5,
+      "category": "Τοστ - Κρέπες",
       "coffeePreference": null,
       "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "8e9987b9-df09-483f-a372-c61f8682fb15",
-      "printed": false,
-      "timestamp": "2025-08-09T18:37:53.964Z"
-    },
-    {
-      "name": "Carbonara",
-      "price": 9,
-      "category": "Ζυμαρικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "7b537dc3-2ade-40a1-a188-ab41384419ad",
-      "printed": false,
-      "timestamp": "2025-08-09T18:37:53.965Z"
-    },
-    {
-      "name": "Carbonara",
-      "price": 9,
-      "category": "Ζυμαρικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "5f3ffc32-cfb6-4e04-90c6-c0e8a1a92c45",
-      "printed": false,
-      "timestamp": "2025-08-09T18:37:53.970Z"
-    },
-    {
-      "name": "Junior 2",
-      "price": 7.5,
-      "category": "Junior menu",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "7ce265e8-1adc-45f2-96fe-95a40c257d48",
-      "printed": false,
-      "timestamp": "2025-08-09T18:38:02.563Z"
-    },
-    {
-      "name": "Burger BBQ",
-      "price": 9,
-      "category": "Hot dogs - Burgers",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "61a4d49e-d83e-4c1b-8d15-0735fa61796d",
-      "printed": false,
-      "timestamp": "2025-08-09T18:38:12.383Z"
+      "extras": [
+        {
+          "name": "μερέντα",
+          "price": 0.5
+        },
+        {
+          "name": "μπισκότο oreo",
+          "price": 1
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "crepe",
+      "id": "f324a256-6e2c-4cb0-9cf4-70a9cb68bdba",
+      "printed": true,
+      "timestamp": "2025-08-09T20:18:57.198Z"
     },
     {
       "name": "Coca Cola",
@@ -227,141 +216,125 @@
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
-      "printer": "bar"
+      "printer": "bar",
+      "id": "7d96732e-36c7-44eb-b3e8-eea66b60c8c3",
+      "printed": true,
+      "timestamp": "2025-08-09T20:19:02.498Z"
     },
     {
-      "name": "Fanta Πορτοκαλάδα",
+      "name": "Bolognesa",
+      "price": 9,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "7ad37ef3-2cbb-4d8b-8ef4-46d11c3b0962",
+      "printed": true,
+      "timestamp": "2025-08-09T20:33:38.055Z"
+    },
+    {
+      "name": "Chicken crispy burger",
+      "price": 9,
+      "category": "Hot dogs - Burgers",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "ee2638d6-4bfb-4659-ad83-f4552592b7bd",
+      "printed": true,
+      "timestamp": "2025-08-09T20:33:43.884Z"
+    },
+    {
+      "name": "Coca Cola",
       "price": 3.5,
       "category": "Αναψυκτικά",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "c6d2899c-2098-49ee-9e38-3a708e9bc425",
-      "printed": false,
-      "timestamp": "2025-08-09T18:41:09.933Z"
+      "id": "177a0675-01eb-4165-b846-4bc1df0bb929",
+      "printed": true,
+      "timestamp": "2025-08-09T20:33:54.666Z"
     },
     {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
+      "name": "Ποτό Πρίμιουμ",
+      "price": 10,
+      "category": "Ποτά - Κρασιά",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "24018bf6-dc97-4e0a-996e-555bf0684d77",
-      "printed": false,
-      "timestamp": "2025-08-09T18:41:28.558Z"
-    },
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "0acb8d8e-170a-424d-b9ef-c477797eda60",
-      "printed": false,
-      "timestamp": "2025-08-09T18:41:28.561Z"
-    },
-    {
-      "name": "Fanta Πορτοκαλάδα",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "55f3bc91-86bc-47f4-8a5c-bb94a04b40c2",
-      "printed": false,
-      "timestamp": "2025-08-09T18:41:35.763Z"
+      "comments": "σιροκ λάιμ ",
+      "id": "2f84ce0f-279a-44d6-80ea-71c285797e5c",
+      "printed": true,
+      "timestamp": "2025-08-09T21:33:15.668Z"
     }
   ],
-  "7": [
+  "8": [],
+  "11": [],
+  "14": [
     {
-      "name": "Pinsa 21",
-      "price": 12,
-      "category": "Pinsa",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "53cc3542-0f85-4bc0-a457-8f7e0e7f04c7",
-      "printed": true,
-      "timestamp": "2025-08-09T18:26:23.955Z"
-    },
-    {
-      "name": "Pinsa 21",
-      "price": 12,
-      "category": "Pinsa",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "63e78b17-f875-4520-a664-be54aeb5920f",
-      "printed": true,
-      "timestamp": "2025-08-09T18:26:23.957Z"
-    },
-    {
-      "name": "Σαλάτα χωριάτικη",
-      "price": 8,
-      "category": "Σαλάτες",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "ecb320ec-8990-4b5b-ad28-f13b69bbdaad",
-      "printed": true,
-      "timestamp": "2025-08-09T18:26:29.621Z"
-    },
-    {
-      "name": "Σαλάτα χωριάτικη",
-      "price": 8,
-      "category": "Σαλάτες",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "81d3c1cf-98f9-4585-8c62-eb30e702e37a",
-      "printed": true,
-      "timestamp": "2025-08-09T18:26:29.622Z"
-    },
-    {
-      "name": "Βαρέλι Μικρό",
+      "name": "Άλφα",
       "price": 4,
       "category": "Μπύρες",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "6330ba9d-8d2d-4323-9df2-a4226060f374",
+      "id": "ef654696-5493-4b8c-87e6-5b673016d7b0",
       "printed": true,
-      "timestamp": "2025-08-09T18:26:52.843Z"
+      "timestamp": "2025-08-09T19:41:10.795Z"
     },
     {
-      "name": "Βαρέλι Μικρό",
+      "name": "Κρέπα αλμυρή",
+      "price": 6,
+      "category": "Τοστ - Κρέπες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": [
+        {
+          "name": "κασέρι",
+          "price": 0.5
+        },
+        {
+          "name": "μπέικον",
+          "price": 0.5
+        },
+        {
+          "name": "ντομάτα",
+          "price": 0.5
+        },
+        {
+          "name": "αυγό",
+          "price": 0.5
+        },
+        {
+          "name": "μανιτάρια",
+          "price": 0.5
+        },
+        {
+          "name": "sauce μουστάρδας",
+          "price": 0.5
+        }
+      ],
+      "materials": true,
+      "printer": "crepe",
+      "id": "e1c9940c-fef6-462d-89b3-5aba8b91855e",
+      "printed": true,
+      "timestamp": "2025-08-09T19:58:45.139Z"
+    },
+    {
+      "name": "Άλφα",
       "price": 4,
       "category": "Μπύρες",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "130e8a82-4478-454e-981b-d2fce22add79",
+      "id": "f373d97f-0b27-4830-bea0-f6aa6c5217a0",
       "printed": true,
-      "timestamp": "2025-08-09T18:26:52.844Z"
-    },
-    {
-      "name": "Χυμός Μήλο",
-      "price": 3.5,
-      "category": "Χυμοί",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "b1cddb42-4440-4bd2-9d28-e29364dc01aa",
-      "printed": true,
-      "timestamp": "2025-08-09T18:27:03.739Z"
+      "timestamp": "2025-08-09T19:58:53.852Z"
     },
     {
       "name": "Βαρέλι Μεγάλο",
@@ -371,338 +344,21 @@
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "f53ef0a1-dbce-49a8-8519-fa7bd61c1d4d",
+      "id": "61c08dab-9f86-4688-8ae4-5b8800b0bc1e",
       "printed": true,
-      "timestamp": "2025-08-09T18:27:24.232Z"
-    }
-  ],
-  "8": [],
-  "11": [],
-  "22": [
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "88600a7e-c2e0-462e-8d1c-4da8a37ed509",
-      "printed": true,
-      "timestamp": "2025-08-09T17:17:13.219Z"
+      "timestamp": "2025-08-09T20:54:15.467Z"
     },
     {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "1f92990b-d771-440f-98e3-9350bde4cb1a",
-      "printed": true,
-      "timestamp": "2025-08-09T17:17:13.221Z"
-    },
-    {
-      "name": "Τσάι Ροδάκινο",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "3e4a6099-a235-497f-80e5-593b990d656b",
-      "printed": true,
-      "timestamp": "2025-08-09T17:17:21.193Z"
-    },
-    {
-      "name": "Fanta Πορτοκαλάδα",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "4240158f-ca2a-4315-8ecc-a59870530041",
-      "printed": true,
-      "timestamp": "2025-08-09T17:17:33.034Z"
-    },
-    {
-      "name": "Coca Cola",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "67363338-1fb7-4ced-9476-afaa9395a5d5",
-      "printed": true,
-      "timestamp": "2025-08-09T17:17:53.422Z"
-    },
-    {
-      "name": "Καλαμαράκια τηγανητά",
-      "price": 12,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "310fa5fd-659e-4e8b-a811-8ef8db31321f",
-      "printed": true,
-      "timestamp": "2025-08-09T17:46:29.385Z"
-    },
-    {
-      "name": "Σαλάτα Caesar",
-      "price": 8.5,
-      "category": "Σαλάτες",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "46cf2081-e642-41ae-9137-973e7d08c5fb",
-      "printed": true,
-      "timestamp": "2025-08-09T17:46:36.824Z"
-    },
-    {
-      "name": "Σαλάτα Caesar",
-      "price": 8.5,
-      "category": "Σαλάτες",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "806677ef-bc55-4768-8211-4ac1ecb5a941",
-      "printed": true,
-      "timestamp": "2025-08-09T17:46:36.825Z"
-    },
-    {
-      "name": "Fanta Πορτοκαλάδα",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "9ee1664a-9b42-43d0-960b-79a78f8c3b61",
-      "printed": true,
-      "timestamp": "2025-08-09T17:46:42.046Z"
-    },
-    {
-      "name": "Fanta Πορτοκαλάδα",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "b6999a62-b5fa-4e8e-af18-d8ab2a53a9f2",
-      "printed": true,
-      "timestamp": "2025-08-09T17:46:47.974Z"
-    },
-    {
-      "name": "Χοιρινή Πανσετομπριζόλα",
-      "price": 15,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "comments": "η μια χωρισ τζατζικι ",
-      "id": "1c07d42d-e2a3-4101-b1db-373307c7cd7c",
-      "printed": true,
-      "timestamp": "2025-08-09T17:47:15.106Z"
-    },
-    {
-      "name": "Χοιρινή Πανσετομπριζόλα",
-      "price": 15,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "comments": "η μια χωρισ τζατζικι ",
-      "id": "65f79a16-02d4-45ca-acfb-9aefdc5f91bc",
-      "printed": true,
-      "timestamp": "2025-08-09T17:47:15.109Z"
-    },
-    {
-      "name": "Χοιρινή Πανσετομπριζόλα",
-      "price": 15,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "comments": "η μια χωρισ τζατζικι ",
-      "id": "9878caa9-6778-44f1-be00-073ee29e65c5",
-      "printed": true,
-      "timestamp": "2025-08-09T17:47:15.111Z"
-    },
-    {
-      "name": "Γύρος χοιρινός",
-      "price": 11,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "bf00e4a6-0aae-4bbb-bea6-f40d47f65e91",
-      "printed": true,
-      "timestamp": "2025-08-09T17:47:28.714Z"
-    },
-    {
-      "name": "Φυσικός Χυμός",
+      "name": "Βαρέλι Μεγάλο",
       "price": 5,
-      "category": "Χυμοί",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "fffd4180-ea7c-4952-b16a-147668e65859",
-      "printed": true,
-      "timestamp": "2025-08-09T17:48:50.632Z"
-    }
-  ],
-  "23": [
-    {
-      "name": "Σόδα",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "comments": "με στημένο ",
-      "id": "a5a49c43-f5c0-42e8-9bed-be3fd5db72bd",
-      "printed": true,
-      "timestamp": "2025-08-09T17:31:48.930Z"
-    },
-    {
-      "name": "Nescafe φραπέ",
-      "price": 3,
-      "category": "Καφέδες",
-      "coffeePreference": "Γλυκό",
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "comments": "με λίγο γάλα ",
-      "id": "c272fb45-04bc-4ccd-8d0b-f7a89d57b532",
-      "printed": true,
-      "timestamp": "2025-08-09T17:32:09.686Z"
-    }
-  ],
-  "24": [
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "e0749d87-bdd6-45b1-8f16-09f994629120",
-      "printed": true,
-      "timestamp": "2025-08-09T18:15:40.289Z"
-    }
-  ],
-  "26": [
-    {
-      "name": "Βαρέλι Μικρό",
-      "price": 4,
       "category": "Μπύρες",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "id": "5fc6c172-9f04-4ec5-8d4b-831c40c331ed",
+      "id": "b04b76e9-9f72-469f-8331-ee43d52f5e8e",
       "printed": true,
-      "timestamp": "2025-08-09T17:49:29.019Z"
-    },
-    {
-      "name": "Κρέπα γλυκιά",
-      "price": 4.5,
-      "category": "Τοστ - Κρέπες",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": [
-        {
-          "name": "Nutella",
-          "price": 1
-        }
-      ],
-      "materialsSweet": true,
-      "printer": "crepe",
-      "id": "c6530d09-d590-44c8-a604-5878d1672ba1",
-      "printed": true,
-      "timestamp": "2025-08-09T17:57:43.213Z"
-    },
-    {
-      "name": "Κρέπα γλυκιά",
-      "price": 4.5,
-      "category": "Τοστ - Κρέπες",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": [
-        {
-          "name": "Nutella",
-          "price": 1
-        }
-      ],
-      "materialsSweet": true,
-      "printer": "crepe",
-      "id": "e2ab3a70-5960-443f-95b7-3fbddd8e147c",
-      "printed": true,
-      "timestamp": "2025-08-09T17:57:43.215Z"
-    }
-  ],
-  "27": [
-    {
-      "name": "Pinsa special",
-      "price": 12,
-      "category": "Pinsa",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "ee6a70df-ab05-487e-9700-e4b543a11ca3",
-      "printed": true,
-      "timestamp": "2025-08-09T17:40:21.668Z"
-    },
-    {
-      "name": "Τσάι Ροδάκινο",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "6597f9c8-9fbe-41b6-b013-a56a8a8953ec",
-      "printed": true,
-      "timestamp": "2025-08-09T17:40:31.807Z"
-    },
-    {
-      "name": "Σαλάτα Κουκουβάγια",
-      "price": 8,
-      "category": "Σαλάτες",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "c410d86b-793b-451f-a084-9cc6d94dd9fe",
-      "printed": true,
-      "timestamp": "2025-08-09T17:40:48.689Z"
-    },
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "baaba8f0-eb7c-47e5-987c-607b04ee7199",
-      "printed": true,
-      "timestamp": "2025-08-09T17:40:58.010Z"
+      "timestamp": "2025-08-09T20:54:15.469Z"
     }
   ],
   "28": [
@@ -751,20 +407,92 @@
       "id": "40a522cb-5ea2-4688-8ba2-6bc14e8be6e7",
       "printed": true,
       "timestamp": "2025-08-09T18:06:24.941Z"
-    }
-  ],
-  "40": [
+    },
     {
-      "name": "Burger 21",
-      "price": 10,
-      "category": "Hot dogs - Burgers",
+      "name": "Coca Cola Zero",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
-      "printer": "kitchen",
-      "id": "c97fbb54-4269-43dd-bb8d-fb9372610a82",
+      "printer": "bar",
+      "id": "1fd27fa2-a891-4d66-baa9-6ad0e01fc68e",
       "printed": true,
-      "timestamp": "2025-08-09T17:51:13.384Z"
+      "timestamp": "2025-08-09T20:48:42.217Z"
+    }
+  ],
+  "36": [
+    {
+      "name": "Κρέπα γλυκιά",
+      "price": 4,
+      "category": "Τοστ - Κρέπες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": [
+        {
+          "name": "μερέντα",
+          "price": 0.5
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "crepe",
+      "id": "56c02b82-63e5-4e66-8809-59c76d96a99a",
+      "printed": true,
+      "timestamp": "2025-08-09T21:18:33.368Z"
+    },
+    {
+      "name": "Κρέπα αλμυρή",
+      "price": 4.5,
+      "category": "Τοστ - Κρέπες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": [
+        {
+          "name": "κασέρι",
+          "price": 0.5
+        },
+        {
+          "name": "γαλοπούλα",
+          "price": 0.5
+        },
+        {
+          "name": "φέτα",
+          "price": 0.5
+        }
+      ],
+      "materials": true,
+      "printer": "crepe",
+      "id": "4644d875-f73a-4c8a-a0ad-276a742914dd",
+      "printed": true,
+      "timestamp": "2025-08-09T21:18:54.399Z"
+    }
+  ],
+  "38": [
+    {
+      "name": "Κρέπα γλυκιά",
+      "price": 5,
+      "category": "Τοστ - Κρέπες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": [
+        {
+          "name": "Μπανάνα",
+          "price": 0.5
+        },
+        {
+          "name": "Λευκή Πραλίνα",
+          "price": 0.5
+        },
+        {
+          "name": "Μπισκότο Oreo",
+          "price": 0.5
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "crepe",
+      "id": "f41b5de6-7153-4e6a-9a56-5b84eb8eed65",
+      "printed": true,
+      "timestamp": "2025-08-09T18:53:15.853Z"
     }
   ]
 }
