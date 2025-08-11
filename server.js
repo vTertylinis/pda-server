@@ -214,7 +214,7 @@ app.post("/move-table-items", (req, res) => {
 
 // === Printing Functions ===
 
-function sendToPrinter(ip, text, title = "", retryCount = 3, attempt = 1) {
+function sendToPrinter(ip, text, title = "", retryCount = 5, attempt = 1) {
   const socket = new net.Socket();
 
   socket.connect(9100, ip, () => {
@@ -254,7 +254,7 @@ function sendToPrinter(ip, text, title = "", retryCount = 3, attempt = 1) {
     if (attempt < retryCount) {
       setTimeout(() => {
         sendToPrinter(ip, text, title, retryCount, attempt + 1);
-      }, 1000); // Retry after 1 second
+      }, 2000); // Retry after 1 second
     } else {
       console.error(`Failed to print to ${ip} after ${retryCount} attempts.`);
     }
