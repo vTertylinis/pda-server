@@ -449,7 +449,7 @@ function getOrderStats(yearMonth) {
   let totalRevenue = 0;
   let totalOrders = history.length;
   let itemCounts = {};
-  let dailyRevenue = {};
+  let dailyStats = {}; // { day: { revenue, orders } }
 
   for (const order of history) {
     let orderTotal = 0;
@@ -468,11 +468,11 @@ function getOrderStats(yearMonth) {
     totalRevenue += orderTotal;
 
     const day = order.timestamp?.slice(0, 10); // YYYY-MM-DD
-    if (!dailyRevenue[day]) dailyRevenue[day] = 0;
-    dailyRevenue[day] += orderTotal;
+    if (!dailyStats[day]) dailyStats[day] = { revenue: 0, orders: 0 };
+    dailyStats[day].revenue += orderTotal;
+    dailyStats[day].orders += 1;
   }
 
-  // Sort items by popularity
   const mostPopularItems = Object.entries(itemCounts)
     .sort((a, b) => b[1].count - a[1].count)
     .map(([name, stats]) => ({
@@ -485,12 +485,15 @@ function getOrderStats(yearMonth) {
     yearMonth,
     totalOrders,
     totalRevenue: totalRevenue.toFixed(2),
-    averageOrderValue:
-      totalOrders > 0 ? (totalRevenue / totalOrders).toFixed(2) : "0.00",
+    averageOrderValue: totalOrders > 0 ? (totalRevenue / totalOrders).toFixed(2) : "0.00",
     mostPopularItems,
-    dailyRevenue: Object.entries(dailyRevenue).sort(([a], [b]) =>
-      a.localeCompare(b)
-    ),
+    dailyRevenue: Object.entries(dailyStats)
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([day, stats]) => ({
+        day,
+        revenue: stats.revenue.toFixed(2),
+        orders: stats.orders
+      })),
   };
 }
 
