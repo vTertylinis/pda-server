@@ -11364,5 +11364,72 @@
       }
     ],
     "timestamp": "2025-08-11T10:14:21.714Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Pasta 21",
+        "price": 9,
+        "category": "Ζυμαρικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "d5791bb8-fbb9-403a-b84f-86ea9b8b11a1",
+        "printed": false,
+        "timestamp": "2025-08-11T11:44:37.245Z"
+      },
+      {
+        "name": "Carbonara",
+        "price": 9,
+        "category": "Ζυμαρικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "77f24d36-2677-4fea-862d-604c6540b84a",
+        "printed": false,
+        "timestamp": "2025-08-11T11:44:38.973Z"
+      },
+      {
+        "name": "Pinsa Special",
+        "price": 12,
+        "category": "Pinsa",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "655ede73-ac18-4129-bdf1-a64b1afd76e5",
+        "printed": false,
+        "timestamp": "2025-08-11T11:44:43.125Z"
+      },
+      {
+        "name": "Κοτοπουλάκια Nuggets",
+        "price": 11,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "79bbf1fb-832a-4832-91a8-79ed0dd580cb",
+        "printed": false,
+        "timestamp": "2025-08-11T11:44:55.186Z"
+      },
+      {
+        "name": "Hot dog",
+        "price": 6,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "materials": true,
+        "printer": "kitchen",
+        "id": "3e70d5ca-b2a5-4aa4-9704-8ff1479ec495",
+        "printed": false,
+        "timestamp": "2025-08-11T11:45:20.431Z"
+      }
+    ],
+    "timestamp": "2025-08-11T11:45:31.167Z"
   }
 ]
