@@ -10846,5 +10846,120 @@
       }
     ],
     "timestamp": "2025-08-10T20:52:46.669Z"
+  },
+  {
+    "table": "27",
+    "items": [
+      {
+        "name": "Cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "id": "5189031c-787d-49bb-9dd5-bce3f5a7190a",
+        "printed": false,
+        "timestamp": "2025-08-11T08:05:44.333Z"
+      },
+      {
+        "name": "Nescafe φραπέ",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "43af5e59-78f0-4261-94e2-5246b80157b8",
+        "printed": false,
+        "timestamp": "2025-08-11T08:05:54.385Z"
+      },
+      {
+        "name": "Nescafe φραπέ",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "1744e868-6131-4411-bccc-3e90607b2495",
+        "printed": false,
+        "timestamp": "2025-08-11T08:05:54.387Z"
+      },
+      {
+        "name": "Τσάι Ροδάκινο",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "8a5fa9e4-28f4-487f-878b-9168d0211867",
+        "printed": false,
+        "timestamp": "2025-08-11T08:06:01.858Z"
+      }
+    ],
+    "timestamp": "2025-08-11T08:06:13.939Z"
+  },
+  {
+    "table": "27",
+    "items": [
+      {
+        "name": "Espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "id": "5952c334-8ea6-4cf5-9290-014af3b749fa",
+        "printed": false,
+        "timestamp": "2025-08-11T08:15:04.726Z"
+      }
+    ],
+    "timestamp": "2025-08-11T08:15:09.372Z"
+  },
+  {
+    "table": "17",
+    "items": [
+      {
+        "name": "Coca Cola",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "8b5e9afa-6275-4a65-bf87-7c1b7dfa3c84",
+        "printed": false,
+        "timestamp": "2025-08-11T08:38:52.862Z"
+      },
+      {
+        "name": "Espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "comments": "γάλα ",
+        "id": "3459e554-5b78-4a2e-ac4e-60d0e82e3b51",
+        "printed": false,
+        "timestamp": "2025-08-11T08:39:20.638Z"
+      },
+      {
+        "name": "Ελληνικός",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Πρός Γλυκό",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "id": "8c6f530d-66b3-4d1b-b63b-f8979327003b",
+        "printed": false,
+        "timestamp": "2025-08-11T08:39:49.419Z"
+      }
+    ],
+    "timestamp": "2025-08-11T08:39:56.650Z"
   }
 ]
