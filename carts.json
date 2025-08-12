@@ -320,6 +320,80 @@
     }
   ],
   "11": [],
+  "19": [
+    {
+      "name": "Bolognesa",
+      "price": 9,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "b45b20e0-3015-4449-8fb1-95ae5ccdbc61",
+      "printed": true,
+      "timestamp": "2025-08-12T14:05:52.878Z"
+    },
+    {
+      "name": "Carbonara",
+      "price": 9,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "cdcc1af3-7479-4db5-b925-89fc59bcfceb",
+      "printed": true,
+      "timestamp": "2025-08-12T14:05:54.325Z"
+    },
+    {
+      "name": "Σαλάτα Caesar",
+      "price": 8.5,
+      "category": "Σαλάτες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "45865ee0-6465-4e49-a1b7-eb05b356f4d4",
+      "printed": true,
+      "timestamp": "2025-08-12T14:06:02.090Z"
+    },
+    {
+      "name": "Coca Cola",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "e9b457d3-bee6-430d-bdbc-b753581d5a04",
+      "printed": true,
+      "timestamp": "2025-08-12T14:22:05.280Z"
+    },
+    {
+      "name": "Νερό Μεγάλο",
+      "price": 1.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "21cdb9cb-7879-4ffd-a33f-57ef1e15e6b5",
+      "printed": true,
+      "timestamp": "2025-08-12T14:42:57.763Z"
+    },
+    {
+      "name": "Νερό Μεγάλο",
+      "price": 1.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "1653b119-2940-4937-b432-586ce0c4a3c2",
+      "printed": true,
+      "timestamp": "2025-08-12T14:42:57.765Z"
+    }
+  ],
   "24": [
     {
       "name": "Νερό Μεγάλο",
@@ -368,6 +442,32 @@
       "id": "62b90666-9cc4-4c12-abaf-0ae9491d1f98",
       "printed": true,
       "timestamp": "2025-08-12T13:46:56.795Z"
+    }
+  ],
+  "27": [
+    {
+      "name": "Σαλάτα 21",
+      "price": 8,
+      "category": "Σαλάτες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "88c54c68-ef8b-4ed9-98a9-e27f9bfe3198",
+      "printed": true,
+      "timestamp": "2025-08-12T14:58:43.168Z"
+    },
+    {
+      "name": "Napolitana",
+      "price": 8,
+      "category": "Ζυμαρικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "3a789a6d-5c83-441e-9c19-1ec125d2f892",
+      "printed": true,
+      "timestamp": "2025-08-12T14:58:49.159Z"
     }
   ],
   "31": []
