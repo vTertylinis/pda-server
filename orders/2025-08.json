@@ -14684,5 +14684,96 @@
       }
     ],
     "timestamp": "2025-08-12T07:09:13.909Z"
+  },
+  {
+    "table": "24",
+    "items": [
+      {
+        "name": "Nescafe φραπέ",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "με γαλα ",
+        "id": "b52dd56c-af67-4399-9bfb-abce876b84db",
+        "printed": false,
+        "timestamp": "2025-08-12T08:04:03.004Z"
+      },
+      {
+        "name": "Espresso",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "22b80008-f949-42ef-aeb6-b496d75d627b",
+        "printed": false,
+        "timestamp": "2025-08-12T08:04:06.659Z"
+      }
+    ],
+    "timestamp": "2025-08-12T08:04:24.964Z"
+  },
+  {
+    "table": "24",
+    "items": [
+      {
+        "name": "Bolognesa",
+        "price": 9,
+        "category": "Ζυμαρικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "078f3613-69f3-4b7b-894c-9576f2ecf8c6",
+        "printed": false,
+        "timestamp": "2025-08-12T08:10:22.304Z"
+      },
+      {
+        "name": "Σαλάτα χωριάτικη",
+        "price": 8,
+        "category": "Σαλάτες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "efe67e96-349d-4603-8f96-2e72092edf42",
+        "printed": false,
+        "timestamp": "2025-08-12T08:10:40.062Z"
+      }
+    ],
+    "timestamp": "2025-08-12T08:11:07.444Z"
+  },
+  {
+    "table": "20",
+    "items": [
+      {
+        "name": "Nescafe φραπέ",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "af8f3140-5048-411a-a98a-be674b8159b3",
+        "printed": false,
+        "timestamp": "2025-08-12T08:27:11.957Z"
+      },
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "4948ad22-5b1d-4991-8952-234ea1a5d228",
+        "printed": false,
+        "timestamp": "2025-08-12T08:27:21.935Z"
+      }
+    ],
+    "timestamp": "2025-08-12T08:27:24.241Z"
   }
 ]
