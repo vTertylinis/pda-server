@@ -47,7 +47,7 @@
       "extras": null,
       "printer": "bar",
       "id": "2e975055-ffe3-4488-8678-6bc0281d6aa0",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:25:22.868Z"
     }
   ],
@@ -61,7 +61,7 @@
       "extras": null,
       "printer": "bar",
       "id": "d7540ecb-d5dc-4664-a083-177b9911e1ed",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:24:31.008Z"
     },
     {
@@ -74,7 +74,7 @@
       "printer": "bar",
       "comments": "λευκό ξηρό ",
       "id": "6725843d-4aef-4809-b1e3-ad997b8aea1f",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:24:54.792Z"
     },
     {
@@ -87,7 +87,7 @@
       "printer": "bar",
       "comments": "λευκό ξηρό ",
       "id": "be1314b7-550f-4e02-a5a2-ef07e45fa273",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:24:54.794Z"
     },
     {
@@ -99,7 +99,7 @@
       "extras": null,
       "printer": "bar",
       "id": "45ec4561-2a0d-4fd5-8316-df059d776cbe",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:25:03.285Z"
     },
     {
@@ -111,7 +111,7 @@
       "extras": null,
       "printer": "bar",
       "id": "8f18de54-fcb8-4e49-87b9-9c72f3c21c3f",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:25:03.836Z"
     },
     {
@@ -123,7 +123,7 @@
       "extras": null,
       "printer": "bar",
       "id": "5ff4952e-6710-4a3e-b4f1-520a274ef51a",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:25:22.176Z"
     }
   ],
