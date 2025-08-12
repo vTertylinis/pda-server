@@ -14544,5 +14544,145 @@
       }
     ],
     "timestamp": "2025-08-11T20:55:17.333Z"
+  },
+  {
+    "table": "24",
+    "items": [
+      {
+        "name": "Espresso",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "a66feb23-04c5-44ba-8a8c-5a97591e6957",
+        "printed": false,
+        "timestamp": "2025-08-12T06:32:21.831Z"
+      },
+      {
+        "name": "Espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "comments": "με γαλα ",
+        "id": "9425ac22-59d8-4d91-97e3-2ee6a49d0f0f",
+        "printed": false,
+        "timestamp": "2025-08-12T06:32:33.013Z"
+      }
+    ],
+    "timestamp": "2025-08-12T06:32:35.446Z"
+  },
+  {
+    "table": "24",
+    "items": [
+      {
+        "name": "Αυγά σκραμπλ Με Σολομό",
+        "price": 7,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "942604f3-1ef1-4ba2-a29c-bd4490b244e7",
+        "printed": false,
+        "timestamp": "2025-08-12T06:37:01.985Z"
+      },
+      {
+        "name": "2 αυγά τηγανητά με μπέικον και φρυγανιασμένο ψωμί",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "e861ee39-7cc9-48d4-9b2c-1094477c38ad",
+        "printed": false,
+        "timestamp": "2025-08-12T06:37:01.989Z"
+      },
+      {
+        "name": "Junior 1",
+        "price": 7.5,
+        "category": "Junior menu",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "42617c80-fa95-4775-a827-92840bfb3cf0",
+        "printed": false,
+        "timestamp": "2025-08-12T06:37:02.580Z"
+      },
+      {
+        "name": "Junior 2",
+        "price": 7.5,
+        "category": "Junior menu",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "1011cc23-266f-4efb-81c4-c999f8be5cbe",
+        "printed": false,
+        "timestamp": "2025-08-12T06:37:03.961Z"
+      },
+      {
+        "name": "Espresso",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "3275522b-dcbd-411f-8def-4be1e62b34ac",
+        "printed": false,
+        "timestamp": "2025-08-12T06:38:09.283Z"
+      }
+    ],
+    "timestamp": "2025-08-12T06:38:39.954Z"
+  },
+  {
+    "table": "14",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "ντακαφ ",
+        "id": "30c35fa5-e5a2-432c-93a5-ce29c43f2b5a",
+        "printed": false,
+        "timestamp": "2025-08-12T07:08:33.096Z"
+      },
+      {
+        "name": "Cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "id": "38a47726-b3d9-4817-980d-28a66a02ee78",
+        "printed": false,
+        "timestamp": "2025-08-12T07:09:05.317Z"
+      },
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f79323db-a222-4a7d-a9ac-ba842b1b5034",
+        "printed": false,
+        "timestamp": "2025-08-12T07:09:11.556Z"
+      }
+    ],
+    "timestamp": "2025-08-12T07:09:13.909Z"
   }
 ]
