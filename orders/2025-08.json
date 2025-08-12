@@ -17243,5 +17243,23 @@
       }
     ],
     "timestamp": "2025-08-12T18:45:52.115Z"
+  },
+  {
+    "table": "35",
+    "items": [
+      {
+        "name": "Σόδα",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ad426575-bc77-4e82-9fa3-ef266cd05c2f",
+        "printed": false,
+        "timestamp": "2025-08-12T18:46:26.196Z"
+      }
+    ],
+    "timestamp": "2025-08-12T18:46:30.228Z"
   }
 ]

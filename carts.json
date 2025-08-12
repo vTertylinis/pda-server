@@ -57,7 +57,7 @@
       "materialsSweet": true,
       "printer": "crepe",
       "id": "83a8a59c-12ab-495d-82ed-bb66355c6bd2",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:45:22.204Z"
     },
     {
@@ -69,7 +69,7 @@
       "extras": null,
       "printer": "kitchen",
       "id": "3847ce62-3563-4321-903d-9477ffb489e9",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:45:32.516Z"
     },
     {
@@ -81,7 +81,7 @@
       "extras": null,
       "printer": "bar",
       "id": "9c7b7266-31f2-45a0-af9b-83aeee017bec",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-12T18:45:43.360Z"
     }
   ],
@@ -797,6 +797,18 @@
       "id": "230a798c-cfa4-4829-ad02-4d67a8d5b8e7",
       "printed": true,
       "timestamp": "2025-08-12T18:44:12.857Z"
+    },
+    {
+      "name": "Σόδα",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "ad426575-bc77-4e82-9fa3-ef266cd05c2f",
+      "printed": false,
+      "timestamp": "2025-08-12T18:46:26.196Z"
     }
   ]
 }
