@@ -1,5 +1,44 @@
 {
   "11": [],
+  "14": [
+    {
+      "name": "Νερό Μεγάλο",
+      "price": 1.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "490f795c-6cec-46c3-ae0d-95212d231422",
+      "printed": true,
+      "timestamp": "2025-08-12T09:05:12.134Z"
+    },
+    {
+      "name": "Latte",
+      "price": 4.5,
+      "category": "Καφέδες",
+      "coffeePreference": "Μέτριο",
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "comments": "κρύο ",
+      "id": "302878f8-29f6-4130-b7a7-42fa1502c2ce",
+      "printed": true,
+      "timestamp": "2025-08-12T09:06:35.363Z"
+    },
+    {
+      "name": "Freddo cappuccino",
+      "price": 4,
+      "category": "Καφέδες",
+      "coffeePreference": "Μέτριο",
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "14fc9b64-05ba-4bf6-a085-600df21a54d3",
+      "printed": true,
+      "timestamp": "2025-08-12T09:06:38.933Z"
+    }
+  ],
   "20": [
     {
       "name": "Nescafe φραπέ",
@@ -26,55 +65,78 @@
       "timestamp": "2025-08-12T08:27:21.935Z"
     }
   ],
-  "24": [
+  "27": [
     {
-      "name": "Nescafe φραπέ",
-      "price": 3,
-      "category": "Καφέδες",
-      "coffeePreference": "Σκέτο",
+      "name": "Νερό Μεγάλο",
+      "price": 1.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "comments": "με γαλα ",
-      "id": "b52dd56c-af67-4399-9bfb-abce876b84db",
+      "id": "0b14af46-3789-4ae2-b5ee-68e29b81768c",
       "printed": true,
-      "timestamp": "2025-08-12T08:04:03.004Z"
+      "timestamp": "2025-08-12T09:39:34.628Z"
     },
     {
-      "name": "Espresso",
-      "price": 3,
-      "category": "Καφέδες",
-      "coffeePreference": "Σκέτο",
-      "coffeeSize": "single",
-      "extras": null,
-      "printer": "bar",
-      "id": "22b80008-f949-42ef-aeb6-b496d75d627b",
-      "printed": true,
-      "timestamp": "2025-08-12T08:04:06.659Z"
-    },
-    {
-      "name": "Bolognesa",
-      "price": 9,
-      "category": "Ζυμαρικά",
+      "name": "Junior 2",
+      "price": 7.5,
+      "category": "Junior menu",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "kitchen",
-      "id": "078f3613-69f3-4b7b-894c-9576f2ecf8c6",
+      "id": "672ed319-1cfc-4691-a34f-0d61cef9e15d",
       "printed": true,
-      "timestamp": "2025-08-12T08:10:22.304Z"
+      "timestamp": "2025-08-12T09:44:02.437Z"
     },
     {
-      "name": "Σαλάτα χωριάτικη",
-      "price": 8,
-      "category": "Σαλάτες",
+      "name": "Junior 2",
+      "price": 7.5,
+      "category": "Junior menu",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "kitchen",
-      "id": "efe67e96-349d-4603-8f96-2e72092edf42",
+      "id": "6688e119-9078-432f-b66c-952053cc7c26",
       "printed": true,
-      "timestamp": "2025-08-12T08:10:40.062Z"
+      "timestamp": "2025-08-12T09:44:05.651Z"
+    },
+    {
+      "name": "Pinsa Special",
+      "price": 12,
+      "category": "Pinsa",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "85262dd1-11c6-4910-8ed5-b2d8df68300f",
+      "printed": true,
+      "timestamp": "2025-08-12T09:44:26.733Z"
+    },
+    {
+      "name": "Τσάι Ροδάκινο",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "20546fe7-95f9-4ed1-b0ec-69250cb27ec6",
+      "printed": true,
+      "timestamp": "2025-08-12T09:44:39.351Z"
+    },
+    {
+      "name": "Coca Cola",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "723f3112-f881-414f-8b43-e36aca4fbfc5",
+      "printed": true,
+      "timestamp": "2025-08-12T09:44:41.616Z"
     }
   ],
   "31": []
