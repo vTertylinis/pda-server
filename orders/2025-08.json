@@ -22924,5 +22924,246 @@
       }
     ],
     "timestamp": "2025-08-13T19:27:22.107Z"
+  },
+  {
+    "table": "6",
+    "items": [
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          },
+          {
+            "name": "Φουντούκι",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "883bd060-47b0-4375-bffd-407fe93ef5ac",
+        "printed": false,
+        "timestamp": "2025-08-13T19:28:16.597Z"
+      },
+      {
+        "name": "Κρέπα αλμυρή",
+        "price": 6,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "μαγιονέζα",
+            "price": 0.5
+          },
+          {
+            "name": "πατατάκια",
+            "price": 0.5
+          },
+          {
+            "name": "κοτόπουλο",
+            "price": 1
+          },
+          {
+            "name": "καλαμπόκι",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe",
+        "id": "a55f5519-39af-410d-9b36-26273cfd1733",
+        "printed": false,
+        "timestamp": "2025-08-13T19:28:43.465Z"
+      }
+    ],
+    "timestamp": "2025-08-13T19:28:47.632Z"
+  },
+  {
+    "table": "31",
+    "items": [
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          },
+          {
+            "name": "Bueno Πραλίνα",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "1d8725fb-569a-4718-b1a4-203be2b62c03",
+        "printed": false,
+        "timestamp": "2025-08-13T19:32:45.525Z"
+      },
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "αβανα στημ δυο παγουσ",
+        "id": "4b0033c1-9d5d-4dcd-a622-3446b8cf339e",
+        "printed": false,
+        "timestamp": "2025-08-13T19:32:57.537Z"
+      },
+      {
+        "name": "Margarita",
+        "price": 10,
+        "category": "Cocktails",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "με στημενο ",
+        "id": "448ce287-d0de-4bbe-b63d-8e534f1f8481",
+        "printed": false,
+        "timestamp": "2025-08-13T19:33:19.612Z"
+      },
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          },
+          {
+            "name": "Μπισκότο",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "bf315c9b-1449-4c42-99bb-80af79147215",
+        "printed": false,
+        "timestamp": "2025-08-13T19:33:30.265Z"
+      },
+      {
+        "name": "Κρέπα αλμυρή",
+        "price": 5.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "αυγό",
+            "price": 0.5
+          },
+          {
+            "name": "μανιτάρια",
+            "price": 0.5
+          },
+          {
+            "name": "μαγιονέζα",
+            "price": 0.5
+          },
+          {
+            "name": "σαλάμι αέρος",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe"
+      }
+    ],
+    "timestamp": "2025-08-13T19:34:33.377Z"
+  },
+  {
+    "table": "33",
+    "items": [
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "87486a4a-b98e-4201-82e4-c3011918c360",
+        "printed": false,
+        "timestamp": "2025-08-13T19:33:44.761Z"
+      },
+      {
+        "name": "Pinsa Απλή",
+        "price": 11,
+        "category": "Pinsa",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "8072723f-51d8-4013-90f3-4478a2c2c44e",
+        "printed": false,
+        "timestamp": "2025-08-13T19:34:09.042Z"
+      },
+      {
+        "name": "Club sandwich",
+        "price": 9,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "comments": "χωρις ντοματα "
+      },
+      {
+        "name": "Τοστ",
+        "price": 4,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "γαλοπούλα",
+            "price": 0.5
+          },
+          {
+            "name": "philadelphia",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe",
+        "id": "62430e61-0775-4ed0-9710-3e5c831117cf",
+        "printed": false,
+        "timestamp": "2025-08-13T19:35:03.606Z"
+      }
+    ],
+    "timestamp": "2025-08-13T19:35:11.054Z"
   }
 ]
