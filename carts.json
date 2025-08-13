@@ -1540,52 +1540,62 @@
   ],
   "28": [
     {
-      "name": "Freddo cappuccino",
-      "price": 4,
-      "category": "Καφέδες",
-      "coffeePreference": "Μέτριο",
+      "name": "Κρέπα γλυκιά",
+      "price": 4.5,
+      "category": "Τοστ - Κρέπες",
+      "coffeePreference": null,
       "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "599b29f1-302d-40d0-9a6b-d3323e5ee139",
-      "printed": true,
-      "timestamp": "2025-08-13T17:06:36.990Z"
+      "extras": [
+        {
+          "name": "Nutella",
+          "price": 1
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "crepe",
+      "id": "09655dbf-3ccd-4aa8-88f8-150a69083937",
+      "printed": false,
+      "timestamp": "2025-08-13T19:26:32.333Z"
     },
     {
-      "name": "Φυσικός Χυμός",
+      "name": "Κρέπα γλυκιά",
       "price": 5,
-      "category": "Χυμοί",
+      "category": "Τοστ - Κρέπες",
       "coffeePreference": null,
       "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "0ee5ea28-215a-45eb-8040-937e8b72bcc6",
-      "printed": true,
-      "timestamp": "2025-08-13T17:29:08.550Z"
+      "extras": [
+        {
+          "name": "Nutella",
+          "price": 1
+        },
+        {
+          "name": "Μπανάνα",
+          "price": 0.5
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "crepe",
+      "id": "da73e4cc-ea66-4a96-96a0-2b15451c2d6a",
+      "printed": false,
+      "timestamp": "2025-08-13T19:26:39.796Z"
     },
     {
-      "name": "Φυσικός Χυμός",
-      "price": 5,
-      "category": "Χυμοί",
+      "name": "Κρέπα γλυκιά",
+      "price": 4.5,
+      "category": "Τοστ - Κρέπες",
       "coffeePreference": null,
       "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "0633aa90-eb06-43db-ab88-709c53f26d10",
-      "printed": true,
-      "timestamp": "2025-08-13T17:29:10.706Z"
-    },
-    {
-      "name": "Corona",
-      "price": 6,
-      "category": "Μπύρες",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "25de9901-370b-4aa1-a9b3-838dabd42f96",
-      "printed": true,
-      "timestamp": "2025-08-13T17:29:19.203Z"
+      "extras": [
+        {
+          "name": "Nutella",
+          "price": 1
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "crepe",
+      "id": "81c2a1a7-86b6-4d3f-a64b-85711c57c3cc",
+      "printed": false,
+      "timestamp": "2025-08-13T19:26:47.175Z"
     },
     {
       "name": "Κρέπα γλυκιά",
@@ -1601,22 +1611,21 @@
       ],
       "materialsSweet": true,
       "printer": "crepe",
-      "id": "45d59aff-b182-4858-95c5-926c14c33818",
-      "printed": true,
-      "timestamp": "2025-08-13T17:29:28.763Z"
+      "id": "1272adfb-2ddd-4c55-89d8-faac47711dde",
+      "printed": false,
+      "timestamp": "2025-08-13T19:27:00.286Z"
     },
     {
-      "name": "Σπιτική Λεμονάδα",
-      "price": 6,
+      "name": "Νερό Μεγάλο",
+      "price": 1.5,
       "category": "Αναψυκτικά",
       "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "comments": "με νερο χωρισ παγι",
-      "id": "07ab7c3b-234d-47c5-a9c7-c5b354a8e492",
-      "printed": true,
-      "timestamp": "2025-08-13T17:29:57.645Z"
+      "id": "fac68fff-a7d8-4ed6-bce2-155687e37b2b",
+      "printed": false,
+      "timestamp": "2025-08-13T19:27:08.376Z"
     }
   ],
   "30": [
@@ -1647,7 +1656,7 @@
       "materials": true,
       "printer": "crepe",
       "id": "3901e236-deb9-44f6-9c2f-754d31ccf3ea",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-13T19:21:08.456Z"
     },
     {
@@ -1659,7 +1668,7 @@
       "extras": null,
       "printer": "kitchen",
       "id": "e781fbbd-e6af-4195-910a-38e041133fe1",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-13T19:21:50.943Z"
     },
     {
@@ -1671,7 +1680,7 @@
       "extras": null,
       "printer": "bar",
       "id": "4aa5b4ee-b40d-475b-a2f5-2fa1de05f8b7",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-13T19:21:59.742Z"
     }
   ],

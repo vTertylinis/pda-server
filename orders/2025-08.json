@@ -22770,5 +22770,159 @@
       }
     ],
     "timestamp": "2025-08-13T19:18:51.453Z"
+  },
+  {
+    "table": "30",
+    "items": [
+      {
+        "name": "Κρέπα αλμυρή",
+        "price": 5.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "κοτομπουκιές",
+            "price": 1
+          },
+          {
+            "name": "ντομάτα",
+            "price": 0.5
+          },
+          {
+            "name": "μαγιονέζα",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe",
+        "id": "3901e236-deb9-44f6-9c2f-754d31ccf3ea",
+        "printed": false,
+        "timestamp": "2025-08-13T19:21:08.456Z"
+      },
+      {
+        "name": "Burger Caesar",
+        "price": 9,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "e781fbbd-e6af-4195-910a-38e041133fe1",
+        "printed": false,
+        "timestamp": "2025-08-13T19:21:50.943Z"
+      },
+      {
+        "name": "Τσάι Λεμόνι",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "4aa5b4ee-b40d-475b-a2f5-2fa1de05f8b7",
+        "printed": false,
+        "timestamp": "2025-08-13T19:21:59.742Z"
+      }
+    ],
+    "timestamp": "2025-08-13T19:23:36.056Z"
+  },
+  {
+    "table": "28",
+    "items": [
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Nutella",
+            "price": 1
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "09655dbf-3ccd-4aa8-88f8-150a69083937",
+        "printed": false,
+        "timestamp": "2025-08-13T19:26:32.333Z"
+      },
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Nutella",
+            "price": 1
+          },
+          {
+            "name": "Μπανάνα",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "da73e4cc-ea66-4a96-96a0-2b15451c2d6a",
+        "printed": false,
+        "timestamp": "2025-08-13T19:26:39.796Z"
+      },
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Nutella",
+            "price": 1
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "81c2a1a7-86b6-4d3f-a64b-85711c57c3cc",
+        "printed": false,
+        "timestamp": "2025-08-13T19:26:47.175Z"
+      },
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "1272adfb-2ddd-4c55-89d8-faac47711dde",
+        "printed": false,
+        "timestamp": "2025-08-13T19:27:00.286Z"
+      },
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "fac68fff-a7d8-4ed6-bce2-155687e37b2b",
+        "printed": false,
+        "timestamp": "2025-08-13T19:27:08.376Z"
+      }
+    ],
+    "timestamp": "2025-08-13T19:27:22.107Z"
   }
 ]
