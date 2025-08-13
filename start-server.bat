@@ -1,3 +1,6 @@
 @echo off
 cd /d "C:\PersonalTest\restaurant-backend"
-node server.js
+start node server.js
+
+cd ..
+start node awake.js

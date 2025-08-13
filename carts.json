@@ -88,32 +88,6 @@
     }
   ],
   "11": [],
-  "19": [
-    {
-      "name": "Fanta Λεμονάδα",
-      "price": 3.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "bc13989a-0dce-4298-81fa-764fa86e047f",
-      "printed": true,
-      "timestamp": "2025-08-13T09:14:26.129Z"
-    },
-    {
-      "name": "Φυσικός Χυμός",
-      "price": 5,
-      "category": "Χυμοί",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "1e755e2b-b724-4b45-9175-0729d17563ae",
-      "printed": true,
-      "timestamp": "2025-08-13T09:22:45.303Z"
-    }
-  ],
   "24": [
     {
       "name": "Freddo espresso",
