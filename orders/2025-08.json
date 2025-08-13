@@ -18845,5 +18845,288 @@
       }
     ],
     "timestamp": "2025-08-13T08:36:31.111Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Coca Cola",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "83c5cbd4-5e38-485c-ab51-c307ce9bbacb",
+        "printed": false,
+        "timestamp": "2025-08-13T08:54:27.716Z"
+      },
+      {
+        "name": "Fanta Πορτοκαλάδα",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "32401653-4588-45c6-89a3-4dc86042353f",
+        "printed": false,
+        "timestamp": "2025-08-13T08:54:28.832Z"
+      },
+      {
+        "name": "Νερό Μικρό",
+        "price": 0.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "117acf72-b4fe-4f2f-aee3-436ab1043327",
+        "printed": false,
+        "timestamp": "2025-08-13T08:54:30.337Z"
+      }
+    ],
+    "timestamp": "2025-08-13T08:54:38.858Z"
+  },
+  {
+    "table": "4",
+    "items": [
+      {
+        "name": "Χυμός Μπανάνα",
+        "price": 3.5,
+        "category": "Χυμοί",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "1245a66a-da4e-4869-91dc-1f413cd78fae",
+        "printed": false,
+        "timestamp": "2025-08-13T08:55:00.201Z"
+      },
+      {
+        "name": "Χυμός Ροδάκινο",
+        "price": 3.5,
+        "category": "Χυμοί",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "aab45cfa-3561-4bbc-8d5e-4e69591144b8",
+        "printed": false,
+        "timestamp": "2025-08-13T08:55:01.108Z"
+      },
+      {
+        "name": "Χυμός Φράουλα",
+        "price": 3.5,
+        "category": "Χυμοί",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "c8171018-8570-4c9f-8954-b8fa46259986",
+        "printed": false,
+        "timestamp": "2025-08-13T08:55:02.175Z"
+      }
+    ],
+    "timestamp": "2025-08-13T08:55:03.833Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Ελληνικός",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "double",
+        "extras": null,
+        "printer": "bar",
+        "id": "a701db2d-cb7c-4435-a7ea-f05fcb8534c4",
+        "printed": false,
+        "timestamp": "2025-08-13T08:56:20.712Z"
+      },
+      {
+        "name": "Νερό Μικρό",
+        "price": 0.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "17a0dff8-a3ef-4556-b398-b97e9a271515",
+        "printed": false,
+        "timestamp": "2025-08-13T08:56:25.515Z"
+      }
+    ],
+    "timestamp": "2025-08-13T08:56:27.161Z"
+  },
+  {
+    "table": "19",
+    "items": [
+      {
+        "name": "Fanta Λεμονάδα",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "bc13989a-0dce-4298-81fa-764fa86e047f",
+        "printed": false,
+        "timestamp": "2025-08-13T09:14:26.129Z"
+      }
+    ],
+    "timestamp": "2025-08-13T09:14:56.344Z"
+  },
+  {
+    "table": "5",
+    "items": [
+      {
+        "name": "Καφές φίλτρου",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "164b0384-2567-4fb8-92b7-c26599de9583",
+        "printed": false,
+        "timestamp": "2025-08-13T09:22:04.764Z"
+      },
+      {
+        "name": "Carbonara",
+        "price": 9,
+        "category": "Ζυμαρικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "9550c623-b398-4090-ac28-01976926868c",
+        "printed": false,
+        "timestamp": "2025-08-13T09:22:09.859Z"
+      },
+      {
+        "name": "Γαριδομακαρονάδα",
+        "price": 18,
+        "category": "Ζυμαρικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "f1a8a08e-f5dd-4ac7-9a5d-9a957bf5d1ac",
+        "printed": false,
+        "timestamp": "2025-08-13T09:22:11.461Z"
+      },
+      {
+        "name": "Junior 2",
+        "price": 7.5,
+        "category": "Junior menu",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "ee57da9c-81df-40dc-b7ec-a4bbf8d74594",
+        "printed": false,
+        "timestamp": "2025-08-13T09:22:14.935Z"
+      }
+    ],
+    "timestamp": "2025-08-13T09:22:17.334Z"
+  },
+  {
+    "table": "19",
+    "items": [
+      {
+        "name": "Φυσικός Χυμός",
+        "price": 5,
+        "category": "Χυμοί",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "1e755e2b-b724-4b45-9175-0729d17563ae",
+        "printed": false,
+        "timestamp": "2025-08-13T09:22:45.303Z"
+      }
+    ],
+    "timestamp": "2025-08-13T09:22:51.403Z"
+  },
+  {
+    "table": "5",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "c74dd942-3efd-4b41-8390-449457376fff",
+        "printed": false,
+        "timestamp": "2025-08-13T09:23:37.064Z"
+      }
+    ],
+    "timestamp": "2025-08-13T09:23:40.454Z"
+  },
+  {
+    "table": "24",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f7590862-95ff-49d6-8e54-a3fa3c9984bf",
+        "printed": false,
+        "timestamp": "2025-08-13T09:33:01.231Z"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "ντεκαφ",
+        "id": "1c6bbc72-375f-4f7f-a3f0-d5bd3b230ac3",
+        "printed": false,
+        "timestamp": "2025-08-13T09:33:19.582Z"
+      },
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "7d65c2a4-d347-4cad-85f4-236152e6192d",
+        "printed": false,
+        "timestamp": "2025-08-13T09:33:25.860Z"
+      }
+    ],
+    "timestamp": "2025-08-13T09:33:28.828Z"
+  },
+  {
+    "table": "2",
+    "items": [
+      {
+        "name": "Radler",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "32aa83ed-34f2-4c95-815c-98e3ca8e2fdf",
+        "printed": false,
+        "timestamp": "2025-08-13T09:41:01.631Z"
+      }
+    ],
+    "timestamp": "2025-08-13T09:41:04.806Z"
   }
 ]
