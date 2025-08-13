@@ -1898,7 +1898,7 @@
       "materialsSweet": true,
       "printer": "crepe",
       "id": "87486a4a-b98e-4201-82e4-c3011918c360",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-13T19:33:44.761Z"
     },
     {
@@ -1910,7 +1910,7 @@
       "extras": null,
       "printer": "kitchen",
       "id": "8072723f-51d8-4013-90f3-4478a2c2c44e",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-13T19:34:09.042Z"
     },
     {
@@ -1921,7 +1921,8 @@
       "coffeeSize": null,
       "extras": null,
       "printer": "kitchen",
-      "comments": "χωρις ντοματα "
+      "comments": "χωρις ντοματα ",
+      "printed": true
     },
     {
       "name": "Τοστ",
@@ -1946,7 +1947,7 @@
       "materials": true,
       "printer": "crepe",
       "id": "62430e61-0775-4ed0-9710-3e5c831117cf",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-13T19:35:03.606Z"
     }
   ],
