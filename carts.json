@@ -244,6 +244,18 @@
       "id": "0a5916d5-2ac0-451f-b56a-13c5b3381e7d",
       "printed": false,
       "timestamp": "2025-08-13T18:28:08.640Z"
+    },
+    {
+      "name": "Νερό Μεγάλο",
+      "price": 1.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "b0bd5017-1279-4430-905f-97276bb30186",
+      "printed": false,
+      "timestamp": "2025-08-13T18:28:15.707Z"
     }
   ],
   "7": [
