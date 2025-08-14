@@ -25721,5 +25721,260 @@
       }
     ],
     "timestamp": "2025-08-14T17:35:17.074Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Βαρέλι Μικρό",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "62082725-95f1-4195-9eec-f78313d420d8",
+        "printed": false,
+        "timestamp": "2025-08-14T17:40:50.046Z"
+      }
+    ],
+    "timestamp": "2025-08-14T17:40:52.051Z"
+  },
+  {
+    "table": "5",
+    "items": [
+      {
+        "name": "Burger BBQ",
+        "price": 9,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "57d92672-244b-4521-a2c3-5a83521b3845",
+        "printed": false,
+        "timestamp": "2025-08-14T17:41:05.567Z"
+      },
+      {
+        "name": "Club sandwich",
+        "price": 9,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "2ef874b4-28c7-4181-9563-ee6b83f9dc21",
+        "printed": false,
+        "timestamp": "2025-08-14T17:41:12.041Z"
+      },
+      {
+        "name": "Pinsa Special",
+        "price": 12,
+        "category": "Pinsa",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "f481a738-3063-4db2-9616-b8dcd8572e1e",
+        "printed": false,
+        "timestamp": "2025-08-14T17:41:30.748Z"
+      },
+      {
+        "name": "Βαρέλι Μεγάλο",
+        "price": 5,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ec4f9eb3-8ad9-44ef-b504-6962811369e7",
+        "printed": false,
+        "timestamp": "2025-08-14T17:41:59.865Z"
+      },
+      {
+        "name": "Βαρέλι Μεγάλο",
+        "price": 5,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f1c4aad5-668a-4a94-9ca2-ad026f4bac9f",
+        "printed": false,
+        "timestamp": "2025-08-14T17:41:59.866Z"
+      }
+    ],
+    "timestamp": "2025-08-14T17:42:21.715Z"
+  },
+  {
+    "table": "3",
+    "items": [
+      {
+        "name": "Κρέπα αλμυρή",
+        "price": 6,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "γαλοπούλα",
+            "price": 0.5
+          },
+          {
+            "name": "μπέικον",
+            "price": 0.5
+          },
+          {
+            "name": "μαγιονέζα",
+            "price": 0.5
+          },
+          {
+            "name": "πατατάκια",
+            "price": 0.5
+          },
+          {
+            "name": "καλαμπόκι",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe",
+        "id": "e0713514-01cb-4e3a-af69-a60f9888cb12",
+        "printed": false,
+        "timestamp": "2025-08-14T17:43:24.542Z"
+      },
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "τζιν πολυ παγο λιγη λεμοναδα",
+        "id": "b7c9347a-4195-4b7f-b4b0-29a25c17bce3",
+        "printed": false,
+        "timestamp": "2025-08-14T17:43:49.407Z"
+      }
+    ],
+    "timestamp": "2025-08-14T17:43:51.677Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Βαρέλι Μικρό",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "85537ffc-f2c7-45e7-acbf-a5f546c84c45",
+        "printed": false,
+        "timestamp": "2025-08-14T17:43:58.649Z"
+      },
+      {
+        "name": "Βαρέλι Μικρό",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "0528f25b-97b4-49d2-8f66-bfa11d75bb99",
+        "printed": false,
+        "timestamp": "2025-08-14T17:43:58.658Z"
+      }
+    ],
+    "timestamp": "2025-08-14T17:44:01.008Z"
+  },
+  {
+    "table": "33",
+    "items": [
+      {
+        "name": "Bolognesa",
+        "price": 9,
+        "category": "Ζυμαρικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "fc1fcccf-1fae-429c-8115-616bd4744628",
+        "printed": false,
+        "timestamp": "2025-08-14T17:44:49.857Z"
+      },
+      {
+        "name": "Pasta 21",
+        "price": 9,
+        "category": "Ζυμαρικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "d8c12cb2-1cdd-452f-b8df-961dd46cf6f2",
+        "printed": false,
+        "timestamp": "2025-08-14T17:44:53.193Z"
+      },
+      {
+        "name": "Heineken",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "c3ac9f2d-46b9-41d3-842d-57129e95f2d1",
+        "printed": false,
+        "timestamp": "2025-08-14T17:45:01.059Z"
+      },
+      {
+        "name": "Coca Cola",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "e524f8c5-c3c1-4f9e-b397-5e45c86d0ae9",
+        "printed": false,
+        "timestamp": "2025-08-14T17:45:08.292Z"
+      }
+    ],
+    "timestamp": "2025-08-14T17:45:18.987Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Passion paradise",
+        "price": 11,
+        "category": "Cocktails",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "c4cb802f-0ad3-4bc0-8a04-543e291084f6",
+        "printed": false,
+        "timestamp": "2025-08-14T17:48:55.798Z"
+      },
+      {
+        "name": "Club Sandwich με Γύρο",
+        "price": 11,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "56aa94f1-7013-4920-a420-e4b6411d209c",
+        "printed": false,
+        "timestamp": "2025-08-14T17:49:56.989Z"
+      }
+    ],
+    "timestamp": "2025-08-14T17:49:59.820Z"
   }
 ]
