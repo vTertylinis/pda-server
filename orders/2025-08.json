@@ -23165,5 +23165,318 @@
       }
     ],
     "timestamp": "2025-08-13T19:35:11.054Z"
+  },
+  {
+    "table": "36",
+    "items": [
+      {
+        "name": "Club Sandwich με Γύρο",
+        "price": 11,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "12fd346b-03b1-4efa-86fb-14e9501c9540",
+        "printed": false,
+        "timestamp": "2025-08-13T19:44:47.235Z"
+      },
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          },
+          {
+            "name": "Μπισκότο Oreo",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "d361e008-d933-46cc-b6c6-816750642137",
+        "printed": false,
+        "timestamp": "2025-08-13T19:44:59.172Z"
+      }
+    ],
+    "timestamp": "2025-08-13T19:45:13.959Z"
+  },
+  {
+    "table": "6",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "11c6792b-6bc5-4307-b5a3-0e920891bdaa",
+        "printed": false,
+        "timestamp": "2025-08-13T20:14:10.536Z"
+      }
+    ],
+    "timestamp": "2025-08-13T20:14:18.243Z"
+  },
+  {
+    "table": "23",
+    "items": [
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 4.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          },
+          {
+            "name": "Μπισκότο",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "a60a65aa-3c6c-45f3-a7c8-1074d272d8a0",
+        "printed": false,
+        "timestamp": "2025-08-13T20:28:02.857Z"
+      },
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          },
+          {
+            "name": "Μπισκότο",
+            "price": 0.5
+          },
+          {
+            "name": "Λευκή Πραλίνα",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "18d02919-0a16-401b-8a82-fc267c4cd416",
+        "printed": false,
+        "timestamp": "2025-08-13T20:28:07.435Z"
+      }
+    ],
+    "timestamp": "2025-08-13T20:28:11.336Z"
+  },
+  {
+    "table": "32",
+    "items": [
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          },
+          {
+            "name": "Μπισκότο",
+            "price": 0.5
+          },
+          {
+            "name": "Λευκή Πραλίνα",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "comments": "ινδοκαρυδο",
+        "id": "7056548c-680e-4456-980a-a2870f89fc07",
+        "printed": false,
+        "timestamp": "2025-08-13T20:30:09.383Z"
+      },
+      {
+        "name": "Perrier",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f4210a50-a231-48ce-84e8-6c2cf63f99a0",
+        "printed": false,
+        "timestamp": "2025-08-13T20:30:13.924Z"
+      }
+    ],
+    "timestamp": "2025-08-13T20:30:16.840Z"
+  },
+  {
+    "table": "35",
+    "items": [
+      {
+        "name": "Μύθος",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "27f108ef-d875-4bac-beb4-737bf7a6e727",
+        "printed": false,
+        "timestamp": "2025-08-13T20:36:24.586Z"
+      },
+      {
+        "name": "Μύθος",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "8b6861a3-3007-488f-a4f0-edefbf042cb6",
+        "printed": false,
+        "timestamp": "2025-08-13T20:36:24.587Z"
+      },
+      {
+        "name": "Βαρέλι Μεγάλο",
+        "price": 5,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ce181926-1d53-4eb7-80d4-b3ea7daa593b",
+        "printed": false,
+        "timestamp": "2025-08-13T20:36:27.437Z"
+      }
+    ],
+    "timestamp": "2025-08-13T20:36:30.721Z"
+  },
+  {
+    "table": "23",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "4c41548d-cdd8-461a-8d98-d2fdb6919bdd",
+        "printed": false,
+        "timestamp": "2025-08-13T21:19:02.523Z"
+      },
+      {
+        "name": "Ποτό Σπέσιαλ",
+        "price": 8,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "4d101967-4283-4849-bcf3-55d924deb56e",
+        "printed": false,
+        "timestamp": "2025-08-13T21:19:13.179Z"
+      },
+      {
+        "name": "Ποτό Σπέσιαλ",
+        "price": 8,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "1f7c946a-58e4-4b23-90a8-732db1c6e262",
+        "printed": false,
+        "timestamp": "2025-08-13T21:19:13.191Z"
+      },
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "b620f4f2-dabb-4646-8d1a-39f42f98a4fb",
+        "printed": false,
+        "timestamp": "2025-08-13T21:19:17.393Z"
+      }
+    ],
+    "timestamp": "2025-08-13T21:19:22.978Z"
+  },
+  {
+    "table": "33",
+    "items": [
+      {
+        "name": "Margarita",
+        "price": 10,
+        "category": "Cocktails",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "5f0592cc-efc2-4b25-a1ae-228788788414",
+        "printed": false,
+        "timestamp": "2025-08-13T21:20:46.171Z"
+      },
+      {
+        "name": "Margarita",
+        "price": 10,
+        "category": "Cocktails",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "e320c51b-d8ab-49ed-be24-5bf29048569e",
+        "printed": false,
+        "timestamp": "2025-08-13T21:21:11.124Z"
+      },
+      {
+        "name": "Mai tai",
+        "price": 10,
+        "category": "Cocktails",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "551997b8-a802-42a6-9540-f94298c539a9",
+        "printed": false,
+        "timestamp": "2025-08-13T21:21:40.581Z"
+      }
+    ],
+    "timestamp": "2025-08-13T21:22:16.576Z"
+  },
+  {
+    "table": "33",
+    "items": [
+      {
+        "name": "Ποτό Πρίμιουμ",
+        "price": 10,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "942b927b-1af4-47a3-ba40-f401cc98c2c3",
+        "printed": false,
+        "timestamp": "2025-08-13T21:22:53.534Z"
+      }
+    ],
+    "timestamp": "2025-08-13T21:22:56.547Z"
   }
 ]
