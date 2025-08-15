@@ -98,7 +98,7 @@ setInterval(saveCarts, 60000);
 const PRINTERS = {
   bar: "192.168.68.240",
   kitchen: "192.168.68.111",
-  crepe: "192.168.68.114",
+  crepe: "192.168.68.140",
 };
 const MIN_LINES = 30;
 
