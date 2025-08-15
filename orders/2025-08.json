@@ -29859,5 +29859,23 @@
       }
     ],
     "timestamp": "2025-08-15T12:01:08.597Z"
+  },
+  {
+    "table": "20",
+    "items": [
+      {
+        "name": "Coca Cola",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "cb7512b1-a2e2-4756-8e34-0f6a62d80167",
+        "printed": false,
+        "timestamp": "2025-08-15T12:43:28.466Z"
+      }
+    ],
+    "timestamp": "2025-08-15T12:43:30.891Z"
   }
 ]

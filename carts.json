@@ -265,119 +265,6 @@
       "timestamp": "2025-08-15T12:00:29.495Z"
     }
   ],
-  "6": [
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "575acd49-6eb2-4384-80e7-052d61925c6e",
-      "printed": false,
-      "timestamp": "2025-08-15T10:29:24.368Z"
-    },
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "881d23bf-3aae-4b98-bf05-1fa1200206f0",
-      "printed": false,
-      "timestamp": "2025-08-15T10:29:24.370Z"
-    },
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "7b58dc90-02d7-409e-9533-72f08a9c3166",
-      "printed": false,
-      "timestamp": "2025-08-15T10:29:24.375Z"
-    }
-  ],
-  "9": [
-    {
-      "name": "Νερό Μεγάλο",
-      "price": 1.5,
-      "category": "Αναψυκτικά",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "bar",
-      "id": "adb66fc3-b0a4-4b66-badf-2f95fb70e819",
-      "printed": true,
-      "timestamp": "2025-08-15T11:19:01.522Z"
-    },
-    {
-      "name": "Χοιρινή Πανσετομπριζόλα",
-      "price": 15,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "29abd476-f08e-4776-9257-7d1b13474025",
-      "printed": true,
-      "timestamp": "2025-08-15T11:22:20.019Z"
-    },
-    {
-      "name": "Pulled pork bao",
-      "price": 7,
-      "category": "Bao buns",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "f1ae2fba-4ef5-494c-9ad0-93933e31b9c6",
-      "printed": true,
-      "timestamp": "2025-08-15T11:22:25.739Z"
-    },
-    {
-      "name": "Junior 2",
-      "price": 7.5,
-      "category": "Junior menu",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "66615a2b-17f6-44cb-9ba3-26c5a70970fc",
-      "printed": true,
-      "timestamp": "2025-08-15T11:22:34.518Z"
-    },
-    {
-      "name": "Junior 2",
-      "price": 7.5,
-      "category": "Junior menu",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "id": "3bcd2ee4-4859-4d80-860a-706e2b992649",
-      "printed": true,
-      "timestamp": "2025-08-15T11:22:34.522Z"
-    },
-    {
-      "name": "Chicken nuggets a la crème",
-      "price": 12,
-      "category": "Κυρίως πιάτα",
-      "coffeePreference": null,
-      "coffeeSize": null,
-      "extras": null,
-      "printer": "kitchen",
-      "comments": "οχι μανιταρια",
-      "id": "aec3af5f-c9ce-4b50-bae7-6dc5e4e75210",
-      "printed": true,
-      "timestamp": "2025-08-15T11:22:43.281Z"
-    }
-  ],
   "20": [
     {
       "name": "Ρετσίνα Βασιλική",
@@ -486,6 +373,18 @@
       "id": "b795aa0d-096d-440e-a463-a90da9e7c20c",
       "printed": true,
       "timestamp": "2025-08-15T12:01:05.425Z"
+    },
+    {
+      "name": "Coca Cola",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "cb7512b1-a2e2-4756-8e34-0f6a62d80167",
+      "printed": true,
+      "timestamp": "2025-08-15T12:43:28.466Z"
     }
   ],
   "39": []
