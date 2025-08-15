@@ -4,15 +4,29 @@ const cors = require("cors");
 const { v4: uuidv4 } = require("uuid");
 const net = require("net");
 const iconv = require("iconv-lite");
-
 const app = express();
 const PORT = 4300;
 const fs = require("fs");
 const path = require("path");
+const PRINTERS = {
+  bar: "192.168.68.240",
+  kitchen: "192.168.68.111",
+  crepe: "192.168.68.140",
+};
+const MIN_LINES = 30;
+
+// Set Code Page 737 (Greek)
+const SET_CODEPAGE_737 = Buffer.from([0x1b, 0x74, 0x09]);
+
+// Reset printer
+const RESET_PRINTER = Buffer.from([0x1b, 0x40]);
 
 const DATA_FILE = path.join(__dirname, "carts.json");
-const { saveStatsToS3, saveCartsToS3 } = require('./awsService');
-
+const {
+  saveStatsToS3,
+  saveCartsToS3,
+  saveOrdersFolderToS3,
+} = require("./awsService");
 
 // Enable CORS so Angular frontend can connect
 app.use(cors());
@@ -76,6 +90,7 @@ function saveCarts() {
     console.error("Failed to save carts:", error);
   }
 }
+
 function wrapTextByWords(text, maxChars) {
   const words = text.split(" ");
   const lines = [];
@@ -94,21 +109,6 @@ function wrapTextByWords(text, maxChars) {
   }
   return lines;
 }
-loadCarts();
-// Auto-save carts every minute
-setInterval(saveCarts, 60000);
-const PRINTERS = {
-  bar: "192.168.68.240",
-  kitchen: "192.168.68.111",
-  crepe: "192.168.68.140",
-};
-const MIN_LINES = 30;
-
-// Set Code Page 737 (Greek)
-const SET_CODEPAGE_737 = Buffer.from([0x1b, 0x74, 0x09]);
-
-// Reset printer
-const RESET_PRINTER = Buffer.from([0x1b, 0x40]);
 
 // Get cart for a table
 app.get("/cart/:tableId", (req, res) => {
@@ -487,14 +487,15 @@ function getOrderStats(yearMonth) {
     yearMonth,
     totalOrders,
     totalRevenue: totalRevenue.toFixed(2),
-    averageOrderValue: totalOrders > 0 ? (totalRevenue / totalOrders).toFixed(2) : "0.00",
+    averageOrderValue:
+      totalOrders > 0 ? (totalRevenue / totalOrders).toFixed(2) : "0.00",
     mostPopularItems,
     dailyRevenue: Object.entries(dailyStats)
       .sort(([a], [b]) => a.localeCompare(b))
       .map(([day, stats]) => ({
         day,
         revenue: stats.revenue.toFixed(2),
-        orders: stats.orders
+        orders: stats.orders,
       })),
   };
 }
@@ -518,10 +519,7 @@ app.get("/order-stats/:yearMonth", async (req, res) => {
 
   try {
     // Save both to S3
-    await Promise.all([
-      saveStatsToS3(stats),
-      saveCartsToS3(nonEmptyCarts)
-    ]);
+    await Promise.all([saveStatsToS3(stats), saveCartsToS3(nonEmptyCarts)]);
     console.log(`✅ Stats and carts for ${yearMonth} saved to S3`);
   } catch (err) {
     console.error("❌ Failed to save data to S3:", err);
@@ -529,7 +527,7 @@ app.get("/order-stats/:yearMonth", async (req, res) => {
 
   res.json({
     stats,
-    carts: nonEmptyCarts
+    carts: nonEmptyCarts,
   });
 });
 
@@ -542,7 +540,9 @@ async function autoSaveToS3() {
     // Get stats
     const stats = getOrderStats(yearMonth);
     if (stats.error) {
-      console.log(`No order history found for ${yearMonth}, skipping S3 stats upload`);
+      console.log(
+        `No order history found for ${yearMonth}, skipping S3 stats upload`
+      );
       return;
     }
 
@@ -557,7 +557,8 @@ async function autoSaveToS3() {
     // Save both to S3
     await Promise.all([
       saveStatsToS3(stats),
-      saveCartsToS3(nonEmptyCarts)
+      saveCartsToS3(nonEmptyCarts),
+      saveOrdersFolderToS3(),
     ]);
 
     console.log(`✅ Auto-saved stats and carts for ${yearMonth} to S3`);
@@ -565,11 +566,14 @@ async function autoSaveToS3() {
     console.error("❌ Auto-save to S3 failed:", err);
   }
 }
+
+loadCarts();
+// Auto-save carts every minute
+setInterval(saveCarts, 60000);
 // Run every 15 minutes (900000 ms)
-setInterval(autoSaveToS3, 15 * 60 * 1000);
+setInterval(autoSaveToS3, 30 * 60 * 1000);
 // Optional: Run immediately when server starts
 autoSaveToS3();
-
 
 // Start server
 app.listen(PORT, "0.0.0.0", () => {
