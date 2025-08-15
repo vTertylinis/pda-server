@@ -11,6 +11,8 @@ const fs = require("fs");
 const path = require("path");
 
 const DATA_FILE = path.join(__dirname, "carts.json");
+const { saveStatsToS3, saveCartsToS3 } = require('./awsService');
+
 
 // Enable CORS so Angular frontend can connect
 app.use(cors());
@@ -498,11 +500,76 @@ function getOrderStats(yearMonth) {
 }
 
 // === Endpoint to get monthly stats ===
-app.get("/order-stats/:yearMonth", (req, res) => {
-  const { yearMonth } = req.params; // format "YYYY-MM"
+app.get("/order-stats/:yearMonth", async (req, res) => {
+  const { yearMonth } = req.params;
   const stats = getOrderStats(yearMonth);
-  res.json(stats);
+
+  if (stats.error) {
+    return res.status(404).json(stats);
+  }
+
+  // Build nonEmptyCarts snapshot
+  const nonEmptyCarts = {};
+  for (const tableId in carts) {
+    if (carts[tableId]?.length > 0) {
+      nonEmptyCarts[tableId] = carts[tableId];
+    }
+  }
+
+  try {
+    // Save both to S3
+    await Promise.all([
+      saveStatsToS3(stats),
+      saveCartsToS3(nonEmptyCarts)
+    ]);
+    console.log(`✅ Stats and carts for ${yearMonth} saved to S3`);
+  } catch (err) {
+    console.error("❌ Failed to save data to S3:", err);
+  }
+
+  res.json({
+    stats,
+    carts: nonEmptyCarts
+  });
 });
+
+// Function to run every 15 minutes
+async function autoSaveToS3() {
+  try {
+    // Current year-month (YYYY-MM)
+    const yearMonth = new Date().toISOString().slice(0, 7);
+
+    // Get stats
+    const stats = getOrderStats(yearMonth);
+    if (stats.error) {
+      console.log(`No order history found for ${yearMonth}, skipping S3 stats upload`);
+      return;
+    }
+
+    // Get non-empty carts
+    const nonEmptyCarts = {};
+    for (const tableId in carts) {
+      if (carts[tableId]?.length > 0) {
+        nonEmptyCarts[tableId] = carts[tableId];
+      }
+    }
+
+    // Save both to S3
+    await Promise.all([
+      saveStatsToS3(stats),
+      saveCartsToS3(nonEmptyCarts)
+    ]);
+
+    console.log(`✅ Auto-saved stats and carts for ${yearMonth} to S3`);
+  } catch (err) {
+    console.error("❌ Auto-save to S3 failed:", err);
+  }
+}
+// Run every 15 minutes (900000 ms)
+setInterval(autoSaveToS3, 15 * 60 * 1000);
+// Optional: Run immediately when server starts
+autoSaveToS3();
+
 
 // Start server
 app.listen(PORT, "0.0.0.0", () => {
