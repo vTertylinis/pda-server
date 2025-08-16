@@ -1,4 +1,30 @@
 {
+  "1": [
+    {
+      "name": "Χυμός Βύσσινο",
+      "price": 3.5,
+      "category": "Χυμοί",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "f654c295-f3c4-46fa-8eeb-9a0f90090160",
+      "printed": true,
+      "timestamp": "2025-08-16T07:54:05.946Z"
+    },
+    {
+      "name": "Espresso",
+      "price": 3,
+      "category": "Καφέδες",
+      "coffeePreference": "Σκέτο",
+      "coffeeSize": "single",
+      "extras": null,
+      "printer": "bar",
+      "id": "a0ee2ec5-1c8a-4b47-ab3f-621814b6d84f",
+      "printed": true,
+      "timestamp": "2025-08-16T07:54:15.259Z"
+    }
+  ],
   "3": [],
   "7": [
     {
