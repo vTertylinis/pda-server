@@ -561,7 +561,6 @@ async function autoSaveToS3() {
       saveOrdersFolderToS3(),
     ]);
 
-    console.log(`✅ Auto-saved stats and carts for ${yearMonth} to S3`);
   } catch (err) {
     console.error("❌ Auto-save to S3 failed:", err);
   }
