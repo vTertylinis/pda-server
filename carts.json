@@ -37,6 +37,18 @@
       "id": "a7d1e92a-083d-4129-9401-9fe74a65a37e",
       "printed": false,
       "timestamp": "2025-08-16T13:39:16.238Z"
+    },
+    {
+      "name": "Coca Cola Zero",
+      "price": 3.5,
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "59de443c-f6f4-450e-8959-bea37285a1f9",
+      "printed": false,
+      "timestamp": "2025-08-16T13:39:19.967Z"
     }
   ],
   "39": []
