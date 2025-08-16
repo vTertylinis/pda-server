@@ -35541,5 +35541,36 @@
       }
     ],
     "timestamp": "2025-08-16T13:40:25.771Z"
+  },
+  {
+    "table": "9",
+    "items": [
+      {
+        "name": "Burger BBQ",
+        "price": 9,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "comments": "οχι ντοματα οχι κρεμμύδι ",
+        "id": "6e07f9e0-0aac-4337-95e8-94216004bd34",
+        "printed": false,
+        "timestamp": "2025-08-16T13:43:12.004Z"
+      },
+      {
+        "name": "Coca Cola Zero",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "42df19fa-c890-4ca9-b1f5-b5bdb21bae7c",
+        "printed": false,
+        "timestamp": "2025-08-16T13:43:23.818Z"
+      }
+    ],
+    "timestamp": "2025-08-16T13:43:25.944Z"
   }
 ]

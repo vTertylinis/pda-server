@@ -62,19 +62,32 @@
       "id": "2b5bbb28-0a25-4566-9321-a0ef20188446",
       "printed": true,
       "timestamp": "2025-08-16T13:39:33.841Z"
-    }
-  ],
-  "39": [],
-  "40": [
+    },
     {
-      "name": "Freddo espresso",
+      "name": "Burger BBQ",
+      "price": 9,
+      "category": "Hot dogs - Burgers",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "comments": "οχι ντοματα οχι κρεμμύδι ",
+      "id": "6e07f9e0-0aac-4337-95e8-94216004bd34",
+      "printed": true,
+      "timestamp": "2025-08-16T13:43:12.004Z"
+    },
+    {
+      "name": "Coca Cola Zero",
       "price": 3.5,
-      "category": "Καφέδες",
-      "coffeePreference": "Ολίγη",
+      "category": "Αναψυκτικά",
+      "coffeePreference": null,
       "coffeeSize": null,
       "extras": null,
       "printer": "bar",
-      "comments": "1 ζάχαρη φαιη 2"
+      "id": "42df19fa-c890-4ca9-b1f5-b5bdb21bae7c",
+      "printed": true,
+      "timestamp": "2025-08-16T13:43:23.818Z"
     }
-  ]
+  ],
+  "39": []
 }
