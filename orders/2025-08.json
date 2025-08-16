@@ -35009,5 +35009,180 @@
       }
     ],
     "timestamp": "2025-08-15T20:17:18.214Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "bee113b0-f6d7-4248-9b28-c4ecd4f6821b",
+        "printed": false,
+        "timestamp": "2025-08-16T07:03:50.551Z"
+      },
+      {
+        "name": "Αυγά σκραμπλ",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "5cf77d14-2311-4618-8d16-758e52ddbb36",
+        "printed": false,
+        "timestamp": "2025-08-16T07:07:29.366Z"
+      },
+      {
+        "name": "Pan cake Μέλι Κανέλα",
+        "price": 7,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "633390a0-1dc7-4937-9261-090550d27fcf",
+        "printed": false,
+        "timestamp": "2025-08-16T07:07:33.693Z"
+      },
+      {
+        "name": "Pan cake Πραλίνα",
+        "price": 8,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μπισκότο",
+            "price": 0.5
+          },
+          {
+            "name": "Bueno Πραλίνα",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "kitchen"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "871c0872-a913-41d0-bd22-203ec7bd01db",
+        "printed": false,
+        "timestamp": "2025-08-16T07:08:18.454Z"
+      }
+    ],
+    "timestamp": "2025-08-16T07:08:24.600Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "8b396925-da8f-479f-81f4-616aa6fca179",
+        "printed": false,
+        "timestamp": "2025-08-16T07:19:11.011Z"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "e8196353-26c6-4608-8785-02b61ffb0bb1",
+        "printed": false,
+        "timestamp": "2025-08-16T07:19:11.020Z"
+      }
+    ],
+    "timestamp": "2025-08-16T07:19:12.842Z"
+  },
+  {
+    "table": "7",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "09e95a53-757e-4390-aa84-7d5700e56bad",
+        "printed": false,
+        "timestamp": "2025-08-16T07:36:37.232Z"
+      },
+      {
+        "name": "Espresso",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "310f5daa-f147-4ccf-84ac-cff2558d92f6",
+        "printed": false,
+        "timestamp": "2025-08-16T07:36:51.668Z"
+      },
+      {
+        "name": "Latte",
+        "price": 4.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "3174ee1e-9fb4-4ecd-bfaf-fe2f6c048c86",
+        "printed": false,
+        "timestamp": "2025-08-16T07:36:56.459Z"
+      }
+    ],
+    "timestamp": "2025-08-16T07:36:59.985Z"
+  },
+  {
+    "table": "7",
+    "items": [
+      {
+        "name": "Αυγά σκραμπλ",
+        "price": 6,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "2360d738-4511-4d07-8e63-446653ca3a33",
+        "printed": false,
+        "timestamp": "2025-08-16T07:39:38.796Z"
+      },
+      {
+        "name": "Pan cake Πραλίνα Μπανάνα Φουντούκια",
+        "price": 9,
+        "category": "Πρωινό",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "bac2cce6-cb5d-4017-9d5d-ac741dce538b",
+        "printed": false,
+        "timestamp": "2025-08-16T07:39:48.204Z"
+      }
+    ],
+    "timestamp": "2025-08-16T07:40:13.647Z"
   }
 ]
