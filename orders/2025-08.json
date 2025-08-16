@@ -35396,5 +35396,66 @@
       }
     ],
     "timestamp": "2025-08-16T10:28:40.645Z"
+  },
+  {
+    "table": "24",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "51d1fa73-a53d-4ca8-a876-bc36c6342f4b",
+        "printed": false,
+        "timestamp": "2025-08-16T11:08:20.622Z"
+      },
+      {
+        "name": "Club sandwich",
+        "price": 9,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "dad54968-587f-4178-a933-d04a99c6982a",
+        "printed": false,
+        "timestamp": "2025-08-16T11:12:26.543Z"
+      },
+      {
+        "name": "Club Sandwich με Γύρο",
+        "price": 11,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "2618b66f-0835-4486-868f-603a1b9eaee4",
+        "printed": false,
+        "timestamp": "2025-08-16T11:12:28.392Z"
+      }
+    ],
+    "timestamp": "2025-08-16T11:12:35.312Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Club πανσέτας",
+        "price": 12,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "comments": "σοσ μουστομαγιονεζα ντιπακι",
+        "id": "3c141f88-3f5f-44c2-aade-9294a27e6a59",
+        "printed": false,
+        "timestamp": "2025-08-16T11:46:29.262Z"
+      }
+    ],
+    "timestamp": "2025-08-16T11:46:31.083Z"
   }
 ]
