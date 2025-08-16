@@ -22,6 +22,7 @@ async function uploadJsonToS3(data, key) {
     Key: key,
     Body: JSON.stringify(data, null, 2),
     ContentType: "application/json; charset=utf-8",
+    Metadata: {}
   });
   return s3.send(command);
 }
@@ -40,6 +41,7 @@ async function saveOrdersFolderToS3() {
       Key: `orders/${file}`,
       Body: fileContent,
       ContentType: "application/json; charset=utf-8",
+      Metadata: {}
     });
 
     return s3.send(command);
