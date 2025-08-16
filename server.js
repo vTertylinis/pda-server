@@ -571,6 +571,7 @@ loadCarts();
 setInterval(saveCarts, 60000);
 // Run every 15 minutes (900000 ms)
 setInterval(autoSaveToS3, 30 * 60 * 1000);
+autoSaveToS3()
 
 // Start server
 app.listen(PORT, "0.0.0.0", () => {

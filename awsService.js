@@ -1,10 +1,14 @@
 // awsService.js
 require("dotenv").config();
+const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
 const fs = require("fs");
 const path = require("path");
-const AWS = require("aws-sdk");
-const s3 = new AWS.S3({
+const s3 = new S3Client({
   region: process.env.AWS_REGION,
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+  }
 });
 
 /**
@@ -12,37 +16,33 @@ const s3 = new AWS.S3({
  * @param {Object} data - The JSON object to upload
  * @param {string} key - The file path/key in the bucket
  */
-function uploadJsonToS3(data, key) {
-  const params = {
+async function uploadJsonToS3(data, key) {
+  const command = new PutObjectCommand({
     Bucket: process.env.AWS_BUCKET_NAME,
     Key: key,
     Body: JSON.stringify(data, null, 2),
-    ContentType: "application/json",
-  };
-  return s3.putObject(params).promise();
+    ContentType: 'application/json'
+  });
+  return s3.send(command);
 }
 
 // === Specific functions for your API ===
-function saveOrdersFolderToS3() {
-  const ordersDir = path.join(__dirname, "orders");
+async function saveOrdersFolderToS3() {
+  const ordersDir = path.join(__dirname, 'orders');
+  const files = fs.readdirSync(ordersDir).filter(f => f.endsWith('.json'));
 
-  // Read all JSON files in the folder
-  const files = fs
-    .readdirSync(ordersDir)
-    .filter((file) => file.endsWith(".json"));
-
-  const uploads = files.map((file) => {
+  const uploads = files.map(file => {
     const filePath = path.join(ordersDir, file);
     const fileContent = fs.readFileSync(filePath);
 
-    return s3
-      .putObject({
-        Bucket: process.env.AWS_BUCKET_NAME,
-        Key: `orders/${file}`, // Keep same filename in S3
-        Body: fileContent,
-        ContentType: "application/json",
-      })
-      .promise();
+    const command = new PutObjectCommand({
+      Bucket: process.env.AWS_BUCKET_NAME,
+      Key: `orders/${file}`,
+      Body: fileContent,
+      ContentType: 'application/json'
+    });
+
+    return s3.send(command);
   });
 
   return Promise.all(uploads);
