@@ -517,18 +517,7 @@ app.get("/order-stats/:yearMonth", async (req, res) => {
     }
   }
 
-  try {
-    // Save both to S3
-    await Promise.all([saveStatsToS3(stats), saveCartsToS3(nonEmptyCarts)]);
-    console.log(`✅ Stats and carts for ${yearMonth} saved to S3`);
-  } catch (err) {
-    console.error("❌ Failed to save data to S3:", err);
-  }
-
-  res.json({
-    stats,
-    carts: nonEmptyCarts,
-  });
+  res.json(stats);
 });
 
 // Function to run every 15 minutes
