@@ -49,6 +49,19 @@
       "id": "59de443c-f6f4-450e-8959-bea37285a1f9",
       "printed": false,
       "timestamp": "2025-08-16T13:39:19.967Z"
+    },
+    {
+      "name": "Club sandwich",
+      "price": 9,
+      "category": "Club sandwich",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "comments": "οχι ομελετα οχι iceberg ",
+      "id": "2b5bbb28-0a25-4566-9321-a0ef20188446",
+      "printed": false,
+      "timestamp": "2025-08-16T13:39:33.841Z"
     }
   ],
   "39": []
