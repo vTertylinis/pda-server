@@ -35525,5 +35525,21 @@
       }
     ],
     "timestamp": "2025-08-16T13:39:51.966Z"
+  },
+  {
+    "table": "40",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Ολίγη",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "1 ζάχαρη φαιη 2"
+      }
+    ],
+    "timestamp": "2025-08-16T13:40:25.771Z"
   }
 ]

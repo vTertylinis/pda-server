@@ -10,7 +10,7 @@
       "extras": null,
       "printer": "bar",
       "id": "7a97fa2a-a6e9-49c0-b792-2e7a26bb1b98",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-16T13:38:27.792Z"
     },
     {
@@ -23,7 +23,7 @@
       "printer": "kitchen",
       "comments": "οχι μανιταρια ",
       "id": "10810ece-6a4f-4461-91b1-4d41262a3ca0",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-16T13:39:10.847Z"
     },
     {
@@ -35,7 +35,7 @@
       "extras": null,
       "printer": "kitchen",
       "id": "a7d1e92a-083d-4129-9401-9fe74a65a37e",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-16T13:39:16.238Z"
     },
     {
@@ -47,7 +47,7 @@
       "extras": null,
       "printer": "bar",
       "id": "59de443c-f6f4-450e-8959-bea37285a1f9",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-16T13:39:19.967Z"
     },
     {
@@ -60,9 +60,21 @@
       "printer": "kitchen",
       "comments": "οχι ομελετα οχι iceberg ",
       "id": "2b5bbb28-0a25-4566-9321-a0ef20188446",
-      "printed": false,
+      "printed": true,
       "timestamp": "2025-08-16T13:39:33.841Z"
     }
   ],
-  "39": []
+  "39": [],
+  "40": [
+    {
+      "name": "Freddo espresso",
+      "price": 3.5,
+      "category": "Καφέδες",
+      "coffeePreference": "Ολίγη",
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "comments": "1 ζάχαρη φαιη 2"
+    }
+  ]
 }
