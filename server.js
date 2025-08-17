@@ -135,7 +135,10 @@ app.post("/cart/:tableId", (req, res) => {
   // Assign unique ID and mark unprinted
   item.id = uuidv4();
   item.printed = false;
-  item.timestamp = new Date().toISOString();
+
+  const now = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  item.timestamp = `${pad(now.getDate())}/${pad(now.getMonth() + 1)}/${now.getFullYear()} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
 
   if (!carts[tableId]) {
     carts[tableId] = [];
