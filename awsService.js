@@ -34,14 +34,25 @@ async function saveOrdersFolderToS3() {
 
   const uploads = files.map((file) => {
     const filePath = path.join(ordersDir, file);
-    const fileContent = fs.readFileSync(filePath);
+    const fileContent = fs.readFileSync(filePath, "utf8");
+
+    let orders = [];
+    try {
+      orders = JSON.parse(fileContent);
+      if (Array.isArray(orders)) {
+        orders.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+      }
+    } catch (err) {
+      console.error(`❌ Failed to parse ${file}:`, err);
+    }
+
+    const sortedContent = JSON.stringify(orders, null, 2);
 
     const command = new PutObjectCommand({
       Bucket: process.env.AWS_BUCKET_NAME,
       Key: `orders/${file}`,
-      Body: fileContent,
-      ContentType: "application/json; charset=utf-8",
-      Metadata: {}
+      Body: sortedContent,
+      ContentType: "application/json; charset=utf-8"
     });
 
     return s3.send(command);
