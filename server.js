@@ -565,6 +565,10 @@ setInterval(saveCarts, 60000);
 setInterval(autoSaveToS3, 30 * 60 * 1000);
 
 // Start server
-app.listen(PORT, "0.0.0.0", () => {
+const server = app.listen(PORT, "0.0.0.0", () => {
   console.log(`Cart API server running at http://localhost:${PORT}`);
 });
+
+// prevent hanging sockets under load
+server.timeout = 10000; // 10s
+server.keepAliveTimeout = 15000;
