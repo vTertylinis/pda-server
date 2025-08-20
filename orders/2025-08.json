@@ -55641,5 +55641,23 @@
       }
     ],
     "timestamp": "2025-08-20T18:22:24.888Z"
+  },
+  {
+    "table": "3",
+    "items": [
+      {
+        "name": "Μπουκάλι Ούζο",
+        "price": 6,
+        "category": "Ούζο-Μεζέδες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "7c0a8b61-9323-43d6-be8d-81e69850ebfb",
+        "printed": false,
+        "timestamp": "20/08/2025 21:22:38"
+      }
+    ],
+    "timestamp": "2025-08-20T18:22:40.192Z"
   }
 ]

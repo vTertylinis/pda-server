@@ -220,7 +220,7 @@
       "materialsSweet": true,
       "printer": "crepe",
       "id": "b15b859e-3a97-43b7-a99c-0132800db3c8",
-      "printed": false,
+      "printed": true,
       "timestamp": "20/08/2025 21:22:10"
     },
     {
@@ -238,7 +238,7 @@
       "materialsSweet": true,
       "printer": "crepe",
       "id": "4aaac349-7aba-44df-bc5b-5536bf352524",
-      "printed": false,
+      "printed": true,
       "timestamp": "20/08/2025 21:22:14"
     },
     {
@@ -256,8 +256,20 @@
       "materialsSweet": true,
       "printer": "crepe",
       "id": "9787bec0-3613-4a78-8be5-d3295969f65d",
-      "printed": false,
+      "printed": true,
       "timestamp": "20/08/2025 21:22:17"
+    },
+    {
+      "name": "Μπουκάλι Ούζο",
+      "price": 6,
+      "category": "Ούζο-Μεζέδες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "7c0a8b61-9323-43d6-be8d-81e69850ebfb",
+      "printed": false,
+      "timestamp": "20/08/2025 21:22:38"
     }
   ],
   "14": [
