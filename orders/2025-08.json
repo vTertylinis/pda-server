@@ -54415,5 +54415,288 @@
       }
     ],
     "timestamp": "2025-08-20T16:54:41.036Z"
+  },
+  {
+    "table": "27",
+    "items": [
+      {
+        "name": "Τορτιγια με Γύρο Χοίρινο",
+        "price": 6,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "1025555d-6b6d-4215-9d44-eabd7194ea95",
+        "printed": false,
+        "timestamp": "20/08/2025 20:02:41"
+      },
+      {
+        "name": "Τορτιγια με Γύρο Χοίρινο",
+        "price": 6,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "3e8dab50-2d09-487e-896f-ae7e1c3c0b2c",
+        "printed": false,
+        "timestamp": "20/08/2025 20:02:41"
+      },
+      {
+        "name": "Τορτιγια με Γύρο Χοίρινο",
+        "price": 6,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "10cdccb9-ad29-439e-8881-79d0cb1a1e0d",
+        "printed": false,
+        "timestamp": "20/08/2025 20:02:41"
+      },
+      {
+        "name": "Burger BBQ",
+        "price": 9,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "d244be59-c9dd-465a-9625-adfe67cbee93",
+        "printed": false,
+        "timestamp": "20/08/2025 20:02:53"
+      }
+    ],
+    "timestamp": "2025-08-20T17:03:06.734Z"
+  },
+  {
+    "table": "27",
+    "items": [
+      {
+        "name": "Νερό Μεγάλο",
+        "price": 1.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "36a232e1-b7ed-4ec7-b5c3-cb45286ad4a4",
+        "printed": false,
+        "timestamp": "20/08/2025 20:03:24"
+      }
+    ],
+    "timestamp": "2025-08-20T17:03:26.972Z"
+  },
+  {
+    "table": "3",
+    "items": [
+      {
+        "name": "Aperol spritz",
+        "price": 10,
+        "category": "Cocktails",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "57109ccd-52b5-4e00-a0de-e1e5c6dfdef7",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:22"
+      },
+      {
+        "name": "Aperol spritz",
+        "price": 10,
+        "category": "Cocktails",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "511430b9-a213-41a3-8a1a-aa3d1f3c88de",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:22"
+      },
+      {
+        "name": "Καλαμαράκια τηγανητά",
+        "price": 12,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "e42b024b-1bf4-460c-8080-e6b2b0800542",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:33"
+      },
+      {
+        "name": "Καλαμαράκια τηγανητά",
+        "price": 12,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "fa0047d3-e248-4614-99ab-a32b352fac05",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:33"
+      },
+      {
+        "name": "Corona",
+        "price": 6,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "8375d20d-7abf-4641-a2e2-edcb9243600b",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:37"
+      },
+      {
+        "name": "Σαλάτα Caesar",
+        "price": 8.5,
+        "category": "Σαλάτες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "4dbeb202-40de-4299-93ec-5ca2b0ba6c0f",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:41"
+      },
+      {
+        "name": "Σαλάτα Caesar",
+        "price": 8.5,
+        "category": "Σαλάτες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "d713f30b-f536-4357-b4d2-bc63f3e8d1d7",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:44"
+      },
+      {
+        "name": "Τσάι Ροδάκινο",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "d4485650-e773-40ae-8ea9-14f80cfed04e",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:51"
+      },
+      {
+        "name": "Σολομός Tεριγιάκι με Λαχανικά",
+        "price": 18,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "495bbd74-415f-40c0-b13b-e340c2341421",
+        "printed": false,
+        "timestamp": "20/08/2025 20:13:59"
+      },
+      {
+        "name": "Double cheese burger",
+        "price": 10,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "be935cc0-ab5b-46b0-b922-51eae706f0b4",
+        "printed": false,
+        "timestamp": "20/08/2025 20:14:03"
+      },
+      {
+        "name": "Chicken crispy burger",
+        "price": 9,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "comments": "χωρισ νροματα",
+        "id": "091cedee-5e68-44ee-a2e6-9690615b25db",
+        "printed": false,
+        "timestamp": "20/08/2025 20:14:10"
+      },
+      {
+        "name": "Χοιρινή Πανσετομπριζόλα",
+        "price": 15,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "f78f5d6b-5d2b-4782-9793-a1ee626e81e9",
+        "printed": false,
+        "timestamp": "20/08/2025 20:14:19"
+      },
+      {
+        "name": "Μπουκάλι Ούζο",
+        "price": 6,
+        "category": "Ούζο-Μεζέδες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "b41e20c2-0708-4508-8a14-b6de154f767e",
+        "printed": false,
+        "timestamp": "20/08/2025 20:14:26"
+      }
+    ],
+    "timestamp": "2025-08-20T17:14:49.849Z"
+  },
+  {
+    "table": "20",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ccca40a8-0e22-4b74-92b6-1dab0b56ce58",
+        "printed": false,
+        "timestamp": "20/08/2025 20:18:40"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "e2a26255-b059-4d3b-9130-67aa6fd1b508",
+        "printed": false,
+        "timestamp": "20/08/2025 20:18:42"
+      }
+    ],
+    "timestamp": "2025-08-20T17:18:45.736Z"
+  },
+  {
+    "table": "3",
+    "items": [
+      {
+        "name": "Ριζότο μανιταριών",
+        "price": 15,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "85cad0d4-cb56-4f22-b193-adf65aa9f6f6",
+        "printed": false,
+        "timestamp": "20/08/2025 20:21:57"
+      }
+    ],
+    "timestamp": "2025-08-20T17:21:59.547Z"
   }
 ]
