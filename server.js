@@ -549,7 +549,6 @@ async function autoSaveToS3() {
     // Save both to S3
     await Promise.all([
       saveStatsToS3(stats),
-      saveCartsToS3(nonEmptyCarts),
       saveOrdersFolderToS3(),
     ]);
 
@@ -562,7 +561,7 @@ loadCarts();
 // Auto-save carts every minute
 setInterval(saveCarts, 60000);
 // Run every 15 minutes (900000 ms)
-setInterval(autoSaveToS3, 30 * 60 * 1000);
+setInterval(autoSaveToS3, 90 * 60 * 1000);
 
 // Start server
 const server = app.listen(PORT, "0.0.0.0", () => {

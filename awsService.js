@@ -65,12 +65,8 @@ function saveStatsToS3(stats) {
   return uploadJsonToS3(stats, `stats/${stats.yearMonth}.json`);
 }
 
-function saveCartsToS3(cartsData) {
-  return uploadJsonToS3(cartsData, `carts/carts.json`);
-}
 
 module.exports = {
   saveStatsToS3,
-  saveCartsToS3,
   saveOrdersFolderToS3,
 };
