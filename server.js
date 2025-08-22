@@ -27,6 +27,11 @@ const {
   saveCartsToS3,
   saveOrdersFolderToS3,
 } = require("./awsService");
+const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");
+const { DynamoDBDocumentClient, PutCommand } = require("@aws-sdk/lib-dynamodb");
+
+const ddb = new DynamoDBClient({ region: process.env.AWS_REGION });
+const docClient = DynamoDBDocumentClient.from(ddb);
 
 // Enable CORS so Angular frontend can connect
 app.use(cors());
@@ -34,6 +39,25 @@ app.use(bodyParser.json());
 
 // In-memory cart store: { [tableId]: [cartItems] }
 let carts = {};
+
+async function saveOrderToDynamo(order) {
+  const yearMonth = new Date(order.timestamp || new Date()).toISOString().slice(0,7);
+
+  const params = {
+    TableName: "Orders",
+    Item: {
+      yearMonth,                       // Partition Key
+      orderTimestamp: order.timestamp || new Date().toISOString(), // Sort Key
+      table: order.table,
+      items: order.items
+    }
+  };
+
+  try {
+    await docClient.send(new PutCommand(params));
+  } catch (err) {
+  }
+}
 
 // Load existing carts from file
 function loadCarts() {
@@ -426,6 +450,8 @@ app.post("/print-unprinted/:tableId", (req, res) => {
   routeAndPrintOrder(order);
   //  Save printed order to history
   savePrintedOrderToHistory(order);
+  // send order to Dynamodb
+  saveOrderToDynamo(order);
 
   // Mark printed items
   unprintedItems.forEach((item) => (item.printed = true));
