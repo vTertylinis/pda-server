@@ -22,16 +22,12 @@ const SET_CODEPAGE_737 = Buffer.from([0x1b, 0x74, 0x09]);
 const RESET_PRINTER = Buffer.from([0x1b, 0x40]);
 
 const DATA_FILE = path.join(__dirname, "carts.json");
-const {
-  saveStatsToS3,
-  saveCartsToS3,
-  saveOrdersFolderToS3,
-} = require("./awsService");
-const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");
-const { DynamoDBDocumentClient, PutCommand } = require("@aws-sdk/lib-dynamodb");
 
-const ddb = new DynamoDBClient({ region: process.env.AWS_REGION });
-const docClient = DynamoDBDocumentClient.from(ddb);
+const {
+  saveOrderToDynamo,
+  saveCartToDynamo,
+  saveAnalyticsToDynamo,
+} = require("./dynamoService");
 
 // Enable CORS so Angular frontend can connect
 app.use(cors());
@@ -39,25 +35,6 @@ app.use(bodyParser.json());
 
 // In-memory cart store: { [tableId]: [cartItems] }
 let carts = {};
-
-async function saveOrderToDynamo(order) {
-  const yearMonth = new Date(order.timestamp || new Date()).toISOString().slice(0,7);
-
-  const params = {
-    TableName: "Orders",
-    Item: {
-      yearMonth,                       // Partition Key
-      orderTimestamp: order.timestamp || new Date().toISOString(), // Sort Key
-      table: order.table,
-      items: order.items
-    }
-  };
-
-  try {
-    await docClient.send(new PutCommand(params));
-  } catch (err) {
-  }
-}
 
 // Load existing carts from file
 function loadCarts() {
@@ -110,6 +87,7 @@ function savePrintedOrderToHistory(order) {
 function saveCarts() {
   try {
     fs.writeFileSync(DATA_FILE, JSON.stringify(carts, null, 2));
+    saveCartToDynamo(carts);
   } catch (error) {
     console.error("Failed to save carts:", error);
   }
@@ -162,7 +140,11 @@ app.post("/cart/:tableId", (req, res) => {
 
   const now = new Date();
   const pad = (n) => String(n).padStart(2, "0");
-  item.timestamp = `${pad(now.getDate())}/${pad(now.getMonth() + 1)}/${now.getFullYear()} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+  item.timestamp = `${pad(now.getDate())}/${pad(
+    now.getMonth() + 1
+  )}/${now.getFullYear()} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(
+    now.getSeconds()
+  )}`;
 
   if (!carts[tableId]) {
     carts[tableId] = [];
@@ -550,34 +532,14 @@ app.get("/order-stats/:yearMonth", async (req, res) => {
 });
 
 // Function to run every 15 minutes
-async function autoSaveToS3() {
+async function autoSaveToDb() {
   try {
-    // Current year-month (YYYY-MM)
     const yearMonth = new Date().toISOString().slice(0, 7);
-
-    // Get stats
     const stats = getOrderStats(yearMonth);
     if (stats.error) {
-      console.log(
-        `No order history found for ${yearMonth}, skipping S3 stats upload`
-      );
       return;
     }
-
-    // Get non-empty carts
-    const nonEmptyCarts = {};
-    for (const tableId in carts) {
-      if (carts[tableId]?.length > 0) {
-        nonEmptyCarts[tableId] = carts[tableId];
-      }
-    }
-
-    // Save both to S3
-    await Promise.all([
-      saveStatsToS3(stats),
-      saveOrdersFolderToS3(),
-    ]);
-
+    await saveAnalyticsToDynamo(stats);
   } catch (err) {
     console.error("❌ Auto-save to S3 failed:", err);
   }
@@ -586,8 +548,7 @@ async function autoSaveToS3() {
 loadCarts();
 // Auto-save carts every minute
 setInterval(saveCarts, 60000);
-// Run every 15 minutes (900000 ms)
-setInterval(autoSaveToS3, 90 * 60 * 1000);
+setInterval(autoSaveToDb, 30 * 60 * 1000);
 
 // Start server
 const server = app.listen(PORT, "0.0.0.0", () => {
