@@ -1,5 +1,52 @@
 {
-  "1": [],
-  "2": [],
-  "extra2": []
+  "15": [
+    {
+      "name": "Pan cake Πραλίνα",
+      "price": 8.5,
+      "category": "Πρωινό",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": [
+        {
+          "name": "Nutella",
+          "price": 1
+        },
+        {
+          "name": "Μπανάνα",
+          "price": 0.5
+        }
+      ],
+      "materialsSweet": true,
+      "printer": "kitchen",
+      "id": "dbd71250-6870-471b-99d2-dd2f9acbf051",
+      "printed": true,
+      "timestamp": "30/11/2025 13:57:08"
+    }
+  ],
+  "bar1": [
+    {
+      "name": "Μεζέδες",
+      "price": 3,
+      "category": "Ούζο-Μεζέδες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "kitchen",
+      "id": "fa1485dd-237d-4c27-9b76-353b33cefbd5",
+      "printed": true,
+      "timestamp": "30/11/2025 12:37:15"
+    },
+    {
+      "name": "Ούζο ποτήρι",
+      "price": 3,
+      "category": "Ούζο-Μεζέδες",
+      "coffeePreference": null,
+      "coffeeSize": null,
+      "extras": null,
+      "printer": "bar",
+      "id": "0430f735-fdfb-4c25-bcba-bf9f423f26dd",
+      "printed": true,
+      "timestamp": "30/11/2025 12:38:03"
+    }
+  ]
 }
