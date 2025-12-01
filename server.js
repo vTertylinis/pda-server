@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -32,6 +33,72 @@ const {
 // Enable CORS so Angular frontend can connect
 app.use(cors());
 app.use(bodyParser.json());
+
+app.post('/order', (req, res) => {
+  const order = req.body;
+  console.log('Received online order:', order);
+  
+  // Print to kitchen printer
+  if (PRINTERS.kitchen) {
+    const lines = [
+      "\x1B\x45\x01" + "ONLINE ΠΑΡΑΓΓΕΛΙΑ" + "\x1B\x45\x00",
+      "---------------------",
+      "\x1B\x45\x01" + `Όνομα: ${order.address?.name || 'N/A'}` + "\x1B\x45\x00",
+      `Τηλέφωνο: ${order.address?.phone || 'N/A'}`,
+      `Διεύθυνση: ${order.address?.address || 'N/A'}`,
+      order.address?.floor ? `Όροφος: ${order.address.floor}` : '',
+      "---------------------",
+      ...order.cart.flatMap((item, index) => {
+        const itemLines = [
+          "\x1B\x45\x01" + "\x1D\x21\x11" + `${item.quantity}x ${item.name}` + "\x1D\x21\x00" + "\x1B\x45\x00",
+        ];
+
+        // Add sweetness if exists
+        if (item.sweetness) {
+          itemLines.push("\x1D\x21\x11" + `${item.sweetness}` + "\x1D\x21\x00");
+        }
+
+        // Add size if exists
+        if (item.size) {
+          itemLines.push("\x1D\x21\x11" + `Μέγεθος: ${item.size}` + "\x1D\x21\x00");
+        }
+
+        // Add ingredients if any
+        if (item.ingredients?.length > 0) {
+          const ingredientsText = item.ingredients.map(ing => ing.name).join(", ");
+          const wrappedLines = wrapTextByWords(ingredientsText, 32);
+          for (const line of wrappedLines) {
+            itemLines.push("\x1D\x21\x11" + line + "\x1D\x21\x00");
+          }
+        }
+
+        // Add comments if any
+        if (item.comments) {
+          itemLines.push("\x1D\x21\x11" + `Σχόλια: ${item.comments}` + "\x1D\x21\x00");
+        }
+
+        // Calculate item total
+        const itemTotal = item.basePrice + (item.ingredients?.reduce((sum, ing) => sum + (ing.price || 0), 0) || 0);
+        itemLines.push(`Τιμή: €${(itemTotal * item.quantity).toFixed(2)}`);
+
+        const joinedItem = itemLines.join("\n");
+
+        if (index < order.cart.length - 1) {
+          return [joinedItem, "----------------------------------------------"];
+        } else {
+          return [joinedItem];
+        }
+      }).filter(line => line !== ''),
+      "\x1D\x21\x11" + "---------------------" + "\x1D\x21\x00",
+      "\x1D\x21\x11" + `ΣΥΝΟΛΟ: €${order.total.toFixed(2)}` + "\x1D\x21\x00",
+      "\x1D\x21\x11" + new Date(order.timestamp).toLocaleString('el-GR') + "\x1D\x21\x00",
+    ].filter(line => line !== '');
+
+    sendToPrinter(PRINTERS.kitchen, lines.join("\n"), "ONLINE ORDER");
+  }
+  
+  res.status(201).json({ message: 'Order received and printed', order });
+});
 
 // In-memory cart store: { [tableId]: [cartItems] }
 let carts = {};
