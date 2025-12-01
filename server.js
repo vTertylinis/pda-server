@@ -79,7 +79,7 @@ app.post('/order', (req, res) => {
 
         // Calculate item total
         const itemTotal = item.basePrice + (item.ingredients?.reduce((sum, ing) => sum + (ing.price || 0), 0) || 0);
-        itemLines.push(`Τιμή: €${(itemTotal * item.quantity).toFixed(2)}`);
+        itemLines.push(`Τιμή: ${(itemTotal * item.quantity).toFixed(2)}`);
 
         const joinedItem = itemLines.join("\n");
 
@@ -90,7 +90,7 @@ app.post('/order', (req, res) => {
         }
       }).filter(line => line !== ''),
       "\x1D\x21\x11" + "---------------------" + "\x1D\x21\x00",
-      "\x1D\x21\x11" + `ΣΥΝΟΛΟ: €${order.total.toFixed(2)}` + "\x1D\x21\x00",
+      "\x1D\x21\x11" + `ΣΥΝΟΛΟ: ${order.total.toFixed(2)}` + "\x1D\x21\x00",
       "\x1D\x21\x11" + new Date(order.timestamp).toLocaleString('el-GR') + "\x1D\x21\x00",
     ].filter(line => line !== '');
 
@@ -352,17 +352,39 @@ function routeAndPrintOrder(order) {
     grouped[printerKey].push(item);
   }
 
+  // Helper function to create a unique key for grouping identical items
+  function getItemKey(item) {
+    const extrasKey = (item.extras || [])
+      .map(e => `${e.name}:${e.price}`)
+      .sort()
+      .join('|');
+    return `${item.name}||${item.coffeePreference || ''}||${item.coffeeSize || ''}||${extrasKey}||${item.comments || ''}`;
+  }
+
   for (const printerKey of Object.keys(grouped)) {
     const items = grouped[printerKey];
+
+    // Group identical items
+    const itemGroups = new Map();
+    for (const item of items) {
+      const key = getItemKey(item);
+      if (!itemGroups.has(key)) {
+        itemGroups.set(key, { item, quantity: 0, totalPrice: 0 });
+      }
+      const group = itemGroups.get(key);
+      group.quantity += 1;
+      group.totalPrice += Number(item.price) || 0;
+    }
 
     const lines = [
       "\x1B\x45\x01" + `Τραπέζι: ${order.table}` + "\x1B\x45\x00",
       "---------------------",
-      ...items.flatMap((item, index) => {
+      ...Array.from(itemGroups.values()).flatMap((group, index) => {
+        const item = group.item;
         const itemLines = [
           "\x1B\x45\x01" +
             "\x1D\x21\x11" +
-            `${item.name}` +
+            `${group.quantity}x ${item.name}` +
             "\x1D\x21\x00" +
             "\x1B\x45\x00",
         ];
@@ -391,11 +413,11 @@ function routeAndPrintOrder(order) {
             "\x1D\x21\x11" + `Σχόλια: ${item.comments}` + "\x1D\x21\x00"
           );
 
-        if (item.price) itemLines.push(`Τιμή: ${item.price}`);
+        if (item.price) itemLines.push(`Τιμή: ${group.totalPrice.toFixed(2)}`);
 
         const joinedItemLines = itemLines.join("\n");
 
-        if (index < items.length - 1) {
+        if (index < itemGroups.size - 1) {
           return [
             joinedItemLines,
             "----------------------------------------------",
@@ -414,14 +436,37 @@ function routeAndPrintOrder(order) {
   if (PRINTERS.crepe) {
     let total = 0;
 
+    // Helper function to create a unique key for grouping identical items
+    function getItemKey(item) {
+      const extrasKey = (item.extras || [])
+        .map(e => `${e.name}:${e.price}`)
+        .sort()
+        .join('|');
+      return `${item.name}||${item.coffeePreference || ''}||${item.coffeeSize || ''}||${extrasKey}||${item.comments || ''}`;
+    }
+
+    // Group identical items
+    const itemGroups = new Map();
+    for (const item of order.items) {
+      const key = getItemKey(item);
+      if (!itemGroups.has(key)) {
+        itemGroups.set(key, { item, quantity: 0, totalPrice: 0 });
+      }
+      const group = itemGroups.get(key);
+      group.quantity += 1;
+      group.totalPrice += Number(item.price) || 0;
+      total += Number(item.price) || 0;
+    }
+
     const fullOrderLines = [
       "\x1B\x45\x01" + `Τραπέζι: ${order.table}` + "\x1B\x45\x00",
       "---------------------",
-      ...order.items.flatMap((item, index) => {
+      ...Array.from(itemGroups.values()).flatMap((group, index) => {
+        const item = group.item;
         const itemLines = [
           "\x1B\x45\x01" +
             "\x1D\x21\x11" +
-            `${item.name}` +
+            `${group.quantity}x ${item.name}` +
             "\x1D\x21\x00" +
             "\x1B\x45\x00",
         ];
@@ -451,13 +496,12 @@ function routeAndPrintOrder(order) {
           );
 
         if (item.price) {
-          total += Number(item.price);
-          itemLines.push(`Τιμή: ${item.price.toFixed(2)}`);
+          itemLines.push(`Τιμή: ${group.totalPrice.toFixed(2)}`);
         }
 
         const joinedItem = itemLines.join("\n");
 
-        if (index < order.items.length - 1) {
+        if (index < itemGroups.size - 1) {
           // Add divider after each item except last
           return [joinedItem, "----------------------------------------------"];
         } else {
