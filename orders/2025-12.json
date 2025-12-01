@@ -1,0 +1,1035 @@
+[
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "250f3b4f-5ab3-4831-a091-30a4309a6742",
+        "printed": false,
+        "timestamp": "01/12/2025 17:03:45"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "82d05491-feec-473c-8caf-6d832c109cf1",
+        "printed": false,
+        "timestamp": "01/12/2025 17:03:45"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "957a4bef-9312-4a81-acdf-0a7f75195740",
+        "printed": false,
+        "timestamp": "01/12/2025 17:03:45"
+      }
+    ],
+    "timestamp": "2025-12-01T15:03:50.731Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Cappuccino",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Ολίγη",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "c1397398-7e9e-4305-9de1-782203ff4257",
+        "printed": false,
+        "timestamp": "01/12/2025 17:04:50"
+      },
+      {
+        "name": "Cappuccino",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "965eee4e-0e18-46c5-9bef-3560a446dcc5",
+        "printed": false,
+        "timestamp": "01/12/2025 17:04:54"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "d66b5b46-e397-405f-8f5a-25e750459b47",
+        "printed": false,
+        "timestamp": "01/12/2025 17:04:58"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "33b2d514-dcde-4715-ab9d-1126657793a7",
+        "printed": false,
+        "timestamp": "01/12/2025 17:04:58"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f838f2b8-41bb-451a-8a72-cb801c89b47f",
+        "printed": false,
+        "timestamp": "01/12/2025 17:04:58"
+      },
+      {
+        "name": "Nescafe φραπέ",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "dfca6cc2-03af-443f-9ec7-27e4671b3194",
+        "printed": false,
+        "timestamp": "01/12/2025 17:05:01"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "cf55ea5b-69c8-4f85-ad54-b036f50829f3",
+        "printed": false,
+        "timestamp": "01/12/2025 17:05:04"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "44922b60-7d00-4fd2-8c67-9d19f14ca3e8",
+        "printed": false,
+        "timestamp": "01/12/2025 17:05:10"
+      },
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "08ce1b1e-2c9a-4c1c-bb55-a256f8e9934a",
+        "printed": false,
+        "timestamp": "01/12/2025 17:05:12"
+      }
+    ],
+    "timestamp": "2025-12-01T15:05:14.820Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "3cc6402b-03ff-46df-8e61-1924a0bfb93f",
+        "printed": false,
+        "timestamp": "01/12/2025 17:16:44"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "2a0373a0-1f45-4b59-b64a-369a0ad0a0bd",
+        "printed": false,
+        "timestamp": "01/12/2025 17:16:44"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "d3b46217-18e3-4d0a-92db-66adbff60720",
+        "printed": false,
+        "timestamp": "01/12/2025 17:16:44"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "b7a83b56-9e4e-4d76-9a5c-f4da6334251f",
+        "printed": false,
+        "timestamp": "01/12/2025 17:16:44"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "906c3dab-b498-4fda-aa97-9ee2991643d6",
+        "printed": false,
+        "timestamp": "01/12/2025 17:16:44"
+      }
+    ],
+    "timestamp": "2025-12-01T15:16:47.274Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "c2f4b09d-17dd-4a13-b622-70eb5310a4d0",
+        "printed": false,
+        "timestamp": "01/12/2025 17:17:13"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "07ca2f5d-a1f8-4bfe-a14f-f25eadefcb7f",
+        "printed": false,
+        "timestamp": "01/12/2025 17:17:38"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "d6b05b9b-2683-489f-a8fa-d72c699cbf40",
+        "printed": false,
+        "timestamp": "01/12/2025 17:17:38"
+      },
+      {
+        "name": "Freddo cappuccino",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "6faf8880-c34b-419c-ab57-23707e953595",
+        "printed": false,
+        "timestamp": "01/12/2025 17:17:38"
+      }
+    ],
+    "timestamp": "2025-12-01T15:17:42.170Z"
+  },
+  {
+    "table": "20",
+    "items": [
+      {
+        "name": "Σοκολάτα",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "ζεστη σε χάρτινο ",
+        "id": "07439949-a624-4e1b-b442-4edd2b20f1a8",
+        "printed": false,
+        "timestamp": "01/12/2025 17:33:37"
+      }
+    ],
+    "timestamp": "2025-12-01T15:33:39.802Z"
+  },
+  {
+    "table": "21",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "5b0ea666-dc4b-4ad4-8eb6-2ffbf957ffba",
+        "printed": false,
+        "timestamp": "01/12/2025 18:03:03"
+      },
+      {
+        "name": "Λειβαδιώτη μπουκαλάκι",
+        "price": 6,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "Λευκό Ξηρό",
+        "id": "b7f705b1-efaf-40e5-8a65-8fb7280c9900",
+        "printed": false,
+        "timestamp": "01/12/2025 18:03:10"
+      }
+    ],
+    "timestamp": "2025-12-01T16:03:12.831Z"
+  },
+  {
+    "table": "1",
+    "items": [
+      {
+        "name": "Ελληνικός",
+        "price": 2.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Γλυκό",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "c157a17d-0cb4-4502-bb22-9260bd6a3c51",
+        "printed": false,
+        "timestamp": "01/12/2025 18:26:17"
+      },
+      {
+        "name": "Σόδα",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "57c3a6e2-2da2-4937-8083-1fd8c69a0c82",
+        "printed": false,
+        "timestamp": "01/12/2025 18:26:24"
+      }
+    ],
+    "timestamp": "2025-12-01T16:26:25.757Z"
+  },
+  {
+    "table": "25",
+    "items": [
+      {
+        "name": "Ελληνικός",
+        "price": 2.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "0ab4fae4-a3fc-4d6c-b570-d22441f1be2c",
+        "printed": false,
+        "timestamp": "01/12/2025 18:31:21"
+      },
+      {
+        "name": "Κρέπα γλυκιά",
+        "price": 5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "Μερέντα",
+            "price": 0.5
+          },
+          {
+            "name": "Μπισκότο",
+            "price": 0.5
+          },
+          {
+            "name": "Φουντούκι",
+            "price": 0.5
+          }
+        ],
+        "materialsSweet": true,
+        "printer": "crepe",
+        "id": "8aed6f43-3bde-4371-86c0-c4089563cf95",
+        "printed": false,
+        "timestamp": "01/12/2025 18:31:55"
+      }
+    ],
+    "timestamp": "2025-12-01T16:32:00.396Z"
+  },
+  {
+    "table": "21",
+    "items": [
+      {
+        "name": "Κρέπα αλμυρή",
+        "price": 4.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "γαλοπούλα",
+            "price": 0.5
+          },
+          {
+            "name": "ντομάτα",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe",
+        "comments": "κομματακια",
+        "id": "806ae369-b3c7-4264-86aa-f91b202ed833",
+        "printed": false,
+        "timestamp": "01/12/2025 18:46:34"
+      }
+    ],
+    "timestamp": "2025-12-01T16:46:45.037Z"
+  },
+  {
+    "table": "27",
+    "items": [
+      {
+        "name": "Κακάο",
+        "price": 3,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "ελαφρυ μικρο",
+        "id": "a68f074c-a8ba-4b0f-a486-22a1967125e9",
+        "printed": false,
+        "timestamp": "01/12/2025 19:05:09"
+      }
+    ],
+    "timestamp": "2025-12-01T17:05:11.419Z"
+  },
+  {
+    "table": "12",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Γλυκό",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "μαυρη για τον ερωτα τησ ζωησ μ "
+      }
+    ],
+    "timestamp": "2025-12-01T17:08:27.849Z"
+  },
+  {
+    "table": "12",
+    "items": [
+      {
+        "name": "Kaiser",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "552b2798-1c5f-455c-93d8-c0af0196bb51",
+        "printed": false,
+        "timestamp": "01/12/2025 19:13:59"
+      }
+    ],
+    "timestamp": "2025-12-01T17:14:01.447Z"
+  },
+  {
+    "table": "9",
+    "items": [
+      {
+        "name": "Americano",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "μπαμπάς σου",
+        "id": "b323df9f-91f4-4afb-8a6e-fe0ebfb46e75",
+        "printed": false,
+        "timestamp": "01/12/2025 19:15:27"
+      },
+      {
+        "name": "Τσάι Ζεστό",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "μαμα σου ",
+        "id": "6eecd75d-1501-4829-8254-6230416a1d5b",
+        "printed": false,
+        "timestamp": "01/12/2025 19:15:36"
+      },
+      {
+        "name": "Chicken nuggets a la crème",
+        "price": 12,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "comments": "+πιτεσ",
+        "id": "ed3377e9-4df1-4812-a4f8-2f92cf2aa80c",
+        "printed": false,
+        "timestamp": "01/12/2025 19:15:59"
+      }
+    ],
+    "timestamp": "2025-12-01T17:16:02.321Z"
+  },
+  {
+    "table": "10",
+    "items": [
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "e524a534-8ea5-44f3-90ff-94b630cd42bf",
+        "printed": false,
+        "timestamp": "01/12/2025 19:41:15"
+      },
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "54ce4f14-c722-409a-a293-9dfdf7a3f003",
+        "printed": false,
+        "timestamp": "01/12/2025 19:41:15"
+      }
+    ],
+    "timestamp": "2025-12-01T17:41:17.463Z"
+  },
+  {
+    "table": "9",
+    "items": [
+      {
+        "name": "Κοτοπουλάκια Nuggets",
+        "price": 11,
+        "category": "Κυρίως πιάτα",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "comments": "με ντιπ κετσαπ και μουσταρδομαγιονεζα",
+        "id": "14d28f19-f4db-49ba-8d06-923bdd78aa80",
+        "printed": false,
+        "timestamp": "01/12/2025 20:14:00"
+      }
+    ],
+    "timestamp": "2025-12-01T18:14:07.164Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Πρός Γλυκό",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "b6516cb5-e112-4cf0-8bc3-34b86512ee04",
+        "printed": false,
+        "timestamp": "01/12/2025 20:14:57"
+      }
+    ],
+    "timestamp": "2025-12-01T18:14:59.306Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Νερό Μικρό",
+        "price": 0.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f2cbf51b-a6e2-4b13-99d3-4e0e945d20c9",
+        "printed": false,
+        "timestamp": "01/12/2025 20:19:18"
+      }
+    ],
+    "timestamp": "2025-12-01T18:19:20.951Z"
+  },
+  {
+    "table": "28",
+    "items": [
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "βοτκα λεμονδασ ",
+        "id": "610cd50f-da59-4271-8ec4-6c1f91d213cd",
+        "printed": false,
+        "timestamp": "01/12/2025 20:19:39"
+      },
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "τζειμσον",
+        "id": "bd11ca08-f7af-40d3-846f-47636d4f7f1c",
+        "printed": false,
+        "timestamp": "01/12/2025 20:19:55"
+      },
+      {
+        "name": "Βαρέλι Μικρό",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "445e78b2-3632-45db-8e13-e8a787f8c273",
+        "printed": false,
+        "timestamp": "01/12/2025 20:20:23"
+      },
+      {
+        "name": "Βαρέλι Μικρό",
+        "price": 4,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "f2bbb11b-f20f-4656-b3db-96a8d625237f",
+        "printed": false,
+        "timestamp": "01/12/2025 20:20:23"
+      },
+      {
+        "name": "Fanta Πορτοκαλάδα",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "482efaa1-c07b-4930-8b8d-2b04ed10108d",
+        "printed": false,
+        "timestamp": "01/12/2025 20:20:31"
+      },
+      {
+        "name": "Βεργίνα Weiss",
+        "price": 6,
+        "category": "Μπύρες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "5ba7c9a3-79cb-4298-8cd3-945a9a3b6869",
+        "printed": false,
+        "timestamp": "01/12/2025 20:20:54"
+      }
+    ],
+    "timestamp": "2025-12-01T18:21:02.691Z"
+  },
+  {
+    "table": "9",
+    "items": [
+      {
+        "name": "Nuggets bao",
+        "price": 7,
+        "category": "Bao buns",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "d2870762-f3ea-41dc-be4f-967532c5dbb4",
+        "printed": false,
+        "timestamp": "01/12/2025 20:26:36"
+      }
+    ],
+    "timestamp": "2025-12-01T18:26:39.361Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Cappuccino",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": "single",
+        "extras": null,
+        "printer": "bar",
+        "id": "d1f2533e-416c-445d-8066-5b7dee8cfb0e",
+        "printed": false,
+        "timestamp": "01/12/2025 20:30:46"
+      }
+    ],
+    "timestamp": "2025-12-01T18:30:52.354Z"
+  },
+  {
+    "table": "10",
+    "items": [
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "0bfd1469-ee95-4241-9a91-67b132447820",
+        "printed": false,
+        "timestamp": "01/12/2025 20:31:09"
+      },
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "a6500d91-a434-486d-bd97-7c25a11b9b72",
+        "printed": false,
+        "timestamp": "01/12/2025 20:31:09"
+      }
+    ],
+    "timestamp": "2025-12-01T18:31:11.764Z"
+  },
+  {
+    "table": "8",
+    "items": [
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "7dcc47c5-059f-4ab8-a449-39dab5186b9d",
+        "printed": false,
+        "timestamp": "01/12/2025 20:39:22"
+      }
+    ],
+    "timestamp": "2025-12-01T18:39:25.181Z"
+  },
+  {
+    "table": "extra1",
+    "items": [
+      {
+        "name": "Double Smash Burger",
+        "price": 11,
+        "category": "Hot dogs - Burgers",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "id": "c937e56a-3506-4648-9f87-406cec1a7b75",
+        "printed": false,
+        "timestamp": "01/12/2025 20:45:05"
+      }
+    ],
+    "timestamp": "2025-12-01T18:45:11.669Z"
+  },
+  {
+    "table": "30",
+    "items": [
+      {
+        "name": "Σοκολάτα",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "λευκη ζεστη",
+        "id": "9e36740d-23cd-4c71-a1ba-eb4131ee6b04",
+        "printed": false,
+        "timestamp": "01/12/2025 20:44:10"
+      },
+      {
+        "name": "Κρέπα αλμυρή",
+        "price": 5.5,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "γαλοπούλα",
+            "price": 0.5
+          },
+          {
+            "name": "αυγό",
+            "price": 0.5
+          },
+          {
+            "name": "μανιτάρια",
+            "price": 0.5
+          },
+          {
+            "name": "καλαμπόκι",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe",
+        "id": "9e3e9a57-321c-40f1-ac4a-f3d287d6b38e",
+        "printed": false,
+        "timestamp": "01/12/2025 20:45:53"
+      }
+    ],
+    "timestamp": "2025-12-01T18:46:35.847Z"
+  },
+  {
+    "table": "30",
+    "items": [
+      {
+        "name": "Freddo espresso",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "66dd1235-ed4e-48aa-9264-692b63e493f0",
+        "printed": false,
+        "timestamp": "01/12/2025 20:47:02"
+      },
+      {
+        "name": "Coca Cola",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "b70cd45c-9951-484b-bc62-d30277a9dfcf",
+        "printed": false,
+        "timestamp": "01/12/2025 20:47:06"
+      }
+    ],
+    "timestamp": "2025-12-01T18:47:09.301Z"
+  },
+  {
+    "table": "30",
+    "items": [
+      {
+        "name": "Κρέπα αλμυρή",
+        "price": 6,
+        "category": "Τοστ - Κρέπες",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": [
+          {
+            "name": "κασέρι",
+            "price": 0.5
+          },
+          {
+            "name": "γαλοπούλα",
+            "price": 0.5
+          },
+          {
+            "name": "ντομάτα",
+            "price": 0.5
+          },
+          {
+            "name": "αυγό",
+            "price": 0.5
+          },
+          {
+            "name": "μανιτάρια",
+            "price": 0.5
+          },
+          {
+            "name": "καλαμπόκι",
+            "price": 0.5
+          }
+        ],
+        "materials": true,
+        "printer": "crepe"
+      }
+    ],
+    "timestamp": "2025-12-01T18:47:38.128Z"
+  },
+  {
+    "table": "28",
+    "items": [
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "7844e0d0-2f51-429c-9179-76880858733a",
+        "printed": false,
+        "timestamp": "01/12/2025 21:04:34"
+      },
+      {
+        "name": "Ποτό Απλό",
+        "price": 7,
+        "category": "Ποτά - Κρασιά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "92233a16-893b-4954-aad7-39a2a49b58f0",
+        "printed": false,
+        "timestamp": "01/12/2025 21:04:34"
+      }
+    ],
+    "timestamp": "2025-12-01T19:04:36.865Z"
+  },
+  {
+    "table": "14",
+    "items": [
+      {
+        "name": "Club πανσέτας",
+        "price": 12,
+        "category": "Club sandwich",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "kitchen",
+        "comments": "χωρις ντομαρα μαρουλι",
+        "id": "21e2af66-19a3-4f18-9599-e2c7d30651d4",
+        "printed": false,
+        "timestamp": "01/12/2025 21:10:38"
+      }
+    ],
+    "timestamp": "2025-12-01T19:12:11.510Z"
+  },
+  {
+    "table": "14",
+    "items": [
+      {
+        "name": "Red Bull",
+        "price": 5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "e33f1b50-c7f7-41e5-bca6-7c81c95059b2",
+        "printed": false,
+        "timestamp": "01/12/2025 21:12:32"
+      },
+      {
+        "name": "Τσάι Ροδάκινο",
+        "price": 3.5,
+        "category": "Αναψυκτικά",
+        "coffeePreference": null,
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "id": "ac9f0615-0d33-4264-b575-4a9263f4c684",
+        "printed": false,
+        "timestamp": "01/12/2025 21:12:34"
+      }
+    ],
+    "timestamp": "2025-12-01T19:12:36.630Z"
+  },
+  {
+    "table": "3",
+    "items": [
+      {
+        "name": "Σοκολάτα",
+        "price": 4,
+        "category": "Καφέδες",
+        "coffeePreference": "Σκέτο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "ζεστή ",
+        "id": "f65023f6-2397-41c2-91a9-1636b2948c88",
+        "printed": false,
+        "timestamp": "01/12/2025 21:36:55"
+      },
+      {
+        "name": "Americano",
+        "price": 3.5,
+        "category": "Καφέδες",
+        "coffeePreference": "Μέτριο",
+        "coffeeSize": null,
+        "extras": null,
+        "printer": "bar",
+        "comments": "μονο",
+        "id": "d94f3e2f-f20e-47b3-a494-23635f61368c",
+        "printed": false,
+        "timestamp": "01/12/2025 21:37:17"
+      }
+    ],
+    "timestamp": "2025-12-01T19:37:19.711Z"
+  }
+]
