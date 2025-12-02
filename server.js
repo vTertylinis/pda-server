@@ -34,9 +34,47 @@ const {
 app.use(cors());
 app.use(bodyParser.json());
 
+function saveOnlineOrderToFile(order) {
+  const now = new Date();
+  const yearMonth = now.toISOString().slice(0, 7); // "2025-08"
+  const historyDir = path.join(__dirname, "online-orders");
+  const filePath = path.join(historyDir, `${yearMonth}.json`);
+
+  if (!fs.existsSync(historyDir)) {
+    fs.mkdirSync(historyDir);
+  }
+
+  let history = [];
+  if (fs.existsSync(filePath)) {
+    try {
+      const data = fs.readFileSync(filePath, "utf8");
+      history = JSON.parse(data);
+    } catch (err) {
+      console.error("Failed to read online orders file:", err);
+    }
+  }
+
+  const record = {
+    ...order,
+    savedAt: now.toISOString(),
+  };
+
+  history.push(record);
+
+  try {
+    fs.writeFileSync(filePath, JSON.stringify(history, null, 2));
+    console.log("Online order saved to file");
+  } catch (err) {
+    console.error("Failed to write online order:", err);
+  }
+}
+
 app.post('/order', (req, res) => {
   const order = req.body;
   console.log('Received online order:', order);
+  
+  // Save order to JSON file
+  saveOnlineOrderToFile(order);
   
   // Print to kitchen printer
   if (PRINTERS.kitchen) {
