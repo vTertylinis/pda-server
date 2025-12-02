@@ -63,16 +63,13 @@ function saveOnlineOrderToFile(order) {
 
   try {
     fs.writeFileSync(filePath, JSON.stringify(history, null, 2));
-    console.log("Online order saved to file");
   } catch (err) {
     console.error("Failed to write online order:", err);
   }
 }
 
 app.post('/order', (req, res) => {
-  const order = req.body;
-  console.log('Received online order:', order);
-  
+  const order = req.body;  
   // Save order to JSON file
   saveOnlineOrderToFile(order);
   
