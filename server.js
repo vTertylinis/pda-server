@@ -77,7 +77,7 @@ app.post('/order', (req, res) => {
   saveOnlineOrderToFile(order);
   
   // Print to kitchen printer
-  if (PRINTERS.kitchen) {
+  if (PRINTERS.crepe) {
     const lines = [
       "\x1B\x45\x01" + "ONLINE ΠΑΡΑΓΓΕΛΙΑ" + "\x1B\x45\x00",
       "---------------------",
@@ -132,7 +132,7 @@ app.post('/order', (req, res) => {
       "\x1D\x21\x11" + new Date(order.timestamp).toLocaleString('el-GR') + "\x1D\x21\x00",
     ].filter(line => line !== '');
 
-    sendToPrinter(PRINTERS.kitchen, lines.join("\n"), "ONLINE ORDER");
+    sendToPrinter(PRINTERS.crepe, lines.join("\n"), "ONLINE ORDER");
   }
   
   res.status(201).json({ message: 'Order received and printed', order });
