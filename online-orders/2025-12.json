@@ -1,0 +1,23 @@
+[
+  {
+    "address": {
+      "address": "test",
+      "floor": "1",
+      "name": "test",
+      "phone": "6947461955"
+    },
+    "cart": [
+      {
+        "id": 42,
+        "name": "Χυμός Ανάμεικτος",
+        "basePrice": 3.5,
+        "ingredients": [],
+        "comments": "",
+        "quantity": 1
+      }
+    ],
+    "total": 3.5,
+    "timestamp": "2025-12-02T12:33:07.711Z",
+    "savedAt": "2025-12-02T12:33:07.645Z"
+  }
+]
