@@ -9,6 +9,7 @@ const app = express();
 const PORT = 4300;
 const fs = require("fs");
 const path = require("path");
+const sound = require("sound-play");
 const PRINTERS = {
   bar: "192.168.68.240",
   kitchen: "192.168.68.111",
@@ -23,6 +24,7 @@ const SET_CODEPAGE_737 = Buffer.from([0x1b, 0x74, 0x09]);
 const RESET_PRINTER = Buffer.from([0x1b, 0x40]);
 
 const DATA_FILE = path.join(__dirname, "carts.json");
+const ALERT_SOUND = path.join(__dirname, "alert.mp3");
 
 const {
   saveOrderToDynamo,
@@ -70,6 +72,14 @@ function saveOnlineOrderToFile(order) {
 
 app.post('/order', (req, res) => {
   const order = req.body;  
+  // Play local alert sound (non-blocking)
+  if (fs.existsSync(ALERT_SOUND)) {
+    sound.play(ALERT_SOUND).catch((err) => {
+      console.error("Failed to play alert sound:", err);
+    });
+  } else {
+    console.warn("Alert sound file not found:", ALERT_SOUND);
+  }
   // Save order to JSON file
   saveOnlineOrderToFile(order);
   
